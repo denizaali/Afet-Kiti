@@ -20,7 +20,7 @@ import com.kylecorry.andromeda.views.badge.Badge
 import com.kylecorry.trail_sense.R
 import com.kylecorry.trail_sense.shared.UserPreferences
 import com.kylecorry.trail_sense.shared.colors.AppColor
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.useNavController
 import com.kylecorry.trail_sense.shared.extensions.useToolEventListener
 import com.kylecorry.trail_sense.shared.extensions.useTrigger
@@ -32,7 +32,7 @@ import com.kylecorry.trail_sense.tools.field_guide.domain.FieldGuidePageTag
 import com.kylecorry.trail_sense.tools.field_guide.domain.FieldGuidePageTagType
 import com.kylecorry.trail_sense.tools.field_guide.infrastructure.FieldGuideRepo
 
-class FieldGuidePageFragment : TrailSenseReactiveFragment(R.layout.fragment_field_guide_page) {
+class FieldGuidePageFragment : AfetKitiReactiveFragment(R.layout.fragment_field_guide_page) {
 
     override fun update() {
         // Views

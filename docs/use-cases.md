@@ -1,4 +1,4 @@
-# Trail Sense
+# Afet Kiti
 - Be usable when first opened on a trail without an Internet connection.
 - Assist with hiking, backpacking, camping, geocaching, wilderness survival, foraging, fishing, and hunting.
 
@@ -66,7 +66,7 @@
 - Adjust a physical compass' declination.
 
 ## Diagnostics
-- Troubleshoot an issue with Trail Sense.
+- Troubleshoot an issue with Afet Kiti.
 
 ## Field Guide
 Species is interchangeable with other natural objects (ex. rocks) in the below use cases.
@@ -178,7 +178,7 @@ Species is interchangeable with other natural objects (ex. rocks) in the below u
 - Return to a location before dark.
 
 ## User Guide
-- Learn how to use Trail Sense.
+- Learn how to use Afet Kiti.
 
 ## Water Boil Timer
 - Determine how long to boil water.

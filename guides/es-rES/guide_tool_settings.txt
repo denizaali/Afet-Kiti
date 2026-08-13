@@ -11,7 +11,7 @@ Las unidades se pueden ajustar en 'Ajustes > Unidades'. Por defecto, las unidade
 - **Añadir cero inicial a la hora**: Si debes agregar un cero inicial a la hora (por ejemplo, 01:00 en lugar de 1:00).
 
 ## Sensores > Brújula
-Los ajustes de la brújula se encuentran en Trail Sense 'Ajustes > Sensores' > Brújula. Algunos dispositivos pueden no tener un sensor de brújula, pero aún podrás fijar la declinación.
+Los ajustes de la brújula se encuentran en Afet Kiti 'Ajustes > Sensores' > Brújula. Algunos dispositivos pueden no tener un sensor de brújula, pero aún podrás fijar la declinación.
 
 ### Acimut
 La dirección actual de la brújula (acimut) se muestra en la parte superior de los ajustes de la brújula. A medida que cambias ajustes, se actualizará para mostrar la nueva dirección.
@@ -22,12 +22,12 @@ Se muestra la precisión reportada de la brújula. Si es baja, puedes pulsar est
 ### Fuente
 - **Magnetómetro + Giroscopio**: Esta es la fuente por defecto y debería funcionar en la mayoría de los dispositivos. Usa los sensores de magnetómetro y giroscopio para determinar la dirección. Cuando se añade el giroscopio, la lectura suele tener menos ruido. Esta fuente la proporciona el fabricante de tu teléfono.
 - **Magnetómetro**: Esta fuente usa solo el sensor de magnetómetro para determinar la dirección. Esta fuente la proporciona el fabricante de tu teléfono.
-- **Magnetómetro + Giroscopio (Personalizado)**: Esta fuente es similar a Magnetómetro + Giroscopio, pero los cálculos los realiza Trail Sense. Si la fuente Magnetómetro + Giroscopio no funciona correctamente, prueba esta fuente.
-- **Heredado (Trail Sense)**: Esta fuente es similar a la fuente Magnetómetro, pero los cálculos los realiza Trail Sense. Si la fuente Magnetómetro no funciona correctamente, prueba esta fuente.
+- **Magnetómetro + Giroscopio (Personalizado)**: Esta fuente es similar a Magnetómetro + Giroscopio, pero los cálculos los realiza Afet Kiti. Si la fuente Magnetómetro + Giroscopio no funciona correctamente, prueba esta fuente.
+- **Heredado (Afet Kiti)**: Esta fuente es similar a la fuente Magnetómetro, pero los cálculos los realiza Afet Kiti. Si la fuente Magnetómetro no funciona correctamente, prueba esta fuente.
 - **Heredado (Android)**: Esta fuente la proporciona Android y no se recomienda. Solo se incluye por compatibilidad con dispositivos antiguos, pero podría funcionar bien en algunos dispositivos.
 
 ### Suavizado
-Para reducir el ruido en las lecturas de la brújula, puedes aumentar el ajuste de suavizado. Si usas una fuente que incluye giroscopio, se recomienda un valor de 1. De lo contrario, prueba incrementando este valor hasta que la brújula parezca funcionar correctamente al girar el teléfono. Sin embargo, si aumentas demasiado el suavizado, Trail Sense puede ignorar cambios reales de la brújula.
+Para reducir el ruido en las lecturas de la brújula, puedes aumentar el ajuste de suavizado. Si usas una fuente que incluye giroscopio, se recomienda un valor de 1. De lo contrario, prueba incrementando este valor hasta que la brújula parezca funcionar correctamente al girar el teléfono. Sin embargo, si aumentas demasiado el suavizado, Afet Kiti puede ignorar cambios reales de la brújula.
 
 ### Norte verdadero
 Para mostrar el norte verdadero en lugar del norte magnético, habilita el ajuste "Norte verdadero". Esto ajustará la lectura de la brújula para tener en cuenta la declinación magnética y coincidirá con la mayoría de los mapas.
@@ -42,7 +42,7 @@ Habilitar el ajuste "Ajustar declinación automáticamente" ajustará automátic
 Si prefieres fijar la declinación manualmente, puedes deshabilitar el ajuste "Ajustar declinación automáticamente" y usar el ajuste "Anular declinación" para fijar la declinación. Puedes encontrar la declinación para tu ubicación en la mayoría de los mapas o en línea. También puedes pulsar la opción "Establecer anulación desde GPS" para fijar la declinación según tu ubicación actual (solo la fija una vez).
 
 ## Sensores > GPS
-Los ajustes del GPS se encuentran en Trail Sense 'Ajustes > Sensores > GPS'. Si tu teléfono lo soporta, se usarán varios sistemas GNSS (como GPS, GLONASS, Galileo y BeiDou).
+Los ajustes del GPS se encuentran en Afet Kiti 'Ajustes > Sensores > GPS'. Si tu teléfono lo soporta, se usarán varios sistemas GNSS (como GPS, GLONASS, Galileo y BeiDou).
 
 ### Fuente de ubicación
 Puedes optar por falsificar tu ubicación deshabilitando el ajuste "Ajustar ubicación automáticamente". Esto habilitará el ajuste "Ubicación simulada" donde puedes fijar manualmente tu ubicación.
@@ -50,13 +50,13 @@ Puedes optar por falsificar tu ubicación deshabilitando el ajuste "Ajustar ubic
 Cuando "Ajustar ubicación automáticamente" está habilitado, la ubicación se determinará por el GPS de tu dispositivo.
 
 ### Requerir posicionamiento por satélites
-Para obtener una ubicación más precisa, Trail Sense requiere al menos 4 satélites fijados. Si tienes problemas para obtener la ubicación, puedes deshabilitar este ajuste para permitir una ubicación con menos satélites (o si tu teléfono no soporta el recuento de satélites).
+Para obtener una ubicación más precisa, Afet Kiti requiere al menos 4 satélites fijados. Si tienes problemas para obtener la ubicación, puedes deshabilitar este ajuste para permitir una ubicación con menos satélites (o si tu teléfono no soporta el recuento de satélites).
 
 ### Caché
-Trail Sense guarda en caché tu última ubicación para cargar rápidamente detalles en ciertas herramientas. Puedes borrar esta caché temporalmente usando la opción "Vaciar caché" en los ajustes de GPS.
+Afet Kiti guarda en caché tu última ubicación para cargar rápidamente detalles en ciertas herramientas. Puedes borrar esta caché temporalmente usando la opción "Vaciar caché" en los ajustes de GPS.
 
 ## Sensores > Altímetro
-El altímetro se usa para medir la altitud. Para configurar los ajustes del altímetro, ve a Trail Sense 'Ajustes > Sensores > Altímetro'.
+El altímetro se usa para medir la altitud. Para configurar los ajustes del altímetro, ve a Afet Kiti 'Ajustes > Sensores > Altímetro'.
 
 ### Elevación
 La elevación actual se muestra en la parte superior de los ajustes del altímetro. A medida que cambias ajustes, se actualizará para mostrar la nueva elevación.
@@ -76,10 +76,10 @@ La elevación actual se muestra en la parte superior de los ajustes del altímet
 
 ### Ajustes de GPS
 - **Muestras**: El número de muestras de GPS a usar al determinar la altitud. Un número mayor dará una lectura más precisa, pero tardará más en calcular.
-- **Corrección de elevación NMEA**: La elevación proporcionada por el GPS necesita corregirse para coincidir con la elevación real. Si este ajuste está habilitado, usará el factor de corrección proporcionado por el GPS. Si está deshabilitado, usará el factor de corrección proporcionado por Trail Sense, que puede ser más preciso.
+- **Corrección de elevación NMEA**: La elevación proporcionada por el GPS necesita corregirse para coincidir con la elevación real. Si este ajuste está habilitado, usará el factor de corrección proporcionado por el GPS. Si está deshabilitado, usará el factor de corrección proporcionado por Afet Kiti, que puede ser más preciso.
 
 ### Ajustes DEM
-- **Modelo digital de elevación (DEM)**: Pulsar aquí te pedirá descargar e importar un modelo digital de elevación. Los modelos están disponibles en una variedad de tamaños en https://kylecorry.com/Trail-Sense/dem.html. Una vez que importes el modelo, puedes eliminar el archivo de tu dispositivo. Si ya tienes un modelo cargado y seleccionas uno nuevo, el anterior será eliminado. Si no hay ningún modelo cargado, se usará un modelo incorporado de baja precisión. Se recomienda descargar uno de los modelos más grandes si puedes. El DEM no se incluirá en la copia de seguridad debido al tamaño.
+- **Modelo digital de elevación (DEM)**: Pulsar aquí te pedirá descargar e importar un modelo digital de elevación. Los modelos están disponibles en una variedad de tamaños en https://kylecorry.com/Afet-Kiti/dem.html. Una vez que importes el modelo, puedes eliminar el archivo de tu dispositivo. Si ya tienes un modelo cargado y seleccionas uno nuevo, el anterior será eliminado. Si no hay ningún modelo cargado, se usará un modelo incorporado de baja precisión. Se recomienda descargar uno de los modelos más grandes si puedes. El DEM no se incluirá en la copia de seguridad debido al tamaño.
 - **Eliminar DEM**: Pulsar aquí te pedirá eliminar el archivo DEM. Esto es irreversible y necesitarás importar otro archivo para usar el DEM.
 
 ### Barómetro / ajuste manual
@@ -88,7 +88,7 @@ La elevación actual se muestra en la parte superior de los ajustes del altímet
 - **Establecer anulación desde barómetro**: Si conoces la presión al nivel del mar actual para tu ubicación, puedes fijar la anulación de elevación usando el barómetro (solo la fija una vez). Solo disponible en dispositivos con barómetro.
 
 ## Sensores > Barómetro
-El barómetro se usa para medir la presión del aire. Puede usarse para pronóstico o determinar tu altitud. Para ajustar los ajustes del barómetro, ve a Trail Sense 'Ajustes > Sensores > Barómetro'.
+El barómetro se usa para medir la presión del aire. Puede usarse para pronóstico o determinar tu altitud. Para ajustar los ajustes del barómetro, ve a Afet Kiti 'Ajustes > Sensores > Barómetro'.
 
 Si tienes el seguimiento meteorológico (ver la herramienta Meteorología) habilitado, verás un gráfico del historial de presión barométrica registrado por tu dispositivo. La línea coloreada representa la presión calibrada mientras que la línea gris representa la presión sin procesar. Cuando ajustas los ajustes, el gráfico se actualizará para mostrar la nueva presión calibrada. El objetivo es que la línea coloreada siga suavemente a la línea gris.
 
@@ -96,7 +96,7 @@ Si tienes el seguimiento meteorológico (ver la herramienta Meteorología) habil
 La presión barométrica cambia con la altitud, lo que hace difícil comparar lecturas de presión entre diferentes ubicaciones. Para hacer las lecturas de presión más consistentes, habilita el ajuste "Presión al nivel del mar". Esto ajustará la lectura de presión a lo que sería al nivel del mar. Usar este ajuste aumentará la precisión de las predicciones meteorológicas.
 
 ### Suavizado
-Para reducir el ruido en las lecturas de presión, aumenta el ajuste de suavizado. Se recomienda un valor alrededor del 15%. Sin embargo, si aumentas demasiado el suavizado, Trail Sense puede ignorar cambios reales de presión.
+Para reducir el ruido en las lecturas de presión, aumenta el ajuste de suavizado. Se recomienda un valor alrededor del 15%. Sin embargo, si aumentas demasiado el suavizado, Afet Kiti puede ignorar cambios reales de presión.
 
 ### Considerar la temperatura
 Para obtener una lectura de presión más precisa, puedes considerar la temperatura. Esto hará que la lectura sea más propensa al ruido del termómetro de tu teléfono, pero también te dará una lectura más precisa de la presión real del aire.
@@ -107,7 +107,7 @@ Para calibrar el barómetro, puedes ajustar el desplazamiento del barómetro. De
 Puedes pulsar 'Reiniciar calibración' para reiniciar la calibración del barómetro. Esto eliminará cualquier desplazamiento que se haya establecido anteriormente.
 
 ## Sensores > Termómetro
-Los ajustes del termómetro se encuentran en Trail Sense 'Ajustes > Sensores > Termómetro'.
+Los ajustes del termómetro se encuentran en Afet Kiti 'Ajustes > Sensores > Termómetro'.
 
 ### Fuente
 En la mayoría de los teléfonos, debes usar la fuente de temperatura historic ya que será más precisa.
@@ -126,19 +126,19 @@ Si cambias la fuente de temperatura a "Histórico", puedes elegir actualizar tod
 
 ### Calibración
 
-1. Reinicia la calibración del termómetro en Trail Sense.  
+1. Reinicia la calibración del termómetro en Afet Kiti.  
 2. Pon el teléfono en un lugar frío durante 10 minutos.  
-3. Anota la temperatura que muestra Trail Sense como la temperatura mínima del teléfono.  
+3. Anota la temperatura que muestra Afet Kiti como la temperatura mínima del teléfono.  
 4. Anota la temperatura real del lugar frío usando un termómetro real.  
 5. Pon el teléfono en un lugar cálido durante 10 minutos.  
-6. Anota la temperatura que muestra Trail Sense como la temperatura máxima del teléfono.  
+6. Anota la temperatura que muestra Afet Kiti como la temperatura máxima del teléfono.  
 7. Anota la temperatura real del lugar cálido usando un termómetro real.  
-8. Ve a los ajustes del sensor Termómetro en Trail Sense e introduce las temperaturas mínima y máxima registradas, junto con las temperaturas reales que has anotado.
+8. Ve a los ajustes del sensor Termómetro en Afet Kiti e introduce las temperaturas mínima y máxima registradas, junto con las temperaturas reales que has anotado.
 
 **Precaución:** Consulta el manual de tu teléfono para identificar las temperaturas de funcionamiento diseñadas; no las excedas al realizar la calibración.
 
 ## Sensores > Cámara
-Los ajustes de la cámara se encuentran en Trail Sense 'Ajustes > Sensores > Cámara'.
+Los ajustes de la cámara se encuentran en Afet Kiti 'Ajustes > Sensores > Cámara'.
 
 ### Proyección de realidad aumentada
 El método de proyección determina cómo se muestran los puntos en la vista de la cámara. Si tienes problemas con que los puntos se alineen con el mundo real, prueba a cambiar el método de proyección.
@@ -149,7 +149,7 @@ El método de proyección determina cómo se muestran los puntos en la vista de 
 - **Lineal**: Es el método de proyección más sencillo (también el más rápido). No tiene en cuenta las distancias.
 
 ## Sensores > Señal móvil
-Los ajustes de la señal móvil se encuentran en Trail Sense 'Ajustes > Sensores > Señal móvil'.
+Los ajustes de la señal móvil se encuentran en Afet Kiti 'Ajustes > Sensores > Señal móvil'.
 
 ### Actualizar caché de señal
 El teléfono informa de la intensidad actual de la señal móvil, pero puede estar desactualizada. Puedes forzar la actualización de la caché de señal para obtener la intensidad actual. Esta función solo la usa la herramienta Rutas (Backtrack) cuando 'Ajustes > Rutas > Registrar señal móvil' está habilitado.
@@ -160,7 +160,7 @@ Los ajustes de privacidad se pueden configurar en 'Ajustes > Privacidad'.
 - **Ubicación**: Pulsar aquí te llevará a los ajustes de GPS, donde puedes elegir usar una ubicación simulada.
 - **Evitar capturas de pantalla**: Evita que se tomen capturas de pantalla mientras la app está abierta.
 
-**Nota:** Trail Sense no usa Internet y todos los datos se almacenan localmente en tu dispositivo.
+**Nota:** Afet Kiti no usa Internet y todos los datos se almacenan localmente en tu dispositivo.
 
 ## Errores
 Algunas herramientas como Navegación y Astronomía muestran banners de error en la parte superior de la pantalla. Estos banners se pueden deshabilitar en 'Ajustes > Errores'.
@@ -175,28 +175,28 @@ Algunas herramientas como Navegación y Astronomía muestran banners de error en
 Las funciones experimentales se pueden habilitar en 'Ajustes > Experimental'. Estas funciones no están listas para uso general y pueden no funcionar como se espera.
 
 ### Plugins
-Los plugins permiten que otras aplicaciones instaladas añadan funciones a Trail Sense. Ahora mismo están limitados a capas de mapa adicionales.
+Los plugins permiten que otras aplicaciones instaladas añadan funciones a Afet Kiti. Ahora mismo están limitados a capas de mapa adicionales.
 
 Para usar plugins, habilita Ajustes > Experimental > Plugins. Después de habilitar los plugins, aparecerá una página de Plugins en Ajustes donde puedes conectar o desconectar los plugins disponibles.
 
 Conecta un plugin pulsando sobre él en la sección "Plugins disponibles". Conecta solo los plugins en los que confíes. Puedes pulsar sobre un plugin conectado para ver detalles sobre qué funciones añade, recargarlo, abrir su app o desconectarlo.
 
-**Los plugins no están disponibles actualmente en la versión de Google Play de Trail Sense.**
+**Los plugins no están disponibles actualmente en la versión de Google Play de Afet Kiti.**
 
 #### Privacidad y seguridad
 
-Trail Sense no se comunicará con plugins que no hayas conectado explícitamente. Una vez conectado, Trail Sense pregunta al plugin qué funciones añade y no envía ninguno de tus datos.
+Afet Kiti no se comunicará con plugins que no hayas conectado explícitamente. Una vez conectado, Afet Kiti pregunta al plugin qué funciones añade y no envía ninguno de tus datos.
 
-Cuando se conecta un plugin de capa de mapa y la capa está habilitada en el mapa, Trail Sense comprueba que tiene concedido el permiso de ubicación precisa. Si no lo tiene, tendrás que concedérselo al plugin para usarlo y Trail Sense no cargará datos de mapa de este hasta que eso se haga. Si se concede el permiso, Trail Sense enviará los límites del área visible del mapa al plugin para cargar funciones y teselas.
+Cuando se conecta un plugin de capa de mapa y la capa está habilitada en el mapa, Afet Kiti comprueba que tiene concedido el permiso de ubicación precisa. Si no lo tiene, tendrás que concedérselo al plugin para usarlo y Afet Kiti no cargará datos de mapa de este hasta que eso se haga. Si se concede el permiso, Afet Kiti enviará los límites del área visible del mapa al plugin para cargar funciones y teselas.
 
 Si cambia la firma del plugin, se desconectará y tendrás que volver a conectarlo.
 
 ### Agrupación de notificaciones
-Android 16 introduce agrupación forzada de notificaciones para apps. Normalmente esto pone todas las notificaciones de Trail Sense en un grupo, lo que puede ser difícil de leer de un vistazo.
+Android 16 introduce agrupación forzada de notificaciones para apps. Normalmente esto pone todas las notificaciones de Afet Kiti en un grupo, lo que puede ser difícil de leer de un vistazo.
 
 - **Sistema**: Deja que Android controle la agrupación.
-- **Desagrupar todo**: Solución para desagrupar todas las notificaciones en Trail Sense.
-- **Desagrupar alertas**: Solución para desagrupar alertas (p. ej., tormenta, puesta de sol) en Trail Sense.
+- **Desagrupar todo**: Solución para desagrupar todas las notificaciones en Afet Kiti.
+- **Desagrupar alertas**: Solución para desagrupar alertas (p. ej., tormenta, puesta de sol) en Afet Kiti.
 
 Esta es una solución para evitar el comportamiento forzado en Android 16, por lo que puede no funcionar de forma consistente.
 
@@ -221,7 +221,7 @@ Los ajustes relacionados con el tema se pueden ajustar en 'Ajustes > Tema'.
   - **Sistema (negro)**: Tema que sigue los ajustes del sistema con fondo negro cuando el modo oscuro está habilitado.
   - **Salida / puesta del sol**: Tema que cambia entre claro y oscuro según la hora del día.
   - **Noche**: Tema con fondo negro y un filtro rojo para ayudar a mantener la visión nocturna.
-- **Colores dinámicos**: Usa los colores dinámicos de tu dispositivo en la app. Si está deshabilitado o no está disponible, los colores en Trail Sense serán de una tonalidad naranja.
+- **Colores dinámicos**: Usa los colores dinámicos de tu dispositivo en la app. Si está deshabilitado o no está disponible, los colores en Afet Kiti serán de una tonalidad naranja.
 - **Brujula con colores dinámicos**: Usa los colores dinámicos de tu dispositivo en la brújula (direcciones cardinales y ciertos marcadores en mapas).
 - **Tema predetarminado del widget**: Tema predeterminado para los widgets. Se puede anular mediante las opciones de personalización del widget en la pantalla de inicio.
 - **Modo compacto**: Usa un diseño más compacto para la barra inferior (más delgado y no muestra etiquetas).
@@ -229,13 +229,13 @@ Los ajustes relacionados con el tema se pueden ajustar en 'Ajustes > Tema'.
 - **Pantalla completa en modo noche**: Usa modo de pantalla completa cuando el tema nocturno está habilitado. Desliza desde la parte superior para mostrar la interfaz del sistema.
 
 ## Acerca de
-Puedes encontrar información adicional sobre Trail Sense en 'Ajustes > Acerca de'.
+Puedes encontrar información adicional sobre Afet Kiti en 'Ajustes > Acerca de'.
 
 - **Versión**: La versión de la app que estás usando.
 - **Política de privacidad**: Enlace a la política de privacidad.
 - **Email al desarrollador**: Enlace para enviar un correo electrónico al desarrollador para comentarios o soporte.
-- **GitHub**: Enlace al repositorio de GitHub (código fuente) de Trail Sense.
-- **Licencias**: Una lista de licencias de código abierto usadas en Trail Sense.
+- **GitHub**: Enlace al repositorio de GitHub (código fuente) de Afet Kiti.
+- **Licencias**: Una lista de licencias de código abierto usadas en Afet Kiti.
 
 ## Acción rápida
 Puedes habilitar la Acción rápida en los ajustes de la pestaña donde quieres que aparezca.
@@ -243,4 +243,4 @@ Puedes habilitar la Acción rápida en los ajustes de la pestaña donde quieres 
 Para usar la acción rápida, pulsa el botón de acciónes rápidas y se abrirá la página de ajustes de la herramienta activa. Mantén pulsada la acción rápida para abrir los ajustes de la app.
 
 ## Modo seguro
-Si Trail Sense se bloquea varias veces seguidas, entrará en Modo seguro. Esto desactiva las capas de bloques del mapa y abre con los Ajustes por defecto. Podrás acceder a Ajustes y deshabilitar cualquier función que pueda estar causando el problema. El modo seguro se desactivará automáticamente después de 20 segundos.
+Si Afet Kiti se bloquea varias veces seguidas, entrará en Modo seguro. Esto desactiva las capas de bloques del mapa y abre con los Ajustes por defecto. Podrás acceder a Ajustes y deshabilitar cualquier función que pueda estar causando el problema. El modo seguro se desactivará automáticamente después de 20 segundos.

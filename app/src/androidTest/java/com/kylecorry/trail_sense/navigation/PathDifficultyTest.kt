@@ -17,7 +17,7 @@ class PathDifficultyTest {
         val ctx = InstrumentationRegistry.getInstrumentation().context
         val hikingService = HikingService()
         val assetFileSystem = AssetFileSystem(ctx)
-        val serializer = GPXSerializer("Trail Sense")
+        val serializer = GPXSerializer("Afet Kiti")
 
         val paths = mapOf(
             // Short and flat

@@ -14,7 +14,7 @@
 \n
 \n-  Ορίστε αυτήν την τιμή σε 1.
 \n
-\n- Συγκρίνετε την τιμή του χάρακα στο Trail Sense ώστε να αντιστοιχεί σε αυτή ενός φυσικού χάρακα.
+\n- Συγκρίνετε την τιμή του χάρακα στο Afet Kiti ώστε να αντιστοιχεί σε αυτή ενός φυσικού χάρακα.
 \n
 \n
 \n- Σημειώστε την υπολογισμένη τιμή εδώ."</string>
@@ -173,7 +173,7 @@
     <string name="battery_capacity_format">%s mAh</string>
     <string name="sun_down_no_set">Ο ήλιος έδυσε</string>
     <string name="today">Σήμερα</string>
-    <string name="access_background_location_rationale">Το Trail Sense χρησιμοποιεί τα δεδομένα τοποθεσίας στο παρασκήνιο, για τη βαθμονόμηση της ισαλλοβαρομετρικής πίεσης στα πλαίσια της παρακολούθησης του καιρού, και για να παρέχει πιο ακριβείς ειδοποιήσεις για τη δύση του ηλίου. [Δείτε την Πολιτική Απορρήτου](https://kylecorry.com/Trail-Sense/privacy_policy.html)</string>
+    <string name="access_background_location_rationale">Το Afet Kiti χρησιμοποιεί τα δεδομένα τοποθεσίας στο παρασκήνιο, για τη βαθμονόμηση της ισαλλοβαρομετρικής πίεσης στα πλαίσια της παρακολούθησης του καιρού, και για να παρέχει πιο ακριβείς ειδοποιήσεις για τη δύση του ηλίου. [Δείτε την Πολιτική Απορρήτου](https://kylecorry.com/Afet-Kiti/privacy_policy.html)</string>
     <string name="override_from_gps">Ορίστε νέα δεδομένα για παράκαμψη των προκαθορισμένων δεδομένων του GPS</string>
     <string name="charging_wireless">Φορτίζει (%s)</string>
     <string name="preview">Προεπισκόπηση</string>
@@ -200,7 +200,7 @@
     <string name="actual_frequency_disclaimer">Η πραγματική συχνότητα μπορεί να διαφέρει, καθώς ορισμένες συσκευές θέτουν όρια στις υπηρεσίες παρασκηνίου.</string>
     <string name="battery_power_ac">AC</string>
     <string name="pref_show_pressure_in_notification_title">Εμφάνιση της βαρομετρικής πίεσης στις ειδοποιήσεις</string>
-    <string name="unblock_notification_channel">Επιτρέψτε τις ειδοποιήσεις %s για το Trail Sense</string>
+    <string name="unblock_notification_channel">Επιτρέψτε τις ειδοποιήσεις %s για το Afet Kiti</string>
     <string name="activity_recognition">Σωματική δραστηριότητα</string>
     <string name="distance">Απόσταση</string>
     <string name="pref_weather_show_detailed_icon_title">Εμφάνιση έγχρωμου εικονιδίου ειδοποίησης</string>
@@ -235,13 +235,13 @@
     <string name="gps_cache">Κρυφή Μνήμη GPS</string>
     <string name="imperial_gallons">Αγγλικά Γαλόνια</string>
     <string name="pref_experimental_metal_direction_title">Υπόδειξη κατεύθυνσης μετάλλου</string>
-    <string name="onboarding_privacy">- Το Trail Sense σέβεται το απόρρητό σας και τα δεδομένα τοποθεσίας δεν εγκαταλείπουν ποτέ τη συσκευή σας
+    <string name="onboarding_privacy">- Το Afet Kiti σέβεται το απόρρητό σας και τα δεδομένα τοποθεσίας δεν εγκαταλείπουν ποτέ τη συσκευή σας
 \n
-\n- Το Trail Sense δεν θα απαιτήσει ποτέ άδεια Διαδικτύου
+\n- Το Afet Kiti δεν θα απαιτήσει ποτέ άδεια Διαδικτύου
 \n
-\n- Δείτε την [Πολιτική Απορρήτου](https://kylecorry.com/Trail-Sense/privacy_policy.html) (ανοίγει στο πρόγραμμα περιήγησης του τηλεφώνου σας)
+\n- Δείτε την [Πολιτική Απορρήτου](https://kylecorry.com/Afet-Kiti/privacy_policy.html) (ανοίγει στο πρόγραμμα περιήγησης του τηλεφώνου σας)
 \n
-\n- Ορισμένες λειτουργίες του Trail Sense απαιτούν πρόσβαση στην τοποθεσία σας
+\n- Ορισμένες λειτουργίες του Afet Kiti απαιτούν πρόσβαση στην τοποθεσία σας
 \n
 \n- Η παραχώρηση της άδειας τοποθεσίας θα ενεργοποιήσει τις ακόλουθες δυνατότητες:
 \n
@@ -253,9 +253,9 @@
 \n
 \n\t- Ώρες ήλιου και σελήνης για την τρέχουσα τοποθεσία σας (οι ειδοποιήσεις δύσης ηλίου ενδέχεται να απαιτούν πρόσβαση στην τοποθεσία στο παρασκήνιο)
 \n
-\n- Εάν επιλέξετε να μην εκχωρήσετε την άδεια τοποθεσίας, μπορείτε να εισαγάγετε μη αυτόματα μια τοποθεσία στο μενού Ρυθμίσεις &gt; Αισθητήρες &gt; Βαθμονόμηση GPS στο Trail Sense.
+\n- Εάν επιλέξετε να μην εκχωρήσετε την άδεια τοποθεσίας, μπορείτε να εισαγάγετε μη αυτόματα μια τοποθεσία στο μενού Ρυθμίσεις &gt; Αισθητήρες &gt; Βαθμονόμηση GPS στο Afet Kiti.
 \n
-\n- Αφού επιλέξετε το στοιχείο συνέχεια, θα σας ζητηθεί να εκχωρήσετε την άδεια τοποθεσίας. Η άρνηση αυτής της άδειας θα αποτρέψει την πρόσβαση του Trail Sense στην τοποθεσία σας, οπότε και συνιστάται η μη αυτόματη καταχώριση τοποθεσίας.</string>
+\n- Αφού επιλέξετε το στοιχείο συνέχεια, θα σας ζητηθεί να εκχωρήσετε την άδεια τοποθεσίας. Η άρνηση αυτής της άδειας θα αποτρέψει την πρόσβαση του Afet Kiti στην τοποθεσία σας, οπότε και συνιστάται η μη αυτόματη καταχώριση τοποθεσίας.</string>
     <string name="tool_cliff_height_disclaimer">Χρησιμοποιήστε αυτό το εργαλείο μόνο όταν είναι ασφαλές και βεβαιωθείτε ότι έχετε ελέγξει τι βρίσκεται κάτω από τον γκρεμό για να αποφύγετε τραυματισμούς. Ανατρέξτε στον οδηγό χρήσης για οδηγίες.</string>
     <string name="guide_recommended_apps">Προτεινόμενες εφαρμογές</string>
     <string name="pressure_48_hours">48 ώρες</string>
@@ -312,7 +312,7 @@
     <string name="tap_sun_moon_hint">Αγγίξτε στον ήλιο ή τη σελήνη για λεπτομέρειες τοποθεσίας</string>
     <string name="height">Ύψος</string>
     <string name="on_map">Στον χάρτη</string>
-    <string name="pref_tiles_enabled_summary">Μπορεί να αποτρέψει εφαρμογές εξοικονόμισης μπαταρίας απο το να σταματήσουν εντελώς το Trail Sense</string>
+    <string name="pref_tiles_enabled_summary">Μπορεί να αποτρέψει εφαρμογές εξοικονόμισης μπαταρίας απο το να σταματήσουν εντελώς το Afet Kiti</string>
     <string name="saved_to_note">Αποθηκεύτηκε σε σημείωση</string>
     <string name="tool_battery_title">Μπαταρία</string>
     <string name="map_auto_calibrated">Ο χάρτης βαθμονομήθηκε αυτόματα, παρακαλώ επαληθεύστε την ακρίβειά του</string>
@@ -568,12 +568,12 @@
     <string name="pref_monitor_weather_summary">Στο παρασκήνιο</string>
     <string name="path">Διαδρομή</string>
     <string name="tool_solar_panel_summary">Τοποθετήστε τους ηλιακούς συλλέκτες για βέλτιστη παραγωγή ενέργειας</string>
-    <string name="onboarding_user_guide">Μάθετε πως να χρησιμοποιείτε τις λειτουργίες του Trail Sense με το εγχειρίδιο χρήσης. Διατίθεται στο κάτω μέρος της καρτέλας Εργαλεία. \n \nΣύντομα θα υπάρξουν και άλλοι οδηγοί.</string>
+    <string name="onboarding_user_guide">Μάθετε πως να χρησιμοποιείτε τις λειτουργίες του Afet Kiti με το εγχειρίδιο χρήσης. Διατίθεται στο κάτω μέρος της καρτέλας Εργαλεία. \n \nΣύντομα θα υπάρξουν και άλλοι οδηγοί.</string>
     <string name="no_packing_lists">Καμία λίστα συσκευασίας</string>
     <string name="unsaved_changes_message">Οι αλλαγές που κάνατε δεν θα αποθηκευτούν.</string>
-    <string name="tool_user_guide_summary">Ένας οδηγός για τη χρήση του Trail Sense</string>
+    <string name="tool_user_guide_summary">Ένας οδηγός για τη χρήση του Afet Kiti</string>
     <string name="lightning">Αστραπή</string>
-    <string name="pref_flashlight_toggle_with_volume_summary">Ενόσω το Trail Sense είναι ενεργό</string>
+    <string name="pref_flashlight_toggle_with_volume_summary">Ενόσω το Afet Kiti είναι ενεργό</string>
     <string name="no_permission">Δεν χορηγήθηκε άδεια</string>
     <string name="time_not_set">Η ώρα δεν έχει ρυθμιστεί</string>
     <string name="search">Αναζήτηση</string>
@@ -669,7 +669,7 @@
     <string name="privacy">Ιδιωτικό Απόρρητο</string>
     <string name="since_time">από %s</string>
     <string name="battery_power_wireless">Ασύρματα</string>
-    <string name="error_occurred_message">Το Trail Sense αντιμετώπισε κάποιο σφάλμα. Παρακαλούμε αποστείλετε Email στον προγραμματιστή για να διορθωθεί το πρόβλημα.</string>
+    <string name="error_occurred_message">Το Afet Kiti αντιμετώπισε κάποιο σφάλμα. Παρακαλούμε αποστείλετε Email στον προγραμματιστή για να διορθωθεί το πρόβλημα.</string>
     <string name="pref_tiles_enabled_title">Πλακίδια συστήματος</string>
     <string name="pref_weather_update_frequency_title">Συχνότητα ενημέρωσης δεδομένων καιρού</string>
     <string name="tool_lightning_title">Απόσταση Σημείου Πτώσης Κεραυνού</string>
@@ -731,7 +731,7 @@
     <string name="sensor_gyroscope">Γυροσκόπιο</string>
     <string name="weather_monitoring_disabled">Η παρακολούθηση καιρού είναι απεργοποιημένη</string>
     <string name="season_winter">Χειμώνας</string>
-    <string name="battery_restricted_resolution">Ορίστε το Trail Sense ως εφαρμογή Χωρίς Βελτιστοποίηση</string>
+    <string name="battery_restricted_resolution">Ορίστε το Afet Kiti ως εφαρμογή Χωρίς Βελτιστοποίηση</string>
     <string name="daylight">Ημέρα</string>
     <string name="pref_show_nearest_tide_title">Προβολή πλησιέστερης παλίρροιας</string>
     <string name="pref_auto_low_power_title">Αυτόματη λειτουργία εξοικονόμησης ενέργειας</string>
@@ -774,9 +774,9 @@
     <string name="points">Δείκτες</string>
     <string name="save">Αποθήκευση</string>
     <string name="line_style">Ύφος γραμμής</string>
-    <string name="allow_ignore_battery_restrictions_instructions">Η άρση των περιορισμών της μπαταρίας για το Trail Sense μπορεί να βελτιώσει την ακρίβεια.
+    <string name="allow_ignore_battery_restrictions_instructions">Η άρση των περιορισμών της μπαταρίας για το Afet Kiti μπορεί να βελτιώσει την ακρίβεια.
 \n
-\nΣτις περισσότερες συσκευές, αγγίξτε στο \'%s\', στη συνέχεια μεταβείτε σε όλες τις εφαρμογές και απενεργοποιήστε τη βελτιστοποίηση μπαταρίας για το Trail Sense.
+\nΣτις περισσότερες συσκευές, αγγίξτε στο \'%s\', στη συνέχεια μεταβείτε σε όλες τις εφαρμογές και απενεργοποιήστε τη βελτιστοποίηση μπαταρίας για το Afet Kiti.
 \n
 \nΕπισκεφθείτε τη διεύθυνση [Don\'t kill my app](https://dontkillmyapp.com/) για οδηγίες σχετικά με την εκάστοτε συσκευή.</string>
     <string name="warning">Προειδοποίηση</string>

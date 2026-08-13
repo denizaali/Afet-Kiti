@@ -1,4 +1,4 @@
-<p>Explorez au-delà des limites d'Internet avec Trail Sense.</p>
+<p>Explorez au-delà des limites d'Internet avec Afet Kiti.</p>
 
 <ul>
 
@@ -26,7 +26,7 @@
 
 </ul>
 
-<p>Trail Sense est un outil, et comme tout outil que vous emportez en pleine nature,
+<p>Afet Kiti est un outil, et comme tout outil que vous emportez en pleine nature,
 
 il est essentiel de disposer d'équipement de secours et de compétences adéquates.
 
@@ -34,45 +34,45 @@ il est essentiel de disposer d'équipement de secours et de compétences adéqua
 
 Utilisez-la à vos risques et périls, ayez toujours des outils de secours (ex. : boussole) et restez prudent.
 
-Cette application n'utilise pas, et n'utilisera jamais, Internet. Toutes les informations de Trail Sense proviennent directement des capteurs de votre téléphone, et aucune donnée ne quitte Trail Sense.
+Cette application n'utilise pas, et n'utilisera jamais, Internet. Toutes les informations de Afet Kiti proviennent directement des capteurs de votre téléphone, et aucune donnée ne quitte Afet Kiti.
 
 Problèmes courants
 
 Absence de boussole : Si votre téléphone ne possède pas de capteur de boussole, je ne peux rien faire pour la rendre fonctionnelle, car il s'agit d'une limitation matérielle.
 
-Vous pourrez néanmoins utiliser les autres fonctionnalités de Trail Sense.
+Vous pourrez néanmoins utiliser les autres fonctionnalités de Afet Kiti.
 
 Absence de météo : L'outil Météo est uniquement disponible si votre téléphone possède un capteur barométrique.
 
-Vous avez rencontré un problème ou vous souhaitez une nouvelle fonctionnalité ?  Contactez-moi à trailsense@protonmail.com ou créez un nouveau ticket sur GitHub : github.com/kylecorry31/Trail-Sense</p>
+Vous avez rencontré un problème ou vous souhaitez une nouvelle fonctionnalité ?  Contactez-moi à trailsense@protonmail.com ou créez un nouveau ticket sur GitHub : github.com/kylecorry31/Afet-Kiti</p>
 
-<p>Je suis le seul développeur de Trail Sense. Je ferai donc de mon mieux pour vous aider à résoudre les problèmes, mais je ne dispose que d'un nombre limité d'appareils pour effectuer des tests.</p>
+<p>Je suis le seul développeur de Afet Kiti. Je ferai donc de mon mieux pour vous aider à résoudre les problèmes, mais je ne dispose que d'un nombre limité d'appareils pour effectuer des tests.</p>
 
 <h3>AUTORISATIONS</h3>
 
 <ul>
 
-<li>Notifications : Autorise Trail Sense à afficher des notifications (retour en arrière, météo, alertes de coucher de soleil, événements astronomiques, minuteur d'ébullition de l'eau, etc.)</li>
+<li>Notifications : Autorise Afet Kiti à afficher des notifications (retour en arrière, météo, alertes de coucher de soleil, événements astronomiques, minuteur d'ébullition de l'eau, etc.)</li>
 
-<li>Localisation : Autorise Trail Sense à récupérer votre position pour la navigation, la météo (calibration du niveau de la mer) et l'astronomie.</li>
+<li>Localisation : Autorise Afet Kiti à récupérer votre position pour la navigation, la météo (calibration du niveau de la mer) et l'astronomie.</li>
 
-<li>Localisation en arrière-plan : Autorise Trail Sense à récupérer votre position pour les alertes de coucher de soleil lorsqu'il est en arrière-plan.
+<li>Localisation en arrière-plan : Autorise Afet Kiti à récupérer votre position pour les alertes de coucher de soleil lorsqu'il est en arrière-plan.
 
  Sur certains appareils, cela améliorera également la fiabilité du retour en arrière et des prévisions météorologiques.
 
-Activité physique : Autorise Trail Sense à utiliser le podomètre de votre téléphone pour le calcul des distances.
+Activité physique : Autorise Afet Kiti à utiliser le podomètre de votre téléphone pour le calcul des distances.
 
-Appareil photo : Autorise Trail Sense à utiliser votre appareil photo pour la boussole de visée, le clinomètre et pour prendre des photos utilisées par le scanner cloud, le scanner de codes QR et les cartes photo.
+Appareil photo : Autorise Afet Kiti à utiliser votre appareil photo pour la boussole de visée, le clinomètre et pour prendre des photos utilisées par le scanner cloud, le scanner de codes QR et les cartes photo.
 
-Alarmes et rappels : Autorise Trail Sense à envoyer une notification à une heure précise.  Ceci est utilisé par l'outil Horloge (lors de la mise à jour de l'heure système) et les alertes de lever et de coucher du soleil.</li>
+Alarmes et rappels : Autorise Afet Kiti à envoyer une notification à une heure précise.  Ceci est utilisé par l'outil Horloge (lors de la mise à jour de l'heure système) et les alertes de lever et de coucher du soleil.</li>
 </ul>
 
 <h3>Liens</h3>
 
 <ul>
-<li>Politique de confidentialité : https://kylecorry.com/Trail-Sense/#privacy</li>
+<li>Politique de confidentialité : https://kylecorry.com/Afet-Kiti/#privacy</li>
 
-<li>FAQ : https://github.com/kylecorry31/Trail-Sense#faq</li>
+<li>FAQ : https://github.com/kylecorry31/Afet-Kiti#faq</li>
 
-<li>Trail Sense est disponible sous licence MIT : https://opensource.org/license/mit/</li>
+<li>Afet Kiti est disponible sous licence MIT : https://opensource.org/license/mit/</li>
 </ul>

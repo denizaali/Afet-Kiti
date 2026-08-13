@@ -7,7 +7,7 @@ import com.kylecorry.trail_sense.shared.views.Toolbar
 import com.kylecorry.trail_sense.R
 import com.kylecorry.trail_sense.main.MainActivity
 import com.kylecorry.trail_sense.shared.CustomUiUtils.replaceChildFragment
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveBottomSheetFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveBottomSheetFragment
 import com.kylecorry.trail_sense.shared.map_layers.MapLayerLoader
 import com.kylecorry.trail_sense.tools.map.MapToolRegistration
 import com.kylecorry.trail_sense.tools.tools.infrastructure.Tools
@@ -15,7 +15,7 @@ import com.kylecorry.trail_sense.tools.tools.infrastructure.Tools
 class MapLayersBottomSheet(
     private val mapId: String,
     private val alwaysEnabledLayerIds: List<String> = emptyList()
-) : TrailSenseReactiveBottomSheetFragment(R.layout.fragment_map_layers_bottom_sheet) {
+) : AfetKitiReactiveBottomSheetFragment(R.layout.fragment_map_layers_bottom_sheet) {
 
     private var onDismissListener: (() -> Unit)? = null
 

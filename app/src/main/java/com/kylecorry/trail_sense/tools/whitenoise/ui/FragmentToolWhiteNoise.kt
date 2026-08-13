@@ -4,7 +4,7 @@ import androidx.core.view.isVisible
 import com.google.android.material.materialswitch.MaterialSwitch
 import com.kylecorry.andromeda.core.ui.useService
 import com.kylecorry.trail_sense.R
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.useToolEventListener
 import com.kylecorry.trail_sense.shared.preferences.PreferencesSubsystem
 import com.kylecorry.trail_sense.shared.views.DurationInputView
@@ -18,7 +18,7 @@ import java.time.Duration
 import java.time.Instant
 
 class FragmentToolWhiteNoise :
-    TrailSenseReactiveFragment(R.layout.fragment_tool_white_noise, INTERVAL_30_FPS) {
+    AfetKitiReactiveFragment(R.layout.fragment_tool_white_noise, INTERVAL_30_FPS) {
 
     override fun update() {
         // Views

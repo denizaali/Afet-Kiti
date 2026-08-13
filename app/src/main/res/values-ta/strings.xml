@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="access_background_location_rationale">டிரெயில் சென்ச் வானிலை கண்காணிப்பில் கடல் மட்ட அழுத்த அளவுத்திருத்தத்திற்கும், மேலும் துல்லியமான சூரிய அச்தமன விழிப்பூட்டல்களையும் வழங்குவதற்கான பின்னணியில் இருப்பிடத் தரவைப் பயன்படுத்துகிறது. [தனியுரிமைக் கொள்கையைப் பார்க்கவும்](https://kylecorry.com/Trail-Sense/privacy_policy.html)</string>
+    <string name="access_background_location_rationale">டிரெயில் சென்ச் வானிலை கண்காணிப்பில் கடல் மட்ட அழுத்த அளவுத்திருத்தத்திற்கும், மேலும் துல்லியமான சூரிய அச்தமன விழிப்பூட்டல்களையும் வழங்குவதற்கான பின்னணியில் இருப்பிடத் தரவைப் பயன்படுத்துகிறது. [தனியுரிமைக் கொள்கையைப் பார்க்கவும்](https://kylecorry.com/Afet-Kiti/privacy_policy.html)</string>
     <string name="precise_nautical_miles_format">%s nm</string>
     <string name="elevation_diff_format">%1$s%2$s</string>
     <string name="degree_format">%.0f °</string>

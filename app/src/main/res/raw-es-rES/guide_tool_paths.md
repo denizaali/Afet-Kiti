@@ -18,7 +18,7 @@ Puedes elegir crear manualmente una ruta haciendo lo siguiente:
 4. Pulsa el botón '+ Point' para añadir un punto a la ruta en tu ubicación actual. Puedes añadir tantos puntos como quieras.
 
 ## Importar rutas
-Si tienes tracks o rutas guardadas en un archivo GPX, puedes importarlas a Trail Sense como rutas.
+Si tienes tracks o rutas guardadas en un archivo GPX, puedes importarlas a Afet Kiti como rutas.
 
 1. Pulsa el botón '+' en la esquina inferior derecha de la pantalla.
 2. Pulsa 'GPX File'.
@@ -112,4 +112,4 @@ Los siguientes widgets pueden colocarse en la pantalla de inicio de tu dispositi
 - **Retroceder:** Muestra la distancia recorrida si Retroceder está habilitado.
 
 ## Guía en vídeo
-Si prefieres una guía en vídeo sobre cómo usar Retroceder, aquí tienes un vídeo hecho por uno de los usuarios de Trail Sense: [YouTube: Trail Sense: Learning How To Use BackTrack To Track Cell Service On Hikes by DeathfireD](https://www.youtube.com/watch?v=7IC69LgBcRk)
+Si prefieres una guía en vídeo sobre cómo usar Retroceder, aquí tienes un vídeo hecho por uno de los usuarios de Afet Kiti: [YouTube: Afet Kiti: Learning How To Use BackTrack To Track Cell Service On Hikes by DeathfireD](https://www.youtube.com/watch?v=7IC69LgBcRk)

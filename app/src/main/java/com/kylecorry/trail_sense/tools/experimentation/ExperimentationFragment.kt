@@ -17,12 +17,12 @@ import com.kylecorry.trail_sense.plugin.sample.service.WeatherForecastService
 import com.kylecorry.trail_sense.plugins.PluginSubsystem
 import com.kylecorry.trail_sense.shared.FormatService
 import com.kylecorry.trail_sense.shared.UserPreferences
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.useLocation
 import com.kylecorry.trail_sense.shared.haptics.HapticSubsystem
 import java.time.Duration
 
-class ExperimentationFragment : TrailSenseReactiveFragment(R.layout.fragment_experimentation) {
+class ExperimentationFragment : AfetKitiReactiveFragment(R.layout.fragment_experimentation) {
     override fun update() {
 //        useWormGrunting()
         useSamplePlugin()

@@ -27,7 +27,7 @@ With a packing list open, tap the '+' button in the bottom-right corner. On the 
 - **Packed amount**: The number of items currently packed, can be blank or a number (with decimal places)
 - **Desired amount**: The number of items you would like to pack, can be blank or a number (with decimal places)
 - **Category**: The category to group this item by, defaults to 'Other'
-- **Weight**: The weight of 1 item in your desired units. Trail Sense will scale this by the amount of packed items to determine the total weight.
+- **Weight**: The weight of 1 item in your desired units. Afet Kiti will scale this by the amount of packed items to determine the total weight.
 - **Optional**: Marks the item as optional. Optional items show an 'Optional' tag in the list and do not count toward the packed percentage.
 
 When finished, tap the check button in the bottom-right corner to save the item.
@@ -71,10 +71,10 @@ You can also rename from the packing list itself by tapping the menu button on t
 You can clear the packed amounts of all the items in a packing list by tapping the menu button on the right of the packing list and tapping 'Clear amounts'. This will set all the packed amounts to 0, but will not delete the items.
 
 ## Exporting a packing list
-You can export a packing list by tapping the menu button on the right of the packing list and tapping 'Export'. This will prompt you to save a .csv file to your device. This file can be imported by Trail Sense or used in the 'LighterPack' website.
+You can export a packing list by tapping the menu button on the right of the packing list and tapping 'Export'. This will prompt you to save a .csv file to your device. This file can be imported by Afet Kiti or used in the 'LighterPack' website.
 
 ## Importing a packing list
-You can import a packing list by tapping the '+' button in the bottom-right corner and tapping 'Import packing list'. This will prompt you to select a .csv file from your device. The csv file must be in the format exported by Trail Sense or LighterPack.
+You can import a packing list by tapping the '+' button in the bottom-right corner and tapping 'Import packing list'. This will prompt you to select a .csv file from your device. The csv file must be in the format exported by Afet Kiti or LighterPack.
 
 You will be prompted to enter a name for the newly imported packing list. If the list had previously packed amounts, they will be imported, but you can clear them by following the steps in the 'Clearing packed amounts' section.
 

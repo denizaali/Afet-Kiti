@@ -1,4 +1,4 @@
-- Añadir modo de bajo consumo (solo para Trail Sense), disponible en ajustes y en la herramienta Batería
+- Añadir modo de bajo consumo (solo para Afet Kiti), disponible en ajustes y en la herramienta Batería
 - Añadir herramienta simple de identificación de nubes
 - Añadir selección de unidades a la regla
 - Añadir formato de coordenadas MGRS

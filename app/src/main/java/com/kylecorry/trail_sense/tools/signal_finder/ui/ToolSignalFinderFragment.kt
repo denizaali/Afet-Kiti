@@ -17,7 +17,7 @@ import com.kylecorry.sol.science.geology.Geofence
 import com.kylecorry.sol.units.Distance
 import com.kylecorry.trail_sense.R
 import com.kylecorry.trail_sense.shared.ApproximateCoordinate
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.useCellSignalSensor
 import com.kylecorry.trail_sense.shared.extensions.useGPSLocation
 import com.kylecorry.trail_sense.shared.extensions.useNavController
@@ -27,7 +27,7 @@ import com.kylecorry.trail_sense.tools.signal_finder.infrastructure.CellTowerMod
 import com.kylecorry.trail_sense.tools.tools.infrastructure.Tools
 import java.time.Duration
 
-class ToolSignalFinderFragment : TrailSenseReactiveFragment(R.layout.fragment_tool_signal_finder) {
+class ToolSignalFinderFragment : AfetKitiReactiveFragment(R.layout.fragment_tool_signal_finder) {
 
     override fun update() {
         val context = useAndroidContext()

@@ -20,7 +20,7 @@ import com.kylecorry.trail_sense.R
 import com.kylecorry.trail_sense.shared.FormatService
 import com.kylecorry.trail_sense.shared.Units
 import com.kylecorry.trail_sense.shared.UserPreferences
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.sensors.LocationSubsystem
 import com.kylecorry.trail_sense.shared.views.CoordinateInputView
 import com.kylecorry.trail_sense.shared.views.DatePickerView
@@ -32,7 +32,7 @@ import com.kylecorry.luna.hooks.Ref
 import java.time.LocalDate
 import java.time.Month
 
-class ClimateFragment : TrailSenseReactiveFragment(R.layout.fragment_tool_climate) {
+class ClimateFragment : AfetKitiReactiveFragment(R.layout.fragment_tool_climate) {
 
     override fun update() {
         // Views

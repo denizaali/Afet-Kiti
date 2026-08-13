@@ -4,10 +4,10 @@ import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import com.kylecorry.trail_sense.R
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.views.CustomViewPagerAdapter
 
-class FragmentToolBallistics : TrailSenseReactiveFragment(R.layout.fragment_tabs) {
+class FragmentToolBallistics : AfetKitiReactiveFragment(R.layout.fragment_tabs) {
 
 
     override fun update() {

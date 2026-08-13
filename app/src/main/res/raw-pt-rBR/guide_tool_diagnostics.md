@@ -1,7 +1,7 @@
-A ferramenta Diagnóstico pode ser usada para detectar problemas comuns que afetam as ferramentas do Trail Sense. Se você estiver enfrentando problemas com o aplicativo, tente executar a ferramenta de diagnósticos para ver se ela consegue identificar o problema.
+A ferramenta Diagnóstico pode ser usada para detectar problemas comuns que afetam as ferramentas do Afet Kiti. Se você estiver enfrentando problemas com o aplicativo, tente executar a ferramenta de diagnósticos para ver se ela consegue identificar o problema.
 
 ## Lista de diagnósticos
-O Trail Sense listará quaisquer avisos ou erros que detectar. Avisos terão um ícone amarelo, e erros terão um ícone vermelho.
+O Afet Kiti listará quaisquer avisos ou erros que detectar. Avisos terão um ícone amarelo, e erros terão um ícone vermelho.
 
 Você pode clicar em cada item para ver mais informações sobre o problema e como resolvê-lo.
 

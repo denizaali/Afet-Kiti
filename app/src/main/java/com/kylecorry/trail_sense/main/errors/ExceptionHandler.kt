@@ -11,11 +11,11 @@ import com.kylecorry.trail_sense.shared.debugging.isDebug
 object ExceptionHandler {
 
     fun initialize(activity: MainActivity) {
-        val handler = TrailSenseExceptionHandler(activity)
+        val handler = AfetKitiExceptionHandler(activity)
         handler.bind()
 
-        TrailSenseExceptionHandler.error?.let {
-            Log.e("Trail Sense", it)
+        AfetKitiExceptionHandler.error?.let {
+            Log.e("Afet Kiti", it)
             val message = BugReportEmailMessage(
                 activity.getString(R.string.error_occurred),
                 activity.getString(R.string.error_occurred_message) + if (isDebug()) {
@@ -47,6 +47,6 @@ object ExceptionHandler {
             }
         }
 
-        TrailSenseExceptionHandler.error = null
+        AfetKitiExceptionHandler.error = null
     }
 }

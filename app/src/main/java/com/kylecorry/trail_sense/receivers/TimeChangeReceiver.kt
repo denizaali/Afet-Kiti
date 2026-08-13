@@ -16,7 +16,7 @@ class TimeChangeReceiver : BroadcastReceiver() {
         if (validIntentActions.contains(intent?.action) && context != null) {
             Log.d("TimeChangeReceiver", "Time changed")
             val pendingResult = goAsync()
-            TrailSenseServiceUtils.restartServices(
+            AfetKitiServiceUtils.restartServices(
                 context,
                 isInBackground = true,
                 onComplete = pendingResult::finish

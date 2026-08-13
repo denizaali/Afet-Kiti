@@ -10,7 +10,7 @@ Pages are organized into categories, such as plants and animals. You can tap on 
 You can search for pages by name, notes, or tags. The search results will be displayed as you type.
 
 ## Built-in pages
-Trail Sense includes a set of built-in pages that cover common plants, animals, mushrooms, and rocks that are beneficial for wilderness survival. You can not edit or delete these pages.
+Afet Kiti includes a set of built-in pages that cover common plants, animals, mushrooms, and rocks that are beneficial for wilderness survival. You can not edit or delete these pages.
 
 ## Create a page
 To create a new page, tap the add button in the bottom right corner of the screen. You can add a name, image, notes, and tags to the page. The image can be taken with the camera or selected from the gallery. You can tap the check button in the top right corner to save the page.

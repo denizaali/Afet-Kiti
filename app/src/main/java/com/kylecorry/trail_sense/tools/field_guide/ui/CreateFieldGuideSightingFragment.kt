@@ -16,7 +16,7 @@ import com.kylecorry.sol.units.Distance
 import com.kylecorry.trail_sense.R
 import com.kylecorry.trail_sense.shared.CustomUiUtils
 import com.kylecorry.trail_sense.shared.UserPreferences
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.useBindCoordinateAndElevationViews
 import com.kylecorry.trail_sense.shared.extensions.useCoordinateInputView
 import com.kylecorry.trail_sense.shared.extensions.useElevationInputView
@@ -29,7 +29,7 @@ import com.kylecorry.trail_sense.tools.field_guide.infrastructure.FieldGuideRepo
 import java.time.LocalDateTime
 
 class CreateFieldGuideSightingFragment :
-    TrailSenseReactiveFragment(R.layout.fragment_create_field_guide_sighting) {
+    AfetKitiReactiveFragment(R.layout.fragment_create_field_guide_sighting) {
 
     override fun update() {
         // Views

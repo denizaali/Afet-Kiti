@@ -304,7 +304,7 @@ class BeaconListFragment : BoundFragment<FragmentBeaconListBinding>() {
 
     private fun export(gpx: GPXData) {
         inBackground(BackgroundMinimumState.Created) {
-            val exportFile = "trail-sense-${Instant.now().epochSecond}.gpx"
+            val exportFile = "afet-kiti-${Instant.now().epochSecond}.gpx"
             val success = gpxService.export(gpx, exportFile)
             onMain {
                 if (success) {

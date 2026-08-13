@@ -7,7 +7,7 @@ import com.kylecorry.sol.units.Distance
 import com.kylecorry.trail_sense.shared.hooks.HookTriggers
 import java.time.Duration
 
-abstract class TrailSenseReactiveBottomSheetFragment(@LayoutRes private val layoutId: Int) :
+abstract class AfetKitiReactiveBottomSheetFragment(@LayoutRes private val layoutId: Int) :
     XmlReactiveBottomSheetFragment(layoutId) {
 
     private var currentTriggerIndex = 0

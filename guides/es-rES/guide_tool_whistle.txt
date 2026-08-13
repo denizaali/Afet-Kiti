@@ -1,4 +1,4 @@
-La herramienta Silbato puede usarse para pedir ayuda. Al usar el silbato, se recomienda subir el volumen al máximo o conectar un altavoz externo. Como con cualquier herramienta en Trail Sense, siempre es mejor llevar un silbato real contigo.
+La herramienta Silbato puede usarse para pedir ayuda. Al usar el silbato, se recomienda subir el volumen al máximo o conectar un altavoz externo. Como con cualquier herramienta en Afet Kiti, siempre es mejor llevar un silbato real contigo.
 
 ## Silbato
 Mantén pulsado el botón de silbato para reproducir un sonido de silbato.

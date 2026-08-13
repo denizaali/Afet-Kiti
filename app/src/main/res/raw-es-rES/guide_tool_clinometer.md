@@ -54,4 +54,4 @@ Si no conoces la altura del árbol, aún puedes estimar la distancia usando tu a
 9. Suelta para bloquear y ver la distancia al árbol.
 
 ## Aviso
-Trail Sense usa una regla general para determinar si una pendiente propensa a avalanchas, lo cual está limitado por los sensores de tu teléfono. Si crees que una pendiente es insegura, intenta buscar una ruta alternativa para evitarla o toma precauciones.
+Afet Kiti usa una regla general para determinar si una pendiente propensa a avalanchas, lo cual está limitado por los sensores de tu teléfono. Si crees que una pendiente es insegura, intenta buscar una ruta alternativa para evitarla o toma precauciones.

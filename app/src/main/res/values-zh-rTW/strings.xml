@@ -198,7 +198,7 @@
     <string name="start">開始</string>
     <string name="navigation_nearby_category">鄰近</string>
     <string name="tap_sun_moon_hint">點擊太陽或月亮以取得詳細位置</string>
-    <string name="error_occurred_message">Trail Sense 遇到錯誤。請向開發人員發送電子郵件以解決此問題。</string>
+    <string name="error_occurred_message">Afet Kiti 遇到錯誤。請向開發人員發送電子郵件以解決此問題。</string>
     <string name="error_occurred">發生錯誤</string>
     <string name="pref_open_source_licenses_title">許可證</string>
     <string name="pref_sunset_alert_time_title">日落警報時間</string>
@@ -232,7 +232,7 @@
     <string name="daylight">日光時間</string>
     <string name="tool_thermometer_title">溫度計</string>
     <string name="convert">轉換</string>
-    <string name="pref_flashlight_toggle_with_volume_summary">當 Trail Sense 開啟時</string>
+    <string name="pref_flashlight_toggle_with_volume_summary">當 Afet Kiti 開啟時</string>
     <string name="pack_sort_weight_low_to_high">重量（低至高）</string>
     <string name="unit_inches_abbreviation">英寸</string>
     <string name="volume">體積</string>
@@ -309,7 +309,7 @@
     <string name="pref_include_leading_zero_title">若時間數字不足兩位則補 0</string>
     <string name="coordinate_format_utm">通用橫軸墨卡托投影（UTM）</string>
     <string name="pref_show_temperature_in_notification_title">在通知中顯示溫度</string>
-    <string name="tool_user_guide_summary">Trail Sense 使用方法指南</string>
+    <string name="tool_user_guide_summary">Afet Kiti 使用方法指南</string>
     <string name="delete_beacon_group_message">%s 及其所有信標將會被刪除。</string>
     <string name="delete_map_group_message">%s 及其所有地圖將會被刪除。</string>
     <string name="tool_bubble_level_summary">判斷表面是否平坦</string>
@@ -318,7 +318,7 @@
     <string name="tool_cliff_height_disclaimer">請確保在安全的情況下使用此工具，並且務必檢查懸崖下方的情況以避免受傷。請參閱使用者指南以取得說明。</string>
     <string name="water_boil_timer_channel_description">水在沸騰了</string>
     <string name="water_boil_timer_done_title">水已煮沸</string>
-    <string name="access_background_location_rationale">Trail Sense 會在背景使用位置資料以進行天氣監測中的海平面氣壓校正，並提供更準確的日落警報。[查看隱私權政策](https://kylecorry.com/Trail-Sense/privacy_policy.html)</string>
+    <string name="access_background_location_rationale">Afet Kiti 會在背景使用位置資料以進行天氣監測中的海平面氣壓校正，並提供更準確的日落警報。[查看隱私權政策](https://kylecorry.com/Afet-Kiti/privacy_policy.html)</string>
     <string name="no_gps_signal">沒有 GPS 訊號</string>
     <string name="navigate_to_nearest_cell_signal">導航至最近的手機訊號</string>
     <string name="tool_quick_action_name">工具：%s</string>
@@ -349,13 +349,13 @@
     <string name="magnetic_field_format_precise">%s uT</string>
     <string name="elevation_override_updated_toast">海拔覆寫已更新</string>
     <string name="audio_error_messsage">嘗試播放音訊時發生錯誤。</string>
-    <string name="onboarding_privacy">- Trail Sense 尊重你的隱私，位置資料永遠不會離開你的裝置
+    <string name="onboarding_privacy">- Afet Kiti 尊重你的隱私，位置資料永遠不會離開你的裝置
 \n
-\n- Trail Sense 永遠不會要求網路權限
+\n- Afet Kiti 永遠不會要求網路權限
 \n
-\n- 查看[隱私權政策](https://kylecorry.com/Trail-Sense/privacy_policy.html)（在手機瀏覽器中開啟）
+\n- 查看[隱私權政策](https://kylecorry.com/Afet-Kiti/privacy_policy.html)（在手機瀏覽器中開啟）
 \n
-\n- Trail Sense 的某些功能需要存取你的位置
+\n- Afet Kiti 的某些功能需要存取你的位置
 \n
 \n- 授予位置權限會啟用以下功能：
 \n
@@ -367,9 +367,9 @@
 \n
 \n\t- 你目前位置的太陽和月亮時間（日落警報可能需要背景位置）
 \n
-\n- 如果你選擇不授予位置權限，你可以在 Trail Sense 的「設定」&gt;「感測器」&gt;「GPS 校正」選單中手動輸入位置。
+\n- 如果你選擇不授予位置權限，你可以在 Afet Kiti 的「設定」&gt;「感測器」&gt;「GPS 校正」選單中手動輸入位置。
 \n
-\n- 點選繼續後，系統會提示你授予位置權限。拒絕此權限將阻止 Trail Sense 存取你的位置，因此建議手動輸入位置。</string>
+\n- 點選繼續後，系統會提示你授予位置權限。拒絕此權限將阻止 Afet Kiti 存取你的位置，因此建議手動輸入位置。</string>
     <string name="backup_disclaimer">將會建立一個包含所有目前資料的備份檔案。它會包括設定、路線、信標、地圖等。
 \n
 \n此文件未加密。不要與你不信任的任何人分享。</string>
@@ -443,7 +443,7 @@
     <string name="notifications_blocked">通知已封鎖</string>
     <string name="sighting_compass">瞄準指南針</string>
     <string name="elevation_override_resolution">在設定中啟用自動校正。</string>
-    <string name="unblock_notification_channel">取消封鎖 Trail Sense 的 %s 通知</string>
+    <string name="unblock_notification_channel">取消封鎖 Afet Kiti 的 %s 通知</string>
     <string name="power_saving_mode_resolution">停用省電模式</string>
     <string name="solar_eclipse">日食</string>
     <string name="saving">正在儲存</string>
@@ -580,7 +580,7 @@
     <string name="gallon_format">%s 加侖</string>
     <string name="kilograms">公斤</string>
     <string name="weight_per_item">每件重量</string>
-    <string name="battery_restricted_resolution">將 Trail Sense 設定為未優化</string>
+    <string name="battery_restricted_resolution">將 Afet Kiti 設定為未優化</string>
     <string name="total">全食</string>
     <string name="lunar_eclipses">月食</string>
     <string name="astronomy_alerts">天文警報</string>
@@ -768,7 +768,7 @@
 \n
 \n- 將此值設為 1。
 \n
-\n- 測量 1 單位的物理尺子值對應的 Trail Sense 尺子值。
+\n- 測量 1 單位的物理尺子值對應的 Afet Kiti 尺子值。
 \n
 \n- 在此報告測量值。</string>
     <string name="pref_adjust_for_temperature_title">納入溫度作計算</string>
@@ -918,7 +918,7 @@
     <string name="map_calibration">地圖校正</string>
     <string name="accelerometer">加速度計</string>
     <string name="compass_source_mag_gyro">磁強計 + 陀螺儀</string>
-    <string name="compass_source_legacy_ts">舊版（Trail Sense）</string>
+    <string name="compass_source_legacy_ts">舊版（Afet Kiti）</string>
     <string name="data_source">來源：%s</string>
     <string name="yes">是</string>
     <string name="season">季節</string>
@@ -936,9 +936,9 @@
     <string name="view_in_3d">以 3D 方式檢視</string>
     <string name="locate">定位</string>
     <string name="tool_turn_back">折返</string>
-    <string name="allow_ignore_battery_restrictions_instructions">移除 Trail Sense 的電池限制可能會提高準確性。
+    <string name="allow_ignore_battery_restrictions_instructions">移除 Afet Kiti 的電池限制可能會提高準確性。
 \n
-\n在大多數裝置上，按一下「%s」，然後切換到所有應用程式，並關閉 Trail Sense 的電池優化。
+\n在大多數裝置上，按一下「%s」，然後切換到所有應用程式，並關閉 Afet Kiti 的電池優化。
 \n
 \n請瀏覽[不要終止我的應用程式（英文）](https://dontkillmyapp.com/) 以取得特定裝置的說明。</string>
     <string name="weather_clear">天晴</string>
@@ -959,7 +959,7 @@
     <string name="path_slope_moderate">中等</string>
     <string name="cirrocumulus_desc">高空雲層由小點組成波浪狀，看起來幾乎是扁平的。</string>
     <string name="nimbostratus_desc">深灰色的中層雲覆蓋了天空。如果不下雨，可能是層雲。</string>
-    <string name="onboarding_user_guide">透過使用者指南瞭解如何使用 Trail Sense 的各項功能。使用者指南位於「工具」分頁。</string>
+    <string name="onboarding_user_guide">透過使用者指南瞭解如何使用 Afet Kiti 的各項功能。使用者指南位於「工具」分頁。</string>
     <string name="autofill">自動填寫</string>
     <string name="point">點</string>
     <string name="tide_instructions">使用官方潮汐表輸入你行程期間的參考潮汐。</string>
@@ -989,7 +989,7 @@
     <string name="background">背景</string>
     <string name="local_talk">本地交談</string>
     <string name="local_messaging">本地訊息傳送</string>
-    <string name="pref_tiles_enabled_summary">可能會阻止省電應用程式完全停止 Trail Sense</string>
+    <string name="pref_tiles_enabled_summary">可能會阻止省電應用程式完全停止 Afet Kiti</string>
     <string name="no_packing_lists">沒有打包列表</string>
     <string name="point_style">點樣式</string>
     <string name="pref_tiles_enabled_battery_log_summary">每小時記錄電池電量百分比以估計耗盡的時間</string>
@@ -1576,7 +1576,7 @@
     <string name="plugin_disconnect_message">斷開連接 %s？</string>
     <string name="delete_offline_map_group_message">%s 及其所有地圖將被刪除。</string>
     <string name="map_calibration_error_implausible_scale">校準比例看起來不太合理。請檢查地圖點和座標。</string>
-    <string name="photo_map_disclaimer">總是攜帶一份紙質地圖作為備用，並驗證 Trail Sense 的準確性。\n\nTrail Sense 不包含地圖檔案，必須下載或透過照片校準。你可以在 https://kylecorry.com/Trail-Sense/offline_maps.html 下載地圖。</string>
+    <string name="photo_map_disclaimer">總是攜帶一份紙質地圖作為備用，並驗證 Afet Kiti 的準確性。\n\nAfet Kiti 不包含地圖檔案，必須下載或透過照片校準。你可以在 https://kylecorry.com/Afet-Kiti/offline_maps.html 下載地圖。</string>
     <string name="map_layer_elevation_description">根據數位海拔模型而為海拔著色</string>
     <string name="map_layer_ruggedness_description">根據海拔變化而為地形崎嶇度著色</string>
     <string name="map_layer_hillshade_description">地形陰影以視覺化海拔變化</string>

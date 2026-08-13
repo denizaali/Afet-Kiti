@@ -1,6 +1,6 @@
 # No Internet Permission
 
-Trail Sense will not declare the Internet permission in its manifest. This is an offline only application, and features need to be developed with that assumption. Many users are unable to access the Internet while on remote hikes.
+Afet Kiti will not declare the Internet permission in its manifest. This is an offline only application, and features need to be developed with that assumption. Many users are unable to access the Internet while on remote hikes.
 
 ## Status
 

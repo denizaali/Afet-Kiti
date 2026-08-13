@@ -25,7 +25,7 @@ docker run --rm \
   --network sonarnet \
   -v "$(pwd)/../app/src/main/java:/usr/src" \
   sonarsource/sonar-scanner-cli \
-  -Dsonar.projectKey=trail-sense \
+  -Dsonar.projectKey=afet-kiti \
   -Dsonar.sources=/usr/src \
   -Dsonar.host.url=http://sonarqube:9000 \
   -Dsonar.login=admin \
@@ -53,7 +53,7 @@ REPORT_FILE="$(pwd)/../sonarqube-report.json"
 ALL_ISSUES="[]"
 
 while true; do
-    RESPONSE=$(curl -s -u admin:admin "http://localhost:9000/api/issues/search?componentKeys=trail-sense&ps=$PAGE_SIZE&p=$PAGE")
+    RESPONSE=$(curl -s -u admin:admin "http://localhost:9000/api/issues/search?componentKeys=afet-kiti&ps=$PAGE_SIZE&p=$PAGE")
     ISSUES=$(echo "$RESPONSE" | jq '.issues')
     COUNT=$(echo "$ISSUES" | jq 'length')
 
@@ -83,7 +83,7 @@ echo "$ALL_ISSUES" | jq '
 echo "Exported report to sonarqube-report.json"
 
 echo ""
-echo "Code analysis complete, it is available at http://localhost:9000/dashboard?id=trail-sense  (username: admin, password: admin)"
+echo "Code analysis complete, it is available at http://localhost:9000/dashboard?id=afet-kiti  (username: admin, password: admin)"
 echo ""
 
 if [ "$AUTOSTOP" = true ]; then

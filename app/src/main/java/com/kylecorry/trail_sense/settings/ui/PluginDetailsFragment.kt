@@ -21,12 +21,12 @@ import com.kylecorry.trail_sense.R
 import com.kylecorry.trail_sense.plugins.PluginSubsystem
 import com.kylecorry.trail_sense.plugins.domain.Plugin
 import com.kylecorry.trail_sense.plugins.domain.PluginResourceServiceDetails
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.map_layers.preferences.repo.MapLayerDefinition
 import com.kylecorry.trail_sense.shared.map_layers.preferences.repo.MapLayerType
 import kotlinx.coroutines.launch
 
-class PluginDetailsFragment : TrailSenseReactiveFragment(R.layout.fragment_plugin_details) {
+class PluginDetailsFragment : AfetKitiReactiveFragment(R.layout.fragment_plugin_details) {
 
     override fun update() {
         val titleView = useView<Toolbar>(R.id.title)

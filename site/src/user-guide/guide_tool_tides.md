@@ -5,7 +5,7 @@ title: "Tides"
 The Tides tool helps you keep track of tides at a specific location.
 
 ## Create a tide table
-Before venturing into coastal areas, consult an official tide table for accurate times and water heights. Once you have this information, follow these steps to import it into Trail Sense's Tide tool:
+Before venturing into coastal areas, consult an official tide table for accurate times and water heights. Once you have this information, follow these steps to import it into Afet Kiti's Tide tool:
 
 1. Tap the tides button in the top-right corner of the screen.
 2. Tap the '+' button in the bottom-right corner.
@@ -20,7 +20,7 @@ Before venturing into coastal areas, consult an official tide table for accurate
 11. The tide estimation method can be changed by tapping the 'Estimation method' dropdown. Lunitidal interval uses the moon's position to estimate tides, and may be more accurate in some locations.
 12. Save the tide table by tapping the checkmark in the top-right corner.
 
-For the best accuracy, input all tides for each relevant day. Trail Sense will distinguish between entered and estimated tides on the tide chart.
+For the best accuracy, input all tides for each relevant day. Afet Kiti will distinguish between entered and estimated tides on the tide chart.
 
 ### Estimation methods
 
@@ -117,5 +117,5 @@ The following widgets can be placed on your device's homescreen or viewed in-app
 - **Tide chart**: The chart of water level of the nearest tide.
 
 ## Disclaimer
-Tide predictions are estimates and should not be relied upon exclusively. Whenever possible, use an official tide table and input the data into Trail Sense for accuracy.
+Tide predictions are estimates and should not be relied upon exclusively. Whenever possible, use an official tide table and input the data into Afet Kiti for accuracy.
 

@@ -31,7 +31,7 @@ import com.kylecorry.trail_sense.shared.DistanceUtils.toRelativeDistance
 import com.kylecorry.trail_sense.shared.FormatService
 import com.kylecorry.trail_sense.shared.UserPreferences
 import com.kylecorry.trail_sense.shared.dem.DEM
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.useCoordinatePreference
 import com.kylecorry.trail_sense.shared.extensions.useDestroyEffect
 import com.kylecorry.trail_sense.shared.extensions.useFloatPreference
@@ -58,7 +58,7 @@ import com.kylecorry.trail_sense.tools.paths.infrastructure.commands.CreatePathC
 import com.kylecorry.trail_sense.tools.paths.infrastructure.persistence.PathService
 import java.time.Instant
 
-class MapFragment : TrailSenseReactiveFragment(R.layout.fragment_tool_map) {
+class MapFragment : AfetKitiReactiveFragment(R.layout.fragment_tool_map) {
     override fun update() {
         val mapView = useView<MapView>(R.id.map)
         val lockButton = useView<MaterialButton>(R.id.lock_btn)

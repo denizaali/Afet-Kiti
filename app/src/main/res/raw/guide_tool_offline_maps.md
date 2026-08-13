@@ -1,9 +1,9 @@
 The Offline Maps tool can be used to import and manage maps for use without an Internet connection. This tool supports using images, PDFs, and Mapsforge (.map) files.
 
 ## Finding maps
-Map files are not included with Trail Sense and must be created or imported. Here are some common sources of trail maps:
+Map files are not included with Afet Kiti and must be created or imported. Here are some common sources of trail maps:
 
-- This site contains a list of Mapsforge and Geospatial PDFs download servers: https://kylecorry.com/Trail-Sense/offline_maps.html
+- This site contains a list of Mapsforge and Geospatial PDFs download servers: https://kylecorry.com/Afet-Kiti/offline_maps.html
 - Check for a physical map near the trailhead or at an information center.
 - Check the website for the trail for an image or PDF.
 
@@ -18,16 +18,16 @@ To import or create a map:
     - **Group**: Create a group for organizing maps.
 3. Enter a name for the map and tap 'OK'.
 
-Once a map is imported, the original file can be deleted if you want to save space. If you turn off Settings > Offline Maps > 'Copy maps to Trail Sense', trail maps will use the original file instead of a copy, so the file must be kept on your device. These maps show an 'External' tag in the map list, and you can copy one into Trail Sense later using the map's menu and selecting 'Copy to Trail Sense'.
+Once a map is imported, the original file can be deleted if you want to save space. If you turn off Settings > Offline Maps > 'Copy maps to Afet Kiti', trail maps will use the original file instead of a copy, so the file must be kept on your device. These maps show an 'External' tag in the map list, and you can copy one into Afet Kiti later using the map's menu and selecting 'Copy to Afet Kiti'.
 
-If a map is imported from an image or non-geospatial PDF, Trail Sense will open the calibration screen.
+If a map is imported from an image or non-geospatial PDF, Afet Kiti will open the calibration screen.
 
-Trail Sense supports Mapsforge maps v3, v4, and v5.
+Afet Kiti supports Mapsforge maps v3, v4, and v5.
 
 ## Calibrating photo maps
 To calibrate a photo map:
 
-1. Crop the photo to match the map's boundaries. Trail Sense will try to automatically detect the map in the image, but you can drag the crop box's corners to the map edges if needed. You can tap 'Reset' to start the crop over and 'Preview' to visualize the cropped map. Changes to the crop cannot be made after tapping 'Next'.
+1. Crop the photo to match the map's boundaries. Afet Kiti will try to automatically detect the map in the image, but you can drag the crop box's corners to the map edges if needed. You can tap 'Reset' to start the crop over and 'Preview' to visualize the cropped map. Changes to the crop cannot be made after tapping 'Next'.
 2. Calibrate the map using two known locations:
     - Input the real-world location in the provided field, such as a trail sign, trailhead, or point of interest.
     - Tap on the map to select where the location is.
@@ -39,7 +39,7 @@ To calibrate a photo map:
     - At any point, you can save an incomplete calibration by tapping 'Next' + 'Save draft'.
 3. Save the completed calibration by tapping 'Finish calibration'.
 
-If Trail Sense reports that calibration is invalid, make sure the two map points are different, the two real-world coordinates are different, and the distance between the selected map points is roughly proportional to their real-world distance.
+If Afet Kiti reports that calibration is invalid, make sure the two map points are different, the two real-world coordinates are different, and the distance between the selected map points is roughly proportional to their real-world distance.
 
 ### Calibrating while hiking
 - Point 1: Choose the trail sign where you photographed the map or the trailhead.
@@ -48,17 +48,17 @@ If Trail Sense reports that calibration is invalid, make sure the two map points
 ### Calibrating from the map grid
 If your map features gridlines:
 
-1. Find the UTM zone number, which is a one or two-digit number followed by a letter (ex. "16T"). If it's not present on the map, estimate it by entering your approximate latitude and longitude in Trail Sense's Convert tool. For example, you can enter 10 for latitude and 45 for longitude.
+1. Find the UTM zone number, which is a one or two-digit number followed by a letter (ex. "16T"). If it's not present on the map, estimate it by entering your approximate latitude and longitude in Afet Kiti's Convert tool. For example, you can enter 10 for latitude and 45 for longitude.
 2. Locate the Easting and Northing values on the map's borders. They are usually marked and can have 3 to 6 or 7 digits. Add three zeros if there are only 3 digits (e.g., 123 becomes 123000). Easting will be on the top or bottom, Northing will be on the left or right.
 3. Look at the grid lines on the map to identify the grid zone where your location is. These lines represent the first digits of your location (e.g., 123000E and 234000N).
-4. For increased precision, divide the grid into 10 equal sections vertically and horizontally. Determine which line your location is closest to within the grid. Use a ruler, like the one in Trail Sense, for accuracy. For example, if your location is two-tenths to the right and one-tenth up from the bottom-right corner of the grid, your new location will be 123200E and 234100N.
-5. In Trail Sense, enter the UTM location and tap the same point on the photo map. For example, enter "16T 123200E 234100N".
+4. For increased precision, divide the grid into 10 equal sections vertically and horizontally. Determine which line your location is closest to within the grid. Use a ruler, like the one in Afet Kiti, for accuracy. For example, if your location is two-tenths to the right and one-tenth up from the bottom-right corner of the grid, your new location will be 123200E and 234100N.
+5. In Afet Kiti, enter the UTM location and tap the same point on the photo map. For example, enter "16T 123200E 234100N".
 6. Repeat for the second calibration point. For the best accuracy, use a point that is far away from the first point.
 
 The intersections of gridlines are the easiest calibration points.
 
 ### Calibrating from an online source
-If you have Internet access, you can look up the coordinates of a map feature (e.g., mountain summit, trailhead). Then in Trail Sense, tap the same location on the map and enter the coordinates.
+If you have Internet access, you can look up the coordinates of a map feature (e.g., mountain summit, trailhead). Then in Afet Kiti, tap the same location on the map and enter the coordinates.
 
 ## Viewing maps
 Tap a map in the list to open it.
@@ -71,7 +71,7 @@ Trail maps open in a preview viewer. You can drag to pan, pinch to zoom, or tap 
 
 By default, photo maps align with North roughly facing up so that the map is square with the screen. You can change this so the map is aligned with North facing up by disabling Settings > Offline Maps > 'Keep map facing up'.
 
-By default, Trail Sense loads more tiles for higher quality when viewing a photo map. You can disable this in Settings > Offline Maps > 'High detail mode' to reduce memory usage at the cost of lower quality.
+By default, Afet Kiti loads more tiles for higher quality when viewing a photo map. You can disable this in Settings > Offline Maps > 'High detail mode' to reduce memory usage at the cost of lower quality.
 
 ## Layers
 Layers are used to display information on the map. For more information on layers, refer to the 'Map Layers' guide.
@@ -163,7 +163,7 @@ When you are finished tracing, tap the lock icon in the bottom-right to turn off
 ## Changing photo map resolution
 To alter the resolution of a photo map, tap the menu button on the map row you want to adjust, then select 'Change resolution'. A dialog will appear, allowing you to switch between low (lowest quality and smallest file size), medium (moderate quality and file size), and high (highest quality and largest file size) resolutions. Keep in mind that changing the resolution is a permanent action and cannot be undone.
 
-By default, Trail Sense will automatically reduce the map resolution on import. To change this, disable Settings > Offline Maps > 'Reduce photo resolution' or 'Reduce PDF resolution'.
+By default, Afet Kiti will automatically reduce the map resolution on import. To change this, disable Settings > Offline Maps > 'Reduce photo resolution' or 'Reduce PDF resolution'.
 
 ## Editing trail map attribution
 Some trail map files include attribution. To edit attribution, tap the menu button on the map row, select 'Attribution', and provide the attribution text. If attribution is populated, it will be shown on the map when the layer is displayed.
@@ -174,7 +174,7 @@ You can enable the Open Photo Map quick action in the settings for the tab where
 To use the quick action, tap the quick action button and the active photo map will be opened and locked to your location. If no photo map is active, the map list will be displayed. Long-press the quick action to open the Offline Maps tool.
 
 ## Video guide
-If you prefer a video guide on using photo maps, here's a video by one of Trail Sense's users: [YouTube: Turn Photos into Navigational Maps with Trail Sense! by DeathfireD](https://www.youtube.com/watch?v=RT4PmBODdzw)
+If you prefer a video guide on using photo maps, here's a video by one of Afet Kiti's users: [YouTube: Turn Photos into Navigational Maps with Afet Kiti! by DeathfireD](https://www.youtube.com/watch?v=RT4PmBODdzw)
 
 ## Accuracy
 Maps are only as accurate and current as the map file you imported or calibrated. Always carry a physical map and compass as a backup, and verify important navigation decisions with your surroundings.

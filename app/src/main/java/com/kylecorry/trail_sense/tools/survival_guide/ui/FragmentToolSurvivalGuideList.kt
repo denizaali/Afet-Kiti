@@ -18,7 +18,7 @@ import com.kylecorry.andromeda.views.list.ListItem
 import com.kylecorry.andromeda.views.list.ListItemTag
 import com.kylecorry.andromeda.views.list.ResourceListIcon
 import com.kylecorry.trail_sense.R
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.useBackPressedCallback
 import com.kylecorry.trail_sense.shared.extensions.useNavController
 import com.kylecorry.trail_sense.shared.extensions.useSearch
@@ -28,7 +28,7 @@ import com.kylecorry.trail_sense.shared.views.SearchView
 import com.kylecorry.trail_sense.tools.survival_guide.infrastructure.SurvivalGuideSearch
 
 class FragmentToolSurvivalGuideList :
-    TrailSenseReactiveFragment(R.layout.fragment_survival_guide_chapters) {
+    AfetKitiReactiveFragment(R.layout.fragment_survival_guide_chapters) {
 
     override fun update() {
         // Views

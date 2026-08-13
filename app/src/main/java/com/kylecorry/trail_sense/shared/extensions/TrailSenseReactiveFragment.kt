@@ -11,7 +11,7 @@ import com.kylecorry.sol.units.Distance
 import com.kylecorry.trail_sense.shared.hooks.HookTriggers
 import java.time.Duration
 
-abstract class TrailSenseReactiveFragment(
+abstract class AfetKitiReactiveFragment(
     @LayoutRes private val layoutId: Int,
     private val forcedInterval: Long? = null
 ) :

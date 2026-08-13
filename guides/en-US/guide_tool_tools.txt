@@ -1,4 +1,4 @@
-Trail Sense is composed of a number of tools that are designed for hiking, backpacking, camping, and geocaching.
+Afet Kiti is composed of a number of tools that are designed for hiking, backpacking, camping, and geocaching.
 
 ## Bottom navigation
 The Navigation, Map, Weather (if available), and Astronomy tools are available in the bottom navigation bar by default. These tools are also available in the tool list.
@@ -8,7 +8,7 @@ You can change which tools (up to 7) appear in the bottom navigation in Settings
 All other tools can be found in the Tools bottom navigation item on the far right.
 
 ## Tool list
-The tool list can be accessed by tapping the Tools item in the bottom navigation bar. This will show a list of all tools available in Trail Sense.
+The tool list can be accessed by tapping the Tools item in the bottom navigation bar. This will show a list of all tools available in Afet Kiti.
 
 Tapping on a tool will open it.
 

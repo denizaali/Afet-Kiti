@@ -18,7 +18,7 @@ You can choose to manually create a path by doing the following:
 4. Tap the '+ Point' button to add a point to the path at your current location. You can add as many points as you want.
 
 ## Importing paths
-If you have tracks or routes saved in a GPX file, you can import them into Trail Sense as paths.
+If you have tracks or routes saved in a GPX file, you can import them into Afet Kiti as paths.
 
 1. Tap the '+' button in the bottom-right corner of the screen.
 2. Tap 'GPX File'.
@@ -112,4 +112,4 @@ The following widgets can be placed on your device's homescreen or viewed in-app
 - **Backtrack**: Display the distance travelled if Backtrack is enabled.
 
 ## Video guide
-If you prefer a video guide on using Backtrack, here's a video by one of Trail Sense's users: [YouTube: Trail Sense: Learning How To Use BackTrack To Track Cell Service On Hikes by DeathfireD](https://www.youtube.com/watch?v=7IC69LgBcRk)
+If you prefer a video guide on using Backtrack, here's a video by one of Afet Kiti's users: [YouTube: Afet Kiti: Learning How To Use BackTrack To Track Cell Service On Hikes by DeathfireD](https://www.youtube.com/watch?v=7IC69LgBcRk)

@@ -72,7 +72,7 @@ class ImportPathsCommand(
     }
 
     private suspend fun getRoutes(gpx: GPXData): List<FullPath> = onDefault {
-        // Groups are a Trail Sense concept, so routes don't have groups
+        // Groups are a Afet Kiti concept, so routes don't have groups
         val paths = mutableListOf<FullPath>()
         for (route in gpx.routes) {
             val path = Path(0, route.name, style, PathMetadata.empty)

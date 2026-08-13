@@ -33,7 +33,7 @@ data class HourlyWeather(
     val snowAmount: Float?
 ) : ProguardIgnore
 
-// TODO: Is this needed or can Trail Sense figure this out from the hourly data?
+// TODO: Is this needed or can Afet Kiti figure this out from the hourly data?
 data class DailyWeather(
     val date: LocalDate,
     val weather: WeatherCondition?,

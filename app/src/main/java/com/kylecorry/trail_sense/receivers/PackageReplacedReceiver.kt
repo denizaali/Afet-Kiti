@@ -10,7 +10,7 @@ class PackageReplacedReceiver : BroadcastReceiver() {
         if (intent?.action == Intent.ACTION_MY_PACKAGE_REPLACED && context != null) {
             Log.d("PackageReplacedReceiver", "Package replaced")
             val pendingResult = goAsync()
-            TrailSenseServiceUtils.restartServices(
+            AfetKitiServiceUtils.restartServices(
                 context,
                 isInBackground = true,
                 onComplete = pendingResult::finish

@@ -1,11 +1,11 @@
 ---
-name: trail-sense-scaffold-quick-action
-description: Scaffold a Trail Sense quick action with class, persisted Tools id, registration, string, and icon resources.
+name: afet-kiti-scaffold-quick-action
+description: Scaffold a Afet Kiti quick action with class, persisted Tools id, registration, string, and icon resources.
 ---
 
-# Trail Sense Scaffold Quick Action
+# Afet Kiti Scaffold Quick Action
 
-Add a quick action following Trail Sense conventions.
+Add a quick action following Afet Kiti conventions.
 
 ## Workflow
 

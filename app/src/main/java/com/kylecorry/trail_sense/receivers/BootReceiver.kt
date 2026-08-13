@@ -10,7 +10,7 @@ class BootReceiver : BroadcastReceiver() {
         if (intent?.action == Intent.ACTION_BOOT_COMPLETED && context != null) {
             Log.d("BootReceiver", "Boot completed")
             val pendingResult = goAsync()
-            TrailSenseServiceUtils.restartServices(
+            AfetKitiServiceUtils.restartServices(
                 context,
                 isInBackground = true,
                 onComplete = pendingResult::finish

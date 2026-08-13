@@ -24,7 +24,7 @@ import com.kylecorry.trail_sense.shared.DistanceUtils
 import com.kylecorry.trail_sense.shared.FormatService
 import com.kylecorry.trail_sense.shared.Units
 import com.kylecorry.trail_sense.shared.UserPreferences
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.useDistancePreference
 import com.kylecorry.trail_sense.shared.extensions.useFloatPreference
 import com.kylecorry.trail_sense.shared.extensions.useSpeedPreference
@@ -36,7 +36,7 @@ import com.kylecorry.trail_sense.tools.ballistics.domain.TrajectoryPoint
 import java.time.Duration
 
 class FragmentBallisticsCalculator :
-    TrailSenseReactiveFragment(R.layout.fragment_tool_ballistics_calculator) {
+    AfetKitiReactiveFragment(R.layout.fragment_tool_ballistics_calculator) {
 
     override fun update() {
         val ballisticsTableView = useView<RecyclerView>(R.id.ballistics_table)

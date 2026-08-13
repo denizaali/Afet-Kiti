@@ -23,7 +23,7 @@ The Beacons tool can be used to save locations and navigate to them later.
 - **Notes**: Any notes you want to record about the beacon.
 
 ### Creating from a QR code
-Beacons can be shared as a QR code by tapping the menu button on the beacon row you want to share, then selecting 'Share...'. You can then share the QR code with Trail Sense to create a beacon from it.
+Beacons can be shared as a QR code by tapping the menu button on the beacon row you want to share, then selecting 'Share...'. You can then share the QR code with Afet Kiti to create a beacon from it.
 
 1. Tap the '+' button in the bottom-right corner of the screen.
 2. Tap 'QR code'.
@@ -31,7 +31,7 @@ Beacons can be shared as a QR code by tapping the menu button on the beacon row 
 4. Follow the steps above to fill out the beacon information. Any information from the QR code will be prefilled.
 
 ### Creating from a GPX file
-If you have locations saved in a GPX file, you can import them into Trail Sense as beacons.
+If you have locations saved in a GPX file, you can import them into Afet Kiti as beacons.
 
 1. Tap the '+' button in the bottom-right corner of the screen.
 2. Tap 'GPX file'.

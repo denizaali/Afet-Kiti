@@ -1,12 +1,12 @@
 # Map layer plugins
 
-Map plugins allow Trail Sense to display additional map layers to users.
+Map plugins allow Afet Kiti to display additional map layers to users.
 
-Trail Sense will invoke your plugin when it determines it is necessary to retrieve more data. Plugins are expected to handle their own caching to avoid spamming downstream services.
+Afet Kiti will invoke your plugin when it determines it is necessary to retrieve more data. Plugins are expected to handle their own caching to avoid spamming downstream services.
 
-Register map layers in the plugin `/registration` response. See the [plugin registration documentation](registration.md) for the full schema and [Trail Sense Sample Plugin](https://github.com/kylecorry31/Trail-Sense-Sample-Plugin) for an example.
+Register map layers in the plugin `/registration` response. See the [plugin registration documentation](registration.md) for the full schema and [Afet Kiti Sample Plugin](https://github.com/kylecorry31/Afet-Kiti-Sample-Plugin) for an example.
 
-Map layer plugins are required to be granted the `android.permission.ACCESS_FINE_LOCATION` permission and be connected within Trail Sense. If those conditions are not met, the plugin will not be invoked.
+Map layer plugins are required to be granted the `android.permission.ACCESS_FINE_LOCATION` permission and be connected within Afet Kiti. If those conditions are not met, the plugin will not be invoked.
 
 Preferences are not currently supported for plugins. If you have user preferences, all users to change them within your plugin's activity.
 
@@ -16,15 +16,15 @@ GeoJSON layers allow for the display of vector geometry (points, lines, and poly
 
 ## Request contract
 
-Trail Sense will request a region to be loaded. There will be a way to specify that your source does not vary meaning Trail Sense will only call it once (ex. plugin returns GeoJSON for the whole world). Trail Sense snaps the region to tiles, but will request the entire region when it changes, not just the changed area; you may need to cache.
+Afet Kiti will request a region to be loaded. There will be a way to specify that your source does not vary meaning Afet Kiti will only call it once (ex. plugin returns GeoJSON for the whole world). Afet Kiti snaps the region to tiles, but will request the entire region when it changes, not just the changed area; you may need to cache.
 
-Trail Sense calls the layer's registered `endpoint` and sends a JSON payload matching this schema:
+Afet Kiti calls the layer's registered `endpoint` and sends a JSON payload matching this schema:
 
 ```json
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "title": "Trail Sense Plugin GeoJSON Layer Request",
+  "title": "Afet Kiti Plugin GeoJSON Layer Request",
   "required": ["north", "south", "east", "west", "zoom", "time"],
   "properties": {
     "north": {
@@ -58,13 +58,13 @@ Trail Sense calls the layer's registered `endpoint` and sends a JSON payload mat
 
 ## Response contract
 
-The body of the plugin response must be valid GeoJSON (https://geojson.org/). All geometry types are supported but GeometryCollection is not recommended since the feature properties vary by geometry type. Multi* geometry values are flattened into their base geometry type by Trail Sense, so use the property type of the base (ex. MultPoint -> Point).
+The body of the plugin response must be valid GeoJSON (https://geojson.org/). All geometry types are supported but GeometryCollection is not recommended since the feature properties vary by geometry type. Multi* geometry values are flattened into their base geometry type by Afet Kiti, so use the property type of the base (ex. MultPoint -> Point).
 
 GeoJSON response payloads must be no larger than 1 MiB and must parse within 2 seconds. The parsed response must contain no more than 1000 features, 10000 coordinates, and geometry collections may nest no deeper than 8 levels. Responses that exceed these limits are ignored. Feature names longer than 200 characters will be truncated.
 
 The following JSON schemas outline what you can provide for the `properties` value for each geometry type.  Other properties in the future may include `description` and `coordinateProperties` (properties of coordinates in a LineString/Polygon).
 
-If your feature is clickable and contains a `name` property, Trail Sense may display it to the user when they select the feature. Users may also be able to show the `name` on the map depending on their settings.
+If your feature is clickable and contains a `name` property, Afet Kiti may display it to the user when they select the feature. Users may also be able to show the `name` on the map depending on their settings.
 
 Return a null payload if there is no data for the region or an empty FeatureCollection.
 
@@ -76,7 +76,7 @@ Used for Point geometries with marker support:
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "title": "Trail Sense Point Feature Properties",
+  "title": "Afet Kiti Point Feature Properties",
   "properties": {
     "name": {
       "type": ["string", "null"],
@@ -115,7 +115,7 @@ Used for Point geometries with marker support:
     "icon": {
       "type": ["integer", "null"],
       "default": null,
-      "description": "The ID of the icon to use. A full list of icons can be found [here](https://github.com/kylecorry31/Trail-Sense/blob/main/app/src/main/java/com/kylecorry/trail_sense/tools/beacons/domain/BeaconIcon.kt). This may be transitioned over to strings before the official plugin support is released."
+      "description": "The ID of the icon to use. A full list of icons can be found [here](https://github.com/kylecorry31/Afet-Kiti/blob/main/app/src/main/java/com/kylecorry/trail_sense/tools/beacons/domain/BeaconIcon.kt). This may be transitioned over to strings before the official plugin support is released."
     },
     "iconSize": {
       "type": "number",
@@ -157,7 +157,7 @@ Used for LineString geometries:
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "title": "Trail Sense LineString Feature Properties",
+  "title": "Afet Kiti LineString Feature Properties",
   "properties": {
     "name": {
       "type": ["string", "null"],
@@ -207,7 +207,7 @@ Used for Polygon geometries:
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "title": "Trail Sense Polygon Feature Properties",
+  "title": "Afet Kiti Polygon Feature Properties",
   "properties": {
     "name": {
       "type": ["string", "null"],
@@ -254,15 +254,15 @@ Tile layers allow for the display of images.
 
 ## Request contract
 
-Trail Sense will request the tile to load (x, y, z). Tile layers must have the `layerType` set to `tile`.
+Afet Kiti will request the tile to load (x, y, z). Tile layers must have the `layerType` set to `tile`.
 
-Trail Sense calls the layer's registered `endpoint` and sends a JSON payload matching this schema:
+Afet Kiti calls the layer's registered `endpoint` and sends a JSON payload matching this schema:
 
 ```json
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "title": "Trail Sense Plugin Tile Layer Request",
+  "title": "Afet Kiti Plugin Tile Layer Request",
   "required": ["x", "y", "z", "time"],
   "properties": {
     "x": {
@@ -288,4 +288,4 @@ Trail Sense calls the layer's registered `endpoint` and sends a JSON payload mat
 
 ## Response contract
 
-The response payload must be a `BitmapFactory` decodable `ByteArray` no larger than 1 MiB. The decoded image must be no larger than 256x256 pixels. Tiles that aren't 256x256 will be rescaled by Trail Sense. Return a null payload when no tile is available.
+The response payload must be a `BitmapFactory` decodable `ByteArray` no larger than 1 MiB. The decoded image must be no larger than 256x256 pixels. Tiles that aren't 256x256 will be rescaled by Afet Kiti. Return a null payload when no tile is available.

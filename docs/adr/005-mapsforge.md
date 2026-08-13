@@ -1,10 +1,10 @@
 # Mapsforge
 
-Trail Sense will support Mapsforge maps as the vector map format. This decision was made because the library is very small (under half a Megabyte), stable, customizable, and the maps are readily available to download.
+Afet Kiti will support Mapsforge maps as the vector map format. This decision was made because the library is very small (under half a Megabyte), stable, customizable, and the maps are readily available to download.
 
-A fork of the Mapsforge library will be used so that fixes or changes that optimize it for Trail Sense can be made. If the change is generic enough, I will attempt to contribute it upstream. This fork will only support Trail Sense.
+A fork of the Mapsforge library will be used so that fixes or changes that optimize it for Afet Kiti can be made. If the change is generic enough, I will attempt to contribute it upstream. This fork will only support Afet Kiti.
 
-No other vector map formats will have native support in Trail Sense, and users must use plugins to use different map types.
+No other vector map formats will have native support in Afet Kiti, and users must use plugins to use different map types.
 
 ## Status
 

@@ -1,11 +1,11 @@
 ---
-name: trail-sense-database-persistence
-description: Add Trail Sense Room persistence for a model, including entity mapping, DAO, repository, AppDatabase migration, and tool registration.
+name: afet-kiti-database-persistence
+description: Add Afet Kiti Room persistence for a model, including entity mapping, DAO, repository, AppDatabase migration, and tool registration.
 ---
 
-# Trail-Sense Database Persistence
+# Afet-Kiti Database Persistence
 
-Add Room database persistence for a domain model following Trail-Sense patterns.
+Add Room database persistence for a domain model following Afet-Kiti patterns.
 
 ## File Locations
 

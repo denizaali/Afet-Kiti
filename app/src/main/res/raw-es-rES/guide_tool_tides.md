@@ -1,7 +1,7 @@
 La herramienta Mareas te ayuda a seguir las mareas en una ubicación específica.
 
 ## Crear una tabla de mareas
-Antes de aventurarte en zonas costeras, consulta una tabla de mareas oficial para obtener horas y alturas de agua precisas. Una vez que tengas esta información, sigue estos pasos para importarla en la herramienta Mareas de Trail Sense:
+Antes de aventurarte en zonas costeras, consulta una tabla de mareas oficial para obtener horas y alturas de agua precisas. Una vez que tengas esta información, sigue estos pasos para importarla en la herramienta Mareas de Afet Kiti:
 
 1. Pulsa el botón de mareas en la esquina superior derecha de la pantalla.
 2. Pulsa el botón '+' en la esquina inferior derecha.
@@ -16,7 +16,7 @@ Antes de aventurarte en zonas costeras, consulta una tabla de mareas oficial par
 11. El método de estimación de la marea puede cambiarse pulsando el desplegable 'Marea Estimada'. El intervalo lunitidal usa la posición de la luna para estimar mareas y puede ser más preciso en algunas ubicaciones.
 12. Guarda la tabla de mareas pulsando la marca de verificación en la esquina superior derecha.
 
-Para mayor precisión, introduce todas las mareas de cada día relevante. Trail Sense distinguirá entre mareas introducidas y estimadas en el gráfico de mareas.
+Para mayor precisión, introduce todas las mareas de cada día relevante. Afet Kiti distinguirá entre mareas introducidas y estimadas en el gráfico de mareas.
 
 ### Métodos de estimación
 
@@ -103,4 +103,4 @@ Los siguientes widgets pueden colocarse en la pantalla de inicio de tu dispositi
 - **Gráfico de mareas:** El gráfico del nivel del agua de la marea más cercana.
 
 ## Disclaimer
-Las predicciones de mareas son estimaciones y no deberían usarse como única referencia. Cuando sea posible, usa una tabla de mareas oficial e introduce los datos en Trail Sense para mayor precisión.
+Las predicciones de mareas son estimaciones y no deberían usarse como única referencia. Cuando sea posible, usa una tabla de mareas oficial e introduce los datos en Afet Kiti para mayor precisión.

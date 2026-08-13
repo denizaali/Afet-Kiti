@@ -10,7 +10,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-object TrailSenseServiceUtils {
+object AfetKitiServiceUtils {
 
     private val coroutineScope = CoroutineScope(Dispatchers.Default)
 

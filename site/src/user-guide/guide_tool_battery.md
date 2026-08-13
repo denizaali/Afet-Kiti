@@ -11,7 +11,7 @@ The Battery tool will provide an estimate (based on the last day's history) of h
 The battery indicator shows the current battery percentage and, if supported, the remaining capacity (in mAh). Below that, you can see how fast your device is currently charging or discharging. Additionally, if your battery health is poor, you will see a warning.
 
 ## Battery history
-You can view the history of battery percentage by tapping the chart icon in the top-right corner. This displays the last day's history, as recorded by Trail Sense.
+You can view the history of battery percentage by tapping the chart icon in the top-right corner. This displays the last day's history, as recorded by Afet Kiti.
 
 The history is updated about every hour, you can disable this in 'Settings > Battery > Battery log'. If this is disabled, you will no longer see battery history and may not see time until full or empty.
 
@@ -19,7 +19,7 @@ The history is updated about every hour, you can disable this in 'Settings > Bat
 To access system battery settings and usage, tap the settings icon in the top-right corner.
 
 ## Power saving mode
-By turning on 'Power saving mode', you can reduce the power consumption of Trail Sense by stopping some services, such as Backtrack and Weather, as well as using the black theme. You can activate this by using the 'Power saving mode' switch on the battery tool.
+By turning on 'Power saving mode', you can reduce the power consumption of Afet Kiti by stopping some services, such as Backtrack and Weather, as well as using the black theme. You can activate this by using the 'Power saving mode' switch on the battery tool.
 
 You can configure power saving mode to activate automatically when your battery is low by enabling 'Settings > Battery > Automatic power saving'.
 
@@ -27,7 +27,7 @@ You can configure power saving mode to activate automatically when your battery 
 Running services are listed below the battery statistics. You can see how often they are running and how much impact they have on battery life. You can stop a service by tapping the 'X' button next to it.
 
 ## System settings
-A list of system settings which impact battery life is shown below the Trail Sense services. It will show a red or yellow alert icon if you can adjust it to change a setting. The gray unknown icon indicates that Trail Sense can't check that setting, so you should double-check to ensure it is set properly. Tapping on one of the settings will open the system setting page so you can adjust as needed.
+A list of system settings which impact battery life is shown below the Afet Kiti services. It will show a red or yellow alert icon if you can adjust it to change a setting. The gray unknown icon indicates that Afet Kiti can't check that setting, so you should double-check to ensure it is set properly. Tapping on one of the settings will open the system setting page so you can adjust as needed.
 
 ## Quick action
 You can enable the Power Saving Mode quick action in the settings for the tab you want it on.

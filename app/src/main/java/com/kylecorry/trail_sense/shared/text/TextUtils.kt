@@ -25,7 +25,7 @@ import com.kylecorry.trail_sense.shared.text.nlp.processors.SequentialProcessor
 import com.kylecorry.trail_sense.shared.text.nlp.tokenizers.PostProcessedTokenizer
 import com.kylecorry.trail_sense.shared.text.nlp.tokenizers.SimpleWordTokenizer
 import com.kylecorry.trail_sense.shared.text.search.TextMatchStrategy
-import com.kylecorry.trail_sense.shared.views.TrailSenseTextView
+import com.kylecorry.trail_sense.shared.views.AfetKitiTextView
 import com.kylecorry.trail_sense.shared.views.Views
 
 object TextUtils {
@@ -298,7 +298,7 @@ object TextUtils {
     }
 
     private fun defaultTextView(context: Context): TextView {
-        return TrailSenseTextView(context).also {
+        return AfetKitiTextView(context).also {
             it.layoutParams = ViewGroup.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT

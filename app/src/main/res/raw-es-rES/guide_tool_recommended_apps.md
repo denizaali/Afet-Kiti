@@ -1,4 +1,4 @@
-Las siguientes aplicaciones han sido recomendadas por los usuarios de Trail Sense como herramientas útiles para llevar en el teléfono. Estas aplicaciones no están afiliadas a Trail Sense.
+Las siguientes aplicaciones han sido recomendadas por los usuarios de Afet Kiti como herramientas útiles para llevar en el teléfono. Estas aplicaciones no están afiliadas a Afet Kiti.
 
 ## Offline survival manual
 
@@ -8,13 +8,13 @@ Una aplicación guía de supervivencia. Esta app te enseñará cómo usar los re
 
 ## Organic maps
 
-Aplicación de mapas offline. Antes de salir de excursión, descarga los mapas que necesitas. Desde Trail Sense, también puedes abrir una baliza con esta app seleccionando la opción "Mapas" en la pantalla de selección de baliza.
+Aplicación de mapas offline. Antes de salir de excursión, descarga los mapas que necesitas. Desde Afet Kiti, también puedes abrir una baliza con esta app seleccionando la opción "Mapas" en la pantalla de selección de baliza.
 
 [Download](market://details?id=app.organicmaps)
 
 ## OsmAnd~
 
-Aplicación de mapas offline. Antes de salir de excursión, descarga los mapas que necesitas. Desde Trail Sense, también puedes abrir una baliza con esta app seleccionando la opción "Mapas" en la pantalla de selección de baliza. Esta app es gratuita a través de F-Droid.
+Aplicación de mapas offline. Antes de salir de excursión, descarga los mapas que necesitas. Desde Afet Kiti, también puedes abrir una baliza con esta app seleccionando la opción "Mapas" en la pantalla de selección de baliza. Esta app es gratuita a través de F-Droid.
 
 [Download](market://details?id=net.osmand.plus)
 

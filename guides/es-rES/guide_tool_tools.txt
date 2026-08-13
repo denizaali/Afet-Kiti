@@ -1,4 +1,4 @@
-Trail Sense está compuesto por varias herramientas diseñadas para senderismo, acampada y geocaching.
+Afet Kiti está compuesto por varias herramientas diseñadas para senderismo, acampada y geocaching.
 
 ## Barra de navegación inferior
 Las herramientas Navegar, Mapa, Meteorología (si está disponible) y Astronomía están disponibles en la barra de navegación inferior por defecto. Estas herramientas también están disponibles en la lista de herramientas.
@@ -8,7 +8,7 @@ Puedes cambiar qué herramientas (hasta 7) aparecen en la barra de navegación i
 Todas las demás herramientas se encuentran en el espacio de herramientas de la barra de navegación inferior, en la parte derecha.
 
 ## Lista de herramientas
-Se puede acceder a la lista de herramientas pulsando el espacio de herramientas en la barra de navegación inferior. Esto mostrará una lista de todas las herramientas disponibles en Trail Sense.
+Se puede acceder a la lista de herramientas pulsando el espacio de herramientas en la barra de navegación inferior. Esto mostrará una lista de todas las herramientas disponibles en Afet Kiti.
 
 Pulsar una herramienta la abrirá.
 

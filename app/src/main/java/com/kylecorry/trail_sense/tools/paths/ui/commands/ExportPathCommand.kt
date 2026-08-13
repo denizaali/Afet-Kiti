@@ -70,7 +70,7 @@ class ExportPathCommand(
 
             // Export to a GPX file
             val gpx = PathGPXConverter().toGPX(pathsToExport)
-            val exportFile = "trail-sense-${Instant.now().epochSecond}.gpx"
+            val exportFile = "afet-kiti-${Instant.now().epochSecond}.gpx"
             val success = gpxService.export(gpx, exportFile)
 
             // Notify the user

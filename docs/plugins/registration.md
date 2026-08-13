@@ -2,19 +2,19 @@
 
 NOTE: Plugins are only available when enabled in Settings > Experimental and are not production ready.
 
-Trail Sense discovers plugin resource services through the Android service action `com.kylecorry.trail_sense.PLUGIN_SERVICE`.
+Afet Kiti discovers plugin resource services through the Android service action `com.kylecorry.trail_sense.PLUGIN_SERVICE`.
 
-When a user connects a plugin, Trail Sense requests the plugin's registration payload from the `/registration` endpoint. The response is cached by plugin package version code, so changes to the registration payload require a plugin version code update before Trail Sense will request it again.
+When a user connects a plugin, Afet Kiti requests the plugin's registration payload from the `/registration` endpoint. The response is cached by plugin package version code, so changes to the registration payload require a plugin version code update before Afet Kiti will request it again.
 
-See the [sample plugin](https://github.com/kylecorry31/Trail-Sense-Sample-Plugin) for an example. Once you create a plugin, you can open Trail Sense > Settings > Plugins and connect your plugin by clicking on it and selecting OK on the dialog. Once connected, click on your plugin in the list again and you should see some dtails about your plugin. If you exposed features that Trail Sense recognizes, they will show up on this page. You can click the "Reload" if you make changes to your plugin and want them to appear in Trail Sense. Once you are ready to test, you should see the features available in the respective tool (ex. map layers on the Map tool, in the "Additional layers" picker by default).
+See the [sample plugin](https://github.com/kylecorry31/Afet-Kiti-Sample-Plugin) for an example. Once you create a plugin, you can open Afet Kiti > Settings > Plugins and connect your plugin by clicking on it and selecting OK on the dialog. Once connected, click on your plugin in the list again and you should see some dtails about your plugin. If you exposed features that Afet Kiti recognizes, they will show up on this page. You can click the "Reload" if you make changes to your plugin and want them to appear in Afet Kiti. Once you are ready to test, you should see the features available in the respective tool (ex. map layers on the Map tool, in the "Additional layers" picker by default).
 
-The registration payload must be no larger than 64 KiB. Trail Sense ignores registrations that exceed this limit.
+The registration payload must be no larger than 64 KiB. Afet Kiti ignores registrations that exceed this limit.
 
 See [map-layers.md](./map-layers.md) for more details about the map layers feature registration.
 
 ## Request
 
-Trail Sense sends a request to:
+Afet Kiti sends a request to:
 
 ```text
 /registration
@@ -59,7 +59,7 @@ The response payload must be JSON string matching this schema:
           "pattern": "^/[A-Za-z0-9/_-]{1,99}$",
           "minLength": 2,
           "maxLength": 100,
-          "description": "The plugin route Trail Sense calls to load this layer."
+          "description": "The plugin route Afet Kiti calls to load this layer."
         },
         "name": {
           "type": "string",
@@ -145,4 +145,4 @@ The response payload must be JSON string matching this schema:
 
 If you change the endpoint, users will need to re-add the layer to see it on their maps.
 
-Trail Sense skips map layers with invalid endpoints or blank names. Values longer than the documented limits are truncated.
+Afet Kiti skips map layers with invalid endpoints or blank names. Values longer than the documented limits are truncated.

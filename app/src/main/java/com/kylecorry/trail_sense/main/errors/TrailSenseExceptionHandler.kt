@@ -15,7 +15,7 @@ import com.kylecorry.trail_sense.shared.preferences.PreferencesSubsystem
 import com.kylecorry.trail_sense.tools.diagnostics.infrastructure.DiagnosticsLogConfig
 import com.kylecorry.trail_sense.tools.tools.infrastructure.Tools
 
-class TrailSenseExceptionHandler(
+class AfetKitiExceptionHandler(
     private val activity: MainActivity
 ) : BaseExceptionHandler(
     activity.applicationContext,

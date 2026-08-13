@@ -1,21 +1,21 @@
-- [Post a feature idea, bug report, or question](https://github.com/kylecorry31/Trail-Sense/discussions/new/choose)
+- [Post a feature idea, bug report, or question](https://github.com/kylecorry31/Afet-Kiti/discussions/new/choose)
 - Translations can be added on Weblate:
-  - In app strings: https://hosted.weblate.org/projects/trail-sense/trail-sense-android/
-  - Guides: https://hosted.weblate.org/projects/trail-sense/trail-sense-user-guide/
-  - Store metadata: https://hosted.weblate.org/projects/trail-sense/trail-sense-store-metadata/
-- [Test out nightly builds](https://github.com/kylecorry31/Trail-Sense/discussions/1940)
-- [Test out experimental features](https://github.com/kylecorry31/Trail-Sense/discussions/2099)
+  - In app strings: https://hosted.weblate.org/projects/afet-kiti/afet-kiti-android/
+  - Guides: https://hosted.weblate.org/projects/afet-kiti/afet-kiti-user-guide/
+  - Store metadata: https://hosted.weblate.org/projects/afet-kiti/afet-kiti-store-metadata/
+- [Test out nightly builds](https://github.com/kylecorry31/Afet-Kiti/discussions/1940)
+- [Test out experimental features](https://github.com/kylecorry31/Afet-Kiti/discussions/2099)
 - [Supported Use Cases](docs/use-cases.md)
-- [Architectural Decision Record](docs/adr): records key decisions I've made for Trail Sense's code
+- [Architectural Decision Record](docs/adr): records key decisions I've made for Afet Kiti's code
 
 ## Discussions and Issues
-Use [Discussions](https://github.com/kylecorry31/Trail-Sense/discussions/new/choose) for feature ideas, bug reports, and questions. Issues are reserved for maintainers only.
+Use [Discussions](https://github.com/kylecorry31/Afet-Kiti/discussions/new/choose) for feature ideas, bug reports, and questions. Issues are reserved for maintainers only.
 
-Before posting a new discussion, please search existing [issues](https://github.com/kylecorry31/Trail-Sense/issues) and [discussions](https://github.com/kylecorry31/Trail-Sense/discussions) (both open and closed) to see if your topic has already been addressed.
+Before posting a new discussion, please search existing [issues](https://github.com/kylecorry31/Afet-Kiti/issues) and [discussions](https://github.com/kylecorry31/Afet-Kiti/discussions) (both open and closed) to see if your topic has already been addressed.
 
-If you choose to write a new feature yourself, create a new feature discussion post to verify that it is something that I will accept into Trail Sense before your write it. If not, you can always fork this repo and create your own version of Trail Sense.
+If you choose to write a new feature yourself, create a new feature discussion post to verify that it is something that I will accept into Afet Kiti before your write it. If not, you can always fork this repo and create your own version of Afet Kiti.
 
-Issues marked with the help-wanted label are open for community contribution at any time. They are usually low on my list of things to implement, so if you would like to see these in Trail Sense it will be faster to implement them. Please leave a comment on the issue stating that you are working on it or ask for more details (I can produce better requirements - most of the issues are lacking in details because I implement nearly all of them). If possible, try to give me a timeline so I know which release it should be tagged as. Once you decide to work on one of the help-wanted issues, just submit a PR to main and I will conduct a code review.
+Issues marked with the help-wanted label are open for community contribution at any time. They are usually low on my list of things to implement, so if you would like to see these in Afet Kiti it will be faster to implement them. Please leave a comment on the issue stating that you are working on it or ask for more details (I can produce better requirements - most of the issues are lacking in details because I implement nearly all of them). If possible, try to give me a timeline so I know which release it should be tagged as. Once you decide to work on one of the help-wanted issues, just submit a PR to main and I will conduct a code review.
 
 If you would like to work on an issue that isn't marked with help-wanted, please let me know because it likely does not have that tag for a reason and PRs for it will likely be closed.
 
@@ -23,7 +23,7 @@ If you submit a discussion post, please be civil and constructive - I will consi
 
 Common reasons for not being included:
 
-- Doesn't fit into Trail Sense's use cases
+- Doesn't fit into Afet Kiti's use cases
 - Frequency of use (ex. edge case) vs effort to implement 
 - Not backed by science/research
 - Requires a lot of effort to use (external data from a website, many steps, external tools, etc.)
@@ -34,7 +34,7 @@ Common reasons for not being included:
 - High maintenance burden or likely to cause confusion
 - Not technically feasible or will be inaccurate
 
-All code/translation contributors will be credited in the Licenses section of Trail Sense setting (updated weekly).
+All code/translation contributors will be credited in the Licenses section of Afet Kiti setting (updated weekly).
 
 ## Pull Requests
 - All sections of the pull request description template must be filled out.
@@ -50,10 +50,10 @@ All code/translation contributors will be credited in the Licenses section of Tr
 - If your pull request contains a portion of the issue, explicitly call out what was changed and what is remaining.
 - If you spent time designing the feature before implementing, feel free to post the design documents in the PR description. Or even better, post it in the related issue before making changes if you want a maintainer to review.
 - If your feature involves a change to how the app is used, document it in the user guide. If you are unsure, comment on the issue. If you would like a maintainer to write this, please note that in your PR description.
-- Most features that have a user guide change will also need an automated test change. See `.agents/skills/trail-sense-android-tests` for more info. If you are unsure, comment on the issue.
+- Most features that have a user guide change will also need an automated test change. See `.agents/skills/afet-kiti-android-tests` for more info. If you are unsure, comment on the issue.
 - Unit tests are not required for UI or infrastructure changes, but should be added if you are writing domain logic (most logic lives in the `kylecorry31/sol` repo). If you are unsure, comment on the issue.
 - Pull requests that have requested changes which haven't received activity (response / commit / etc) after 1 week will be closed due to inactivity. If you are planning on addressing the changes but they are taking a while, please reply to the review comments. If you make changes after the pull request is closed, tag me in a comment or re-open a pull request.
-- If you are new to Trail Sense developement, I recommend starting with small sized issues.
+- If you are new to Afet Kiti developement, I recommend starting with small sized issues.
 - I don't care about commit messages, I squash merge with my own message when I complete your PR.
 
 ## Survival Guide
@@ -64,7 +64,7 @@ I sell a physical copy of the survival guide, so I ask that all content is writt
 ## Generative AI
 I don't care what tools you use*. Review and understand the output, clean it up before sending it my way, and don't submit vibecoded code or AI generated discussions.
 
-*The following uses are banned in Trail Sense:
+*The following uses are banned in Afet Kiti:
 - Generating artwork
 - Generating survival guide content (survival guide is locked for contributions anyway)
 - Generating translations in a language you are not proficient in

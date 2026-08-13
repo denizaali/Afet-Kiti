@@ -1,4 +1,4 @@
-Diagnostiikkatyökalua voi käyttää yleisimpien Trail Sensen toimintaan vaikuttavien ongelmien havaitsemiseen. Jos havaitset ongelmia sovelluksen käytön yhteydessä, kokeile, mikäli Diagnostiikkatyökalu voi paikallistaa juurisyyn.
+Diagnostiikkatyökalua voi käyttää yleisimpien Afet Kitin toimintaan vaikuttavien ongelmien havaitsemiseen. Jos havaitset ongelmia sovelluksen käytön yhteydessä, kokeile, mikäli Diagnostiikkatyökalu voi paikallistaa juurisyyn.
 
 ## Diagnostiikkalista
 Diagnostiikkatyökalu näyttää listan sen havaitsemista varoituksista ja virheistä. Varoitusilmoitusten väri on keltainen, ja virheilmoitusten väri on punainen.

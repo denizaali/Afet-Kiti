@@ -1,4 +1,4 @@
-- Add low power mode (for Trail Sense only), available in settings and in the battery tool
+- Add low power mode (for Afet Kiti only), available in settings and in the battery tool
 - Add simple cloud identification tool
 - Add unit selection to ruler
 - Add MGRS coordinate format

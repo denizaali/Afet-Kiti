@@ -1,4 +1,4 @@
-La herramienta Linterna puede usarse para proporcionar luz o hacer señales para pedir ayuda. Como con cualquier herramienta en Trail Sense, siempre es mejor llevar una linterna real contigo.
+La herramienta Linterna puede usarse para proporcionar luz o hacer señales para pedir ayuda. Como con cualquier herramienta en Afet Kiti, siempre es mejor llevar una linterna real contigo.
 
 ## Linterna
 Pulsa el botón de la linterna para alternar la linterna encendida o apagada. Cuando la linterna esté encendida (en cualquier modo), se mostrará una notificación para permitirte apagarla rápidamente.
@@ -24,7 +24,7 @@ Puedes elegir controlar el brillo de la linterna de pantalla habilitando 'Ajuste
 Puedes configurar la linterna para que se apague automáticamente tras un cierto tiempo habilitando 'Ajustes > Linterna > Apagado automático' y seleccionando el tiempo deseado. Esto puede ser útil para ahorrar batería si olvidas apagar la linterna.
 
 ## Alternar con botones de volumen
-Puedes configurar la linterna para alternar encendida o apagada cuando pulses cualquiera de los botones de volumen habilitando 'ajustes > Linterna > Alternar con botones de volumen'. Sólo funciona mientras Trail Sense esté abierto.
+Puedes configurar la linterna para alternar encendida o apagada cuando pulses cualquiera de los botones de volumen habilitando 'ajustes > Linterna > Alternar con botones de volumen'. Sólo funciona mientras Afet Kiti esté abierto.
 
 ## Acción rápida
 

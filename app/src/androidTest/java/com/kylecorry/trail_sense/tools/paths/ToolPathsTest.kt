@@ -99,7 +99,7 @@ class ToolPathsTest : ToolTestBase(Tools.PATHS) {
         click(toolbarButton(R.id.paths_title, Side.Right))
         click(string(R.string.export))
         clickOk()
-        optional { hasText("trail-sense-") }
+        optional { hasText("afet-kiti-") }
         backUntil { isVisible(R.id.paths_title) }
 
         // Move group into Dest Group
@@ -139,7 +139,7 @@ class ToolPathsTest : ToolTestBase(Tools.PATHS) {
 
         // Export
         clickListItemMenu(string(R.string.export))
-        optional { hasText("trail-sense-") }
+        optional { hasText("afet-kiti-") }
         backUntil { isVisible(R.id.paths_title) }
 
         // Merge "Empty Path 2" into "Empty Path"
@@ -301,7 +301,7 @@ class ToolPathsTest : ToolTestBase(Tools.PATHS) {
         // Export
         click(toolbarButton(R.id.path_title, Side.Right))
         click("Export")
-        hasText("trail-sense-")
+        hasText("afet-kiti-")
         backUntil {
             isVisible(R.id.path_title)
         }

@@ -1,7 +1,7 @@
 The Tides கருவி helps you keep மின்தடம் of tides at a specific location.
 
 ## Create a tide table
-Before venturing into coastal areas, consult an official tide table க்கு accurate பெருக்கல் and water heights. Once you have this information, follow these படிகள் பெறுநர் இறக்குமதி it into Trail Sense's Tide tool:
+Before venturing into coastal areas, consult an official tide table க்கு accurate பெருக்கல் and water heights. Once you have this information, follow these படிகள் பெறுநர் இறக்குமதி it into Afet Kiti's Tide tool:
 
 1. Click the tides button in the top-right corner of the screen.
 2. Tap the '+' button in the bottom-right corner.

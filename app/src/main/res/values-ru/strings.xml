@@ -107,11 +107,11 @@
     <string name="celsius">Градусы Цельсия</string>
     <string name="accuracy_distance_format">± %s</string>
     <string name="degree_format">%.0f°</string>
-    <string name="access_background_location_rationale">Trail Sense использует данные о местоположении в фоновом режиме для калибровки давления на уровне моря при мониторинге погоды и для обеспечения более точных предупреждений о заходе солнца. [Просмотреть политику конфиденциальности] (https://kylecorry.com/Trail-Sense/privacy_policy.html)</string>
+    <string name="access_background_location_rationale">Afet Kiti использует данные о местоположении в фоновом режиме для калибровки давления на уровне моря при мониторинге погоды и для обеспечения более точных предупреждений о заходе солнца. [Просмотреть политику конфиденциальности] (https://kylecorry.com/Afet-Kiti/privacy_policy.html)</string>
     <string name="duration_minute_format">%dм</string>
     <string name="duration_hour_format">%dч</string>
     <string name="miles_per_hour_format">%s миль/ч</string>
-    <string name="error_occurred_message">Trail Sense остановился с ошибкой. Свяжитесь с разработчиком для обратной связи.</string>
+    <string name="error_occurred_message">Afet Kiti остановился с ошибкой. Свяжитесь с разработчиком для обратной связи.</string>
     <string name="error_occurred">Произошла ошибка</string>
     <string name="pref_sunset_alert_time_title">Оповещать о заходе за</string>
     <string name="pref_center_sun_and_moon_title">Держать Солнце/Луну в центре</string>
@@ -182,7 +182,7 @@
         <item quantity="other">%d ориентиров</item>
     </plurals>
     <string name="tool_user_guide_title">Руководство пользователя</string>
-    <string name="tool_user_guide_summary">Руководство по использованию Trail Sense</string>
+    <string name="tool_user_guide_summary">Руководство по использованию Afet Kiti</string>
     <string name="delete_beacon_group_message">%s и все его ориентиры будут удалены.</string>
     <string name="group">Группа</string>
     <string name="no_group">Не в группе</string>
@@ -380,13 +380,13 @@
     <string name="gps_user">Пользователь</string>
     <string name="import_btn">Импорт</string>
     <string name="export">Экспорт</string>
-    <string name="onboarding_privacy">- Trail Sense уважает вашу конфиденциальность, и данные о местоположении никогда не покидают ваше устройство
+    <string name="onboarding_privacy">- Afet Kiti уважает вашу конфиденциальность, и данные о местоположении никогда не покидают ваше устройство
 \n
-\n- Trail Sense никогда не потребует разрешения в Интернете
+\n- Afet Kiti никогда не потребует разрешения в Интернете
 \n
-\n- Просмотрите [Политику конфиденциальности](https://kylecorry.com/Trail-Sense/privacy_policy.html) (откроется в браузере вашего телефона)
+\n- Просмотрите [Политику конфиденциальности](https://kylecorry.com/Afet-Kiti/privacy_policy.html) (откроется в браузере вашего телефона)
 \n
-\n- Некоторые функции Trail Sense требуют доступа к вашему местоположению
+\n- Некоторые функции Afet Kiti требуют доступа к вашему местоположению
 \n
 \n- Предоставление разрешения на местоположение позволит использовать следующие функции:
 \n
@@ -398,10 +398,10 @@
 \n
 \n- Время солнца и луны для вашего текущего местоположения (для оповещения а заходе может потребоватся фоновое местоположение)
 \n
-\n- Если вы решите не предоставлять разрешение на определение местоположения, вы можете вручную ввести местоположение в меню «Настройки» &gt; «Датчики» &gt; «Калибровка GPS» в Trail Sense.
+\n- Если вы решите не предоставлять разрешение на определение местоположения, вы можете вручную ввести местоположение в меню «Настройки» &gt; «Датчики» &gt; «Калибровка GPS» в Afet Kiti.
 \n
-\n- После нажатия кнопки «Продолжить» вам будет предложено предоставить разрешения на местоположение. Отказ от этого разрешения не позволит Trail Sense получить доступ к вашему местоположению, поэтому рекомендуется вводить местоположение вручную.</string>
-    <string name="onboarding_user_guide">Научитесь как использовать функции Trail Sense с помощью руководства пользователя. Доступно в нижней части вкладки Инструменты. \n \nСкоро появятся другие руководства.</string>
+\n- После нажатия кнопки «Продолжить» вам будет предложено предоставить разрешения на местоположение. Отказ от этого разрешения не позволит Afet Kiti получить доступ к вашему местоположению, поэтому рекомендуется вводить местоположение вручную.</string>
+    <string name="onboarding_user_guide">Научитесь как использовать функции Afet Kiti с помощью руководства пользователя. Доступно в нижней части вкладки Инструменты. \n \nСкоро появятся другие руководства.</string>
     <string name="privacy_and_location">Конфиденциальность и местоположение</string>
     <string name="cirrocumulus">Перисто-кучевые</string>
     <string name="pref_require_satellites_description">Требуется как минимум 4 спутника, повышает точность</string>
@@ -614,8 +614,8 @@
     <string name="pref_auto_low_power_title">Автоматическое энергосбережение</string>
     <string name="pref_auto_low_power_summary">Когда батарея разряжена</string>
     <string name="pref_flashlight_toggle_with_volume_title">Переключение с помощью кнопок громкости</string>
-    <string name="pref_flashlight_toggle_with_volume_summary">Пока Trail Sense открыт</string>
-    <string name="pref_tiles_enabled_summary">Может помешать приложениям для экономии заряда батареи полностью остановить Trail Sense</string>
+    <string name="pref_flashlight_toggle_with_volume_summary">Пока Afet Kiti открыт</string>
+    <string name="pref_tiles_enabled_summary">Может помешать приложениям для экономии заряда батареи полностью остановить Afet Kiti</string>
     <string name="pref_tiles_enabled_title">Системные плитки</string>
     <string name="location_not_mocked">Использование фактического местоположения</string>
     <string name="location_mocked">Использование фиктивного местоположения</string>
@@ -638,12 +638,12 @@
 \n### Разрешение
 \n%4$s</string>
     <string name="gps_unavailable_resolution">Включите определение местоположения или измените источник местоположения на \"Только устройство\" или \"Высокая точность\"</string>
-    <string name="battery_restricted_resolution">Установите Trail Sense как НЕ оптимизированный</string>
+    <string name="battery_restricted_resolution">Установите Afet Kiti как НЕ оптимизированный</string>
     <string name="power_saving_mode_resolution">Отключите режим энергосбережения</string>
     <string name="location_override_not_set_resolution">Установите переопределение местоположения в настройках</string>
     <string name="location_override_resolution">Включите автоматическую настройку местоположения в настройках.</string>
     <string name="elevation_override_resolution">Включите автоматическую калибровку в настройках.</string>
-    <string name="unblock_notification_channel">Разблокировать уведомления %s для Trail Sense</string>
+    <string name="unblock_notification_channel">Разблокировать уведомления %s для Afet Kiti</string>
     <string name="get_gps_signal">Выйдите на улицу с беспрепятственным видом на небо.</string>
     <string name="activity_recognition">Распознавание активности</string>
     <string name="background_location_permission">Местоположение (разрешить постоянно)</string>
@@ -885,9 +885,9 @@
     <string name="bearing">Пеленг</string>
     <string name="exporting_map">Экспорт карты</string>
     <string name="map_exported">Карта экспортирована</string>
-    <string name="allow_ignore_battery_restrictions_instructions">Снятие ограничений на использование батареи для Trail Sense может повысить точность.
+    <string name="allow_ignore_battery_restrictions_instructions">Снятие ограничений на использование батареи для Afet Kiti может повысить точность.
 \n
-\nНа большинстве устройств нажмите \"%s\", затем переключитесь на все приложения и отключите оптимизацию батареи для Trail Sense.
+\nНа большинстве устройств нажмите \"%s\", затем переключитесь на все приложения и отключите оптимизацию батареи для Afet Kiti.
 \n
 \nПосетите [Don\'t kill my app](https://dontkillmyapp.com/) для получения инструкций для конкретного устройства.</string>
     <string name="file">Файл</string>
@@ -1000,7 +1000,7 @@
     <string name="astronomy_set">Закат</string>
     <string name="magnitude">Величина</string>
     <string name="unable_to_find_next_astronomy">Не удается найти следующий %s</string>
-    <string name="compass_source_legacy_ts">Старый (Trail Sense)</string>
+    <string name="compass_source_legacy_ts">Старый (Afet Kiti)</string>
     <string name="rate">Скорость</string>
     <string name="notifications_channel">Оповещения (%s)</string>
     <string name="allow_schedule_exact_alarms">Разрешить %s устанавливать будильники и напоминания</string>

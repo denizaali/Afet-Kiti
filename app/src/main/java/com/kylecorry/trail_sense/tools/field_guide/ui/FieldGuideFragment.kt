@@ -11,7 +11,7 @@ import com.kylecorry.andromeda.fragments.useBackgroundEffect
 import com.kylecorry.andromeda.fragments.useClickCallback
 import com.kylecorry.andromeda.views.list.AndromedaListView
 import com.kylecorry.trail_sense.R
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.useBackPressedCallback
 import com.kylecorry.trail_sense.shared.extensions.useNavController
 import com.kylecorry.trail_sense.shared.extensions.useResumeEffect
@@ -23,7 +23,7 @@ import com.kylecorry.trail_sense.tools.field_guide.domain.FieldGuidePageTag
 import com.kylecorry.trail_sense.tools.field_guide.domain.FieldGuideService
 import com.kylecorry.trail_sense.tools.field_guide.infrastructure.FieldGuideCleanupCommand
 
-class FieldGuideFragment : TrailSenseReactiveFragment(R.layout.fragment_tool_field_guide) {
+class FieldGuideFragment : AfetKitiReactiveFragment(R.layout.fragment_tool_field_guide) {
 
     override fun update() {
         // Views

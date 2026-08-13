@@ -19,7 +19,7 @@ import com.kylecorry.sol.time.Time.toZonedDateTime
 import com.kylecorry.sol.units.Coordinate
 import com.kylecorry.trail_sense.R
 import com.kylecorry.trail_sense.shared.FormatService
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.useNavController
 import com.kylecorry.trail_sense.shared.extensions.useToolEventListener
 import com.kylecorry.trail_sense.shared.extensions.useTrigger
@@ -32,7 +32,7 @@ import com.kylecorry.trail_sense.tools.field_guide.infrastructure.FieldGuideRepo
 import com.kylecorry.trail_sense.tools.navigation.infrastructure.Navigator
 import com.kylecorry.trail_sense.tools.tools.infrastructure.Tools
 
-class SightingListFragment : TrailSenseReactiveFragment(R.layout.fragment_sightings_list) {
+class SightingListFragment : AfetKitiReactiveFragment(R.layout.fragment_sightings_list) {
     override fun update() {
         // Views
         val listView = useView<AndromedaListView>(R.id.list)

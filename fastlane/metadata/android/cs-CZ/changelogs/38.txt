@@ -2,5 +2,5 @@
 - Improve compass UI while navigating
 - Add daily weather notification (time configurable in weather settings)
 - Add temperature history
-- Add list of running Trail Sense services in the Battery tool
+- Add list of running Afet Kiti services in the Battery tool
 - Bug fixes

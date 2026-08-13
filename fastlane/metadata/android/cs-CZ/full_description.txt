@@ -1,4 +1,4 @@
-<p>Prozkoumávejte za hranice internetu s aplikací Trail Sense.</p>
+<p>Prozkoumávejte za hranice internetu s aplikací Afet Kiti.</p>
 
 <ul>
     <li>Navrženo pro turistiku, cestování, táboření a geocaching</li>
@@ -14,23 +14,23 @@
     <li>A spousta dalších!</li>
 </ul>
 
-<p>Trail Sense je nástroj, a stejně jako u kteréhokoli jiného nástroje, který si vezmete do přírody,
+<p>Afet Kiti je nástroj, a stejně jako u kteréhokoli jiného nástroje, který si vezmete do přírody,
 je i zde důležité si vzít záložní vybavení a své dovednosti.
 Aplikace je určena pouze pro informační účely a přesnost předpovědí a senzorů záleží na množství faktorů, včetně kalibrace, kvality senzorů, externích zdrojů apod.
 Používejte na vlastní nebezpečí, vždy mějte u sebe záložní nástroje (například kompas) a dávejte na sebe pozor.</p>
 
-<p>Tato aplikace nepoužívá a nikdy nebude používat internet. Všechny informace v Trail Sense pochází přímo ze senzorů vašeho telefonu a žádné z nich nikdy neopustí aplikaci.</p>
+<p>Tato aplikace nepoužívá a nikdy nebude používat internet. Všechny informace v Afet Kiti pochází přímo ze senzorů vašeho telefonu a žádné z nich nikdy neopustí aplikaci.</p>
 
 <h3>BĚŽNÉ PROBLÉMY</h3>
 <ul>
     <li>Nevidím kompas: pokud váš telefon nemá senzor kompasu, nedá se bohužel nic dělat, jelikož se jedná o hardware.
-    Stále budete moci používat další funkce Trail Sense.</li>
+    Stále budete moci používat další funkce Afet Kiti.</li>
     <li>Nevidím počasí: nástroj Počasí je dostupný pouze, pokud má váš telefon senzor tlaku.</li>
 </ul>
 
-<p>Našli jste problém nebo chcete novou funkci? Kontaktujte mě na trailsense@protonmail.com nebo si vytvořte nový problém na GitHubu: github.com/kylecorry31/Trail-Sense</p>
+<p>Našli jste problém nebo chcete novou funkci? Kontaktujte mě na trailsense@protonmail.com nebo si vytvořte nový problém na GitHubu: github.com/kylecorry31/Afet-Kiti</p>
 
-<p>Jsem jediný vývojář aplikace Trail Sense, takže se snažím pomáhat s problémy - mám ale omezený výběr zařízení, které mohu použít k testování.</p>
+<p>Jsem jediný vývojář aplikace Afet Kiti, takže se snažím pomáhat s problémy - mám ale omezený výběr zařízení, které mohu použít k testování.</p>
 
 
 <h3>OPRÁVNĚNÍ</h3>
@@ -47,7 +47,7 @@ Používejte na vlastní nebezpečí, vždy mějte u sebe záložní nástroje (
 
 <h3>Odkazy</h3>
 <ul>
-    <li>Zásady ochrany osobních údajů: https://kylecorry.com/Trail-Sense/#privacy</p>
-    <li>Často kladené dotazy: https://github.com/kylecorry31/Trail-Sense#faq</p>
-    <li>Aplikace Trail Sense je dostupná pod licencí MIT License: https://opensource.org/license/mit/</p>
+    <li>Zásady ochrany osobních údajů: https://kylecorry.com/Afet-Kiti/#privacy</p>
+    <li>Často kladené dotazy: https://github.com/kylecorry31/Afet-Kiti#faq</p>
+    <li>Aplikace Afet Kiti je dostupná pod licencí MIT License: https://opensource.org/license/mit/</p>
 </ul>

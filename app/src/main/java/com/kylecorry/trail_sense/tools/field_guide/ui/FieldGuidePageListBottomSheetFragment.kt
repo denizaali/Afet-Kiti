@@ -5,7 +5,7 @@ import com.kylecorry.andromeda.core.ui.useCallback
 import com.kylecorry.andromeda.fragments.useClickCallback
 import com.kylecorry.andromeda.views.list.AndromedaListView
 import com.kylecorry.trail_sense.R
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveBottomSheetFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveBottomSheetFragment
 import com.kylecorry.trail_sense.shared.extensions.useBottomSheetBackPressedCallback
 import com.kylecorry.trail_sense.shared.extensions.useNavController
 import com.kylecorry.trail_sense.shared.openTool
@@ -15,7 +15,7 @@ import com.kylecorry.trail_sense.tools.field_guide.domain.FieldGuidePage
 import com.kylecorry.trail_sense.tools.tools.infrastructure.Tools
 
 class FieldGuidePageListBottomSheetFragment :
-    TrailSenseReactiveBottomSheetFragment(R.layout.fragment_field_guide_page_list_bottom_sheet) {
+    AfetKitiReactiveBottomSheetFragment(R.layout.fragment_field_guide_page_list_bottom_sheet) {
 
     var onPageSelected: ((FieldGuidePage) -> Unit)? = null
 

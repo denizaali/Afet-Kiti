@@ -111,7 +111,7 @@
     <ID>ForbiddenComment:FeatureRenderer.kt:FeatureRenderer$// TODO: Cache this</ID>
     <ID>ForbiddenComment:FieldGuidePageFragment.kt:FieldGuidePageFragment$// TODO: Handle tag click</ID>
     <ID>ForbiddenComment:FileSubsystem.kt:FileSubsystem$// TODO: Handle maxSize</ID>
-    <ID>ForbiddenComment:Forecast.kt:DailyWeather$// TODO: Is this needed or can Trail Sense figure this out from the hourly data?</ID>
+    <ID>ForbiddenComment:Forecast.kt:DailyWeather$// TODO: Is this needed or can Afet Kiti figure this out from the hourly data?</ID>
     <ID>ForbiddenComment:FormatService.kt:FormatService$// TODO: Rewrite this</ID>
     <ID>ForbiddenComment:FormatService.kt:FormatService$// TODO: Secondary sort by size</ID>
     <ID>ForbiddenComment:FragmentBallisticsCalculator.kt:FragmentBallisticsCalculator$// TODO: Determine normal value for metric</ID>
@@ -269,7 +269,7 @@
     <ID>PrintStackTrace:ScanQRFragment.kt:ScanQRFragment$e</ID>
     <ID>PrintStackTrace:SightingCompassView.kt:SightingCompassView$e</ID>
     <ID>PrintStackTrace:ToolWhistleFragment.kt:ToolWhistleFragment$e</ID>
-    <ID>PrintStackTrace:TrailSenseTextView.kt:TrailSenseTextView$e</ID>
+    <ID>PrintStackTrace:AfetKitiTextView.kt:AfetKitiTextView$e</ID>
     <ID>RethrowCaughtException:MapExportService.kt:MapExportService$throw e</ID>
     <ID>ReturnCount:PorterStemmer.kt:PorterStemmer$private fun step1b: String</ID>
     <ID>ReturnCount:SensorService.kt:SensorService$fun getAltimeter: IAltimeter</ID>
@@ -317,7 +317,7 @@
     <ID>TooGenericExceptionCaught:SpeciesImportService.kt:SpeciesImportService$e: Exception</ID>
     <ID>TooGenericExceptionCaught:TemperatureServiceExtensions.kt:e: Exception</ID>
     <ID>TooGenericExceptionCaught:ToolWhistleFragment.kt:ToolWhistleFragment$e: Exception</ID>
-    <ID>TooGenericExceptionCaught:TrailSenseTextView.kt:TrailSenseTextView$e: Exception</ID>
+    <ID>TooGenericExceptionCaught:AfetKitiTextView.kt:AfetKitiTextView$e: Exception</ID>
     <ID>TooGenericExceptionCaught:WeatherMonitorService.kt:WeatherMonitorService$e: Exception</ID>
     <ID>TooGenericExceptionCaught:WhiteNoiseService.kt:WhiteNoiseService.Companion$e: Exception</ID>
     <ID>TooManyFunctions:AppDatabase.kt:AppDatabase : RoomDatabase</ID>

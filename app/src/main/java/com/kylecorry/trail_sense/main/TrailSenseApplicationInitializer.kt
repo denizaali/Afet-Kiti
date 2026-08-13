@@ -9,11 +9,11 @@ import com.kylecorry.trail_sense.tools.tools.infrastructure.Tools
 import com.kylecorry.trail_sense.tools.tools.widgets.WidgetBroadcastManager
 import java.time.Duration
 
-object TrailSenseApplicationInitializer {
+object AfetKitiApplicationInitializer {
 
     fun initialize(context: Context) {
         SafeMode.initialize(context)
-        TrailSenseServiceRegister.setup(context)
+        AfetKitiServiceRegister.setup(context)
 
         // Initialize all tools
         val tools = Tools.getTools(context, false)

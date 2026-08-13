@@ -40,7 +40,7 @@ import com.kylecorry.trail_sense.R
 import com.kylecorry.trail_sense.databinding.ActivityMainBinding
 import com.kylecorry.trail_sense.main.errors.ExceptionHandler
 import com.kylecorry.trail_sense.main.errors.SafeMode
-import com.kylecorry.trail_sense.main.errors.TrailSenseExceptionHandler
+import com.kylecorry.trail_sense.main.errors.AfetKitiExceptionHandler
 import com.kylecorry.trail_sense.main.theme.ThemeProvider
 import com.kylecorry.trail_sense.onboarding.OnboardingActivity
 import com.kylecorry.trail_sense.receivers.RestartServicesCommand
@@ -319,9 +319,9 @@ class MainActivity : AndromedaActivity() {
     }
 
     private fun handleIntentAction(intent: Intent) {
-        if (intent.action == TrailSenseExceptionHandler.ACTION_TOOL_ERROR) {
-            val toolId = intent.getLongExtra(TrailSenseExceptionHandler.EXTRA_TOOL_ID, 0L)
-            val error = intent.getStringExtra(TrailSenseExceptionHandler.EXTRA_ERROR) ?: ""
+        if (intent.action == AfetKitiExceptionHandler.ACTION_TOOL_ERROR) {
+            val toolId = intent.getLongExtra(AfetKitiExceptionHandler.EXTRA_TOOL_ID, 0L)
+            val error = intent.getStringExtra(AfetKitiExceptionHandler.EXTRA_ERROR) ?: ""
             navController?.navigate(
                 R.id.fragmentToolErrorHandler,
                 Bundle().apply {

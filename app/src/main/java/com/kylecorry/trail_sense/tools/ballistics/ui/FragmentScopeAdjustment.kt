@@ -11,13 +11,13 @@ import com.kylecorry.trail_sense.R
 import com.kylecorry.trail_sense.shared.DistanceUtils
 import com.kylecorry.trail_sense.shared.FormatService
 import com.kylecorry.trail_sense.shared.UserPreferences
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.useDistancePreference
 import com.kylecorry.trail_sense.shared.views.DistanceInputView
 import com.kylecorry.trail_sense.shared.views.MaterialSpinnerView
 import kotlin.math.roundToInt
 
-class FragmentScopeAdjustment : TrailSenseReactiveFragment(R.layout.fragment_scope_adjustment) {
+class FragmentScopeAdjustment : AfetKitiReactiveFragment(R.layout.fragment_scope_adjustment) {
 
     private val referenceDistance = Distance.from(100f, DistanceUnits.Yards)
 

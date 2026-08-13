@@ -15,7 +15,7 @@ class DownloadDiagnosticsLogsCommand(private val fragment: AndromedaFragment) {
     fun execute() {
         fragment.inBackground(BackgroundMinimumState.Created) {
             val destination = IntentUriPicker(fragment, fragment.requireContext()).create(
-                "trail-sense-logs-${Instant.now().epochSecond}.zip",
+                "afet-kiti-logs-${Instant.now().epochSecond}.zip",
                 "application/zip"
             ) ?: return@inBackground
 

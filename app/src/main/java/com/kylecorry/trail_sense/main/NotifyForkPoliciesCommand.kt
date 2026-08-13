@@ -20,15 +20,15 @@ class NotifyForkPoliciesCommand(private val context: Context) : Command {
         )
 
         val trailSenseAppNames = listOf(
-            "Trail Sense",
-            "Trail Sense (Staging)"
+            "Afet Kiti",
+            "Afet Kiti (Staging)"
         )
 
         val trailSenseSupportEmails = listOf(
             "trailsense@protonmail.com"
         )
 
-        // If everything matches, then the app is the original Trail Sense
+        // If everything matches, then the app is the original Afet Kiti
         if (trailSensePackageNames.contains(packageName) && appName in trailSenseAppNames && supportEmail in trailSenseSupportEmails) {
             return
         }
@@ -42,12 +42,12 @@ class NotifyForkPoliciesCommand(private val context: Context) : Command {
         Alerts.dialog(
             context,
             "Fork policy",
-            "This app is detected to be a fork of Trail Sense. This is completely allowed under the MIT license. However, there is a copying policy in Trail Sense that requires you change the following:\n\n" +
+            "This app is detected to be a fork of Afet Kiti. This is completely allowed under the MIT license. However, there is a copying policy in Afet Kiti that requires you change the following:\n\n" +
                     "1. The package name (build.gradle.kts -> applicationId)\n" +
                     "2. The app name (strings.xml -> app_name)\n" +
                     "3. The support email (strings.xml -> email)\n" +
                     "4. Optionally, the app icon (ic_launcher / ic_launcher_round)\n\n" +
-                    "Please change these values to avoid confusion with the original app. If you have any questions, please contact the developer of Trail Sense.\n\n" +
+                    "Please change these values to avoid confusion with the original app. If you have any questions, please contact the developer of Afet Kiti.\n\n" +
                     "Once you have changed these values, this message will go away.",
         )
     }

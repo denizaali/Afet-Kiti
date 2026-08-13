@@ -1,11 +1,11 @@
 ---
-name: trail-sense-android-tests
-description: Add Trail Sense UI automation tests using AutomationLibrary and ToolTestBase for tool workflows or androidTests.
+name: afet-kiti-android-tests
+description: Add Afet Kiti UI automation tests using AutomationLibrary and ToolTestBase for tool workflows or androidTests.
 ---
 
-# Trail Sense Android Tests
+# Afet Kiti Android Tests
 
-Create UI automation tests for Trail Sense tools using `AutomationLibrary` and `ToolTestBase`.
+Create UI automation tests for Afet Kiti tools using `AutomationLibrary` and `ToolTestBase`.
 
 ## Test Structure
 

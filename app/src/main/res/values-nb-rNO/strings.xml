@@ -108,9 +108,9 @@
     <string name="sos">SOS</string>
     <string name="dash">-</string>
     <string name="kilometers_per_hour_format">%s km/t</string>
-    <string name="access_background_location_rationale">Trail Sense bruker posisjonsdata i bakgrunnen, selv når appen er lukket eller ikke i bruk. Dette brukes til kalibrering av lufttrykk ved havnivå i værvarsling, vend tilbake, oppdatering av widgets og for å gi mer nøyaktige soloppgang- og solnedgangsvarsler. [Vis personvernregler](https://kylecorry.com/Trail-Sense/privacy_policy.html)</string>
+    <string name="access_background_location_rationale">Afet Kiti bruker posisjonsdata i bakgrunnen, selv når appen er lukket eller ikke i bruk. Dette brukes til kalibrering av lufttrykk ved havnivå i værvarsling, vend tilbake, oppdatering av widgets og for å gi mer nøyaktige soloppgang- og solnedgangsvarsler. [Vis personvernregler](https://kylecorry.com/Afet-Kiti/privacy_policy.html)</string>
     <string name="access_background_location">Oppdater posisjonsinnstillinger</string>
-    <string name="tool_user_guide_summary">Veiledning for bruk av Trail Sense</string>
+    <string name="tool_user_guide_summary">Veiledning for bruk av Afet Kiti</string>
     <string name="tool_user_guide_title">Brukerveiledning</string>
     <string name="degree_format">%.0f°</string>
     <string name="calibrate_compass_on_navigate_dialog_content">Roter telefonen i et åttetallsmønster eller i alle retninger flere ganger, trykk %s når du er ferdig.
@@ -191,7 +191,7 @@
     <string name="guide_recommended_apps_description">Nyttige apper for overlevelsessituasjoner</string>
     <string name="unit_nautical_miles">Nautisk mil</string>
     <string name="tool_whistle_title">Fløyte</string>
-    <string name="error_occurred_message">Trail Sense støtte på en feil. Send e-post til utvikleren for å få dette problemet løst.</string>
+    <string name="error_occurred_message">Afet Kiti støtte på en feil. Send e-post til utvikleren for å få dette problemet løst.</string>
     <string name="category_shelter">Ly</string>
     <string name="category_medical">Medisinsk</string>
     <string name="category_hydration">Drikke</string>
@@ -345,7 +345,7 @@
 \n
 \n- Sett denne verdien til 1.
 \n
-\n- Mål Trail Sense-linjalverdien tilsvarerende en enhet på en fysisk linjal.
+\n- Mål Afet Kiti-linjalverdien tilsvarerende en enhet på en fysisk linjal.
 \n
 \n- Rapporter den målte verdien her.</string>
     <string name="precise_temp_f_format">%s °F</string>
@@ -436,7 +436,7 @@
     <string name="location_mocked">Bruker overstyrt posisjon</string>
     <string name="location_not_mocked">Bruker faktisk posisjon</string>
     <string name="pref_flashlight_toggle_with_volume_title">Slå av/på med volumknapper</string>
-    <string name="pref_flashlight_toggle_with_volume_summary">Mens Trail Sense er åpen</string>
+    <string name="pref_flashlight_toggle_with_volume_summary">Mens Afet Kiti er åpen</string>
     <string name="pref_navigation_lock_screen_presence_title">Vis på låseskjermen under navigering</string>
     <string name="pref_privacy_screenshot_protection_title">Forhindre skjermbilder</string>
     <string name="grams_format">%s g</string>
@@ -767,9 +767,9 @@
     <string name="square">Kvadrat</string>
     <string name="diamond">Diamant</string>
     <string name="pref_only_navigate_path_points_title">Bare naviger til registrerte punkter</string>
-    <string name="allow_ignore_battery_restrictions_instructions">Fjerning av batterirestriksjoner for Trail Sense kan forbedre nøyaktigheten.
+    <string name="allow_ignore_battery_restrictions_instructions">Fjerning av batterirestriksjoner for Afet Kiti kan forbedre nøyaktigheten.
 \n
-\nPå de fleste enheter, trykk \'%s\', så skift til alle apper, og slå av batterioptimalisering for Trail Sense.
+\nPå de fleste enheter, trykk \'%s\', så skift til alle apper, og slå av batterioptimalisering for Afet Kiti.
 \n
 \nBesøk [Don\'t kill my app](https://dontkillmyapp.com/) for enhetsspesifikke instruksjoner.</string>
     <string name="estimated">Beregnet</string>
@@ -820,7 +820,7 @@
     <string name="bearing">Peiling</string>
     <string name="ounces_weight">Unser</string>
     <string name="instructions">Instruks</string>
-    <string name="onboarding_user_guide">Lær hvordan du bruker funksjonene i Trail Sense i brukerveiledningen. Tilgjengelig i verktøyfanen.</string>
+    <string name="onboarding_user_guide">Lær hvordan du bruker funksjonene i Afet Kiti i brukerveiledningen. Tilgjengelig i verktøyfanen.</string>
     <string name="pref_cell_signal_refresh_cache_summary">Påtvinger innlasting av de siste signalstyrkene</string>
     <string name="explore">Utforsk</string>
     <string name="high_pressure_system_description">Forbundet med pent vær, klar himmel.</string>
@@ -838,7 +838,7 @@
     <string name="delete_path_group_message">%s og alle dens stier vil bli slettet.</string>
     <string name="roll_pitch_yaw">Slingring/rulling: %1$s stamping: %2$s, giring: %3$s</string>
     <string name="clouds_clear">Klart</string>
-    <string name="pref_tiles_enabled_summary">Kan hindre batterisparingsapper fra å stoppe Trail Sense helt</string>
+    <string name="pref_tiles_enabled_summary">Kan hindre batterisparingsapper fra å stoppe Afet Kiti helt</string>
     <string name="path">Sti</string>
     <string name="weather_front">Værfront</string>
     <string name="weather_warm_front">Varm</string>
@@ -916,8 +916,8 @@
     <string name="size">Størrelse</string>
     <string name="center">Senter</string>
     <string name="create_blank_map">Opprett tomt kart</string>
-    <string name="unblock_notification_channel">Fjern blokkering av %s-merknad for Trail Sense</string>
-    <string name="battery_restricted_resolution">Sett Trail Sense som «Ikke optimalisert»</string>
+    <string name="unblock_notification_channel">Fjern blokkering av %s-merknad for Afet Kiti</string>
+    <string name="battery_restricted_resolution">Sett Afet Kiti som «Ikke optimalisert»</string>
     <string name="loading">Laster inn</string>
     <string name="unable_to_find_next_astronomy">Finner ikke neste %s</string>
     <string name="create_path">Opprett sti</string>
@@ -980,7 +980,7 @@
     <string name="learn_more">Lær mer</string>
     <string name="restore">Gjenopprett</string>
     <string name="compass_source_legacy_android">Gammeldags (Android)</string>
-    <string name="compass_source_legacy_ts">Gammeldags (Trail Sense)</string>
+    <string name="compass_source_legacy_ts">Gammeldags (Afet Kiti)</string>
     <string name="invalid_backup_file">Ugyldig sikkerhetskopifil</string>
     <string name="backup_restore">Sikkerhetskopiering/gjenoppretting</string>
     <string name="restoring_loading_message">Gjenoppretter…</string>
@@ -1120,7 +1120,7 @@
     <string name="screen_flashlight_full_name">Skjermlommelykt</string>
     <string name="bottom_navigation_slot">Nedre navigeringsplass %d</string>
     <string name="pinned">Festet</string>
-    <string name="onboarding_privacy">- Trail Sense respekterer personvernet ditt og posisjonsdata forlater aldri enheten din\n\n- Trail Sense vil aldri kreve Internett-tillatelse\n\n- Se [Personvernreglene](https://kylecorry.com/Trail-Sense/privacy_policy.html) (åpnes i telefonens nettleser)\n\n- Noen funksjoner i Trail Sense krever tilgang til posisjonen din\n\n- Å gi posisjonstillatelsen vil aktivere følgende funksjoner:\n\n\t- Navigere til navigeringsmarkører\n\n\t- Forbedret prognosenøyaktighet (ikke tilgjengelig på alle enheter)\n\n\t- Tilbakespor\n\n\t- Sol- og månetider for din nåværende posisjon (solnedgangsvarsler kan kreve bakgrunnsposisjon)\n\n- Hvis du velger å ikke gi posisjonstillatelsen, kan du manuelt legge inn en posisjon i menyen Innstillinger &gt; Sensorer &gt; GPS-kalibrering i Trail Sense.\n\n- Etter å ha trykket fortsett, vil du bli bedt om å gi posisjonstillatelse. Å nekte denne tillatelsen vil forhindre Trail Sense i å få tilgang til posisjonen din, så en manuell posisjonsangivelse anbefales.</string>
+    <string name="onboarding_privacy">- Afet Kiti respekterer personvernet ditt og posisjonsdata forlater aldri enheten din\n\n- Afet Kiti vil aldri kreve Internett-tillatelse\n\n- Se [Personvernreglene](https://kylecorry.com/Afet-Kiti/privacy_policy.html) (åpnes i telefonens nettleser)\n\n- Noen funksjoner i Afet Kiti krever tilgang til posisjonen din\n\n- Å gi posisjonstillatelsen vil aktivere følgende funksjoner:\n\n\t- Navigere til navigeringsmarkører\n\n\t- Forbedret prognosenøyaktighet (ikke tilgjengelig på alle enheter)\n\n\t- Tilbakespor\n\n\t- Sol- og månetider for din nåværende posisjon (solnedgangsvarsler kan kreve bakgrunnsposisjon)\n\n- Hvis du velger å ikke gi posisjonstillatelsen, kan du manuelt legge inn en posisjon i menyen Innstillinger &gt; Sensorer &gt; GPS-kalibrering i Afet Kiti.\n\n- Etter å ha trykket fortsett, vil du bli bedt om å gi posisjonstillatelse. Å nekte denne tillatelsen vil forhindre Afet Kiti i å få tilgang til posisjonen din, så en manuell posisjonsangivelse anbefales.</string>
     <string name="scanning_image">Analyserer bilde</string>
     <string name="actual_frequency_disclaimer">Den faktiske frekvensen kan variere ettersom noen enheter har bakgrunnsbegrensninger på plass.</string>
     <string name="pref_dialog_battery_log_summary">Batteriloggen er deaktivert. Historikk og tid til tomt batteri kan være utilgjengelig. Du kan aktivere dette igjen i innstillingene</string>
@@ -1273,7 +1273,7 @@
         <item quantity="other">%d kart</item>
     </plurals>
     <string name="delete_offline_map_group_message">%s og alle kartene i den vil bli slettet.</string>
-    <string name="photo_map_disclaimer">Ha alltid med et fysisk kart som reserve og kontroller nøyaktigheten til Trail Sense.\n\nKartfiler er ikke inkludert i Trail Sense og må bli lastet ned eller kalibrert fra et bilde. Du kan finne kart å laste ned på https://kylecorry.com/Trail-Sense/offline_maps.html</string>
+    <string name="photo_map_disclaimer">Ha alltid med et fysisk kart som reserve og kontroller nøyaktigheten til Afet Kiti.\n\nKartfiler er ikke inkludert i Afet Kiti og må bli lastet ned eller kalibrert fra et bilde. Du kan finne kart å laste ned på https://kylecorry.com/Afet-Kiti/offline_maps.html</string>
     <string name="load_pdf_tiles">Last PDF-fliser</string>
     <string name="load_pdf_tiles_summary">PDF-kart vil bli skarpere, men ytelsen kan bli påvirket</string>
     <string name="map_tool_disclaimer">Dette verktøyet inkluderer ikke innebygde gatekart, satellittbilder eller stidata. Det laster ikke ned kart fra internett. For å vise en kartbakgrunn, må du importere ditt eget bilde ved hjelp av verktøyet Offline-kart. Hvis du trenger direkte eller forhåndsinnlastede gate-, satellitt- eller stikart, bør du i stedet bruke et eget kartprogram.</string>
@@ -1307,7 +1307,7 @@
     <string name="pref_bubble_level_threshold_title">Vaterterskel</string>
     <string name="map_calibration_clear_message">Endring av kartprojeksjon vil fjerne kalibreringsendringene dine.</string>
     <string name="pref_default_beacon_color_title">Standardfarge på navigeringsmarkør</string>
-    <string name="pref_copy_trail_maps_title">Kopier kart til Trail Sense</string>
+    <string name="pref_copy_trail_maps_title">Kopier kart til Afet Kiti</string>
     <string name="pref_copy_trail_maps_summary">Ved importering. Når denne er skrudd av blir originalfilen brukt og den må være på enheten din.</string>
     <string name="stone">Stone</string>
     <string name="stone_format">%s st</string>

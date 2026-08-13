@@ -15,7 +15,7 @@ class ElevationColorMapFactory {
             ElevationColorStrategy.Gray -> SingleColorElevationColorMap(Color.GRAY)
             ElevationColorStrategy.USGS -> USGSElevationColorMap()
             ElevationColorStrategy.Grayscale -> GrayscaleElevationColorMap()
-            ElevationColorStrategy.Vibrant -> TrailSenseVibrantElevationColorMap()
+            ElevationColorStrategy.Vibrant -> AfetKitiVibrantElevationColorMap()
             ElevationColorStrategy.Muted -> TomPattersonElevationColorMap()
             ElevationColorStrategy.Viridis -> WrappedElevationColorMap(ViridisColorMap(), 0f, 8000f)
             ElevationColorStrategy.Inferno -> WrappedElevationColorMap(InfernoColorMap(), 0f, 8000f)

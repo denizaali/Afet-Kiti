@@ -24,7 +24,7 @@ object SafeMode {
 
         if ((System.currentTimeMillis() - lastStartTime) <= RESTART_CRASH_THRESHOLD_MILLIS && (lastStartTime - lastMinus1StartTime) <= RESTART_CRASH_THRESHOLD_MILLIS) {
             // If the app was restarted within the threshold, we are in safe mode
-            Log.w("TrailSenseApplication", "App restarted within threshold, entering safe mode")
+            Log.w("AfetKitiApplication", "App restarted within threshold, entering safe mode")
             safeModeEndTime = System.currentTimeMillis() + SAFE_MODE_DURATION_MILLIS
         } else {
             safeModeEndTime = 0L

@@ -22,7 +22,7 @@ import com.kylecorry.trail_sense.shared.CustomUiUtils
 import com.kylecorry.trail_sense.shared.FormatService
 import com.kylecorry.trail_sense.shared.UserPreferences
 import com.kylecorry.trail_sense.shared.colors.AppColor
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.useLiveData
 import com.kylecorry.trail_sense.shared.extensions.useNavController
 import com.kylecorry.trail_sense.shared.extensions.useTimer
@@ -38,7 +38,7 @@ import java.time.Duration
 import java.time.Instant
 import kotlin.math.absoluteValue
 
-class FragmentToolBattery : TrailSenseReactiveFragment(R.layout.fragment_tool_battery) {
+class FragmentToolBattery : AfetKitiReactiveFragment(R.layout.fragment_tool_battery) {
     private val currentFilterSize = 100
 
     override fun update() {

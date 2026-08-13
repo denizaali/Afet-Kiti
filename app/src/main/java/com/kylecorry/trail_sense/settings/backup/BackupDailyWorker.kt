@@ -40,7 +40,7 @@ class BackupDailyWorker(context: Context, params: WorkerParameters) : DailyWorke
         }
 
         val destination = contentFileSystem.createFile(
-            "trail-sense-${Instant.now().epochSecond}.zip",
+            "afet-kiti-${Instant.now().epochSecond}.zip",
             "application/zip"
         ) ?: return
 
@@ -51,7 +51,7 @@ class BackupDailyWorker(context: Context, params: WorkerParameters) : DailyWorke
         // Remove older files
         val allFiles = contentFileSystem.listFiles()
         val filesToDelete = allFiles
-            .filter { it.name?.matches(Regex("trail-sense-\\d+.zip")) == true }
+            .filter { it.name?.matches(Regex("afet-kiti-\\d+.zip")) == true }
             .sortedByDescending { it.lastModified() }
             .drop(prefs.backup.autoBackupCount)
 

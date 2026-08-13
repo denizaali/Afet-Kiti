@@ -24,7 +24,7 @@ import com.kylecorry.trail_sense.shared.text.HiddenSpan
 import com.kylecorry.trail_sense.shared.text.StringLoader
 import com.kylecorry.trail_sense.tools.tools.infrastructure.Tools
 
-object TrailSenseServiceRegister {
+object AfetKitiServiceRegister {
     fun setup(context: Context) {
         val appContext = context.applicationContext
 

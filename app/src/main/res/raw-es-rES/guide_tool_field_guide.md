@@ -6,7 +6,7 @@ Las páginas están organizadas en categorías, como plantas y animales. Puedes 
 Puedes buscar páginas por nombre, notas o etiquetas. Los resultados de la búsqueda se mostrarán mientras escribes.
 
 ## Páginas incorporadas
-Trail Sense incluye un conjunto de páginas incorporadas que cubren plantas, animales, hongos y rocas comunes que son útiles para la supervivencia en la naturaleza. No puedes editar ni eliminar estas páginas.
+Afet Kiti incluye un conjunto de páginas incorporadas que cubren plantas, animales, hongos y rocas comunes que son útiles para la supervivencia en la naturaleza. No puedes editar ni eliminar estas páginas.
 
 ## Crear una página
 Para crear una nueva página, pulsa el botón añadir en la esquina inferior derecha de la pantalla. Puedes añadir un nombre, imagen, notas y etiquetas a la página. La imagen puede tomarse con la cámara o seleccionarse de la galería. Para guardar los cambios pulsa el botón de verificación en la esquina superior derecha.

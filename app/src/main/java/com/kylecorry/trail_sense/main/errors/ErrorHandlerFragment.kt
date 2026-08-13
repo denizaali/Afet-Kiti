@@ -8,12 +8,12 @@ import com.kylecorry.andromeda.core.system.CurrentApp
 import com.kylecorry.andromeda.core.system.Intents
 import com.kylecorry.andromeda.fragments.useArgument
 import com.kylecorry.trail_sense.R
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.useNavController
 import com.kylecorry.trail_sense.shared.openTool
 import com.kylecorry.trail_sense.tools.tools.infrastructure.Tools
 
-class ErrorHandlerFragment : TrailSenseReactiveFragment(R.layout.fragment_tool_error_handler) {
+class ErrorHandlerFragment : AfetKitiReactiveFragment(R.layout.fragment_tool_error_handler) {
 
     override fun update() {
         val toolId = useArgument<Long>("tool_id") ?: 0L

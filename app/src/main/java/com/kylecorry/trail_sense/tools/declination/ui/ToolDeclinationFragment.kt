@@ -12,12 +12,12 @@ import com.kylecorry.trail_sense.R
 import com.kylecorry.trail_sense.shared.FormatService
 import com.kylecorry.trail_sense.shared.alerts.MultiLoadingIndicator
 import com.kylecorry.trail_sense.shared.alerts.ViewLoadingIndicator
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.useCoordinateInputView
 import com.kylecorry.trail_sense.shared.extensions.useLoadingIndicator
 import com.kylecorry.trail_sense.shared.extensions.useLocation
 
-class ToolDeclinationFragment : TrailSenseReactiveFragment(R.layout.fragment_tool_declination) {
+class ToolDeclinationFragment : AfetKitiReactiveFragment(R.layout.fragment_tool_declination) {
     override fun update() {
         val locationView = useCoordinateInputView(R.id.location, lifecycleHookTrigger)
         val titleView = useView<Toolbar>(R.id.title)

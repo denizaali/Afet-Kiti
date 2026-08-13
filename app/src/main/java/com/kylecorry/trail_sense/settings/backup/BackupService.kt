@@ -10,7 +10,7 @@ import com.kylecorry.andromeda.files.ZipUtils
 import com.kylecorry.luna.concurrency.onIO
 import com.kylecorry.trail_sense.main.getAppService
 import com.kylecorry.trail_sense.main.persistence.AppDatabase
-import com.kylecorry.trail_sense.receivers.TrailSenseServiceUtils
+import com.kylecorry.trail_sense.receivers.AfetKitiServiceUtils
 import com.kylecorry.trail_sense.shared.UserPreferences
 import com.kylecorry.trail_sense.shared.io.FileSubsystem
 import com.kylecorry.trail_sense.shared.map_layers.tiles.infrastructure.persistance.CachedTileRepo
@@ -74,7 +74,7 @@ class BackupService(
         val root = AppData.getDataDirectory(context)
 
         // Stop the services while restoring to prevent DB corruption
-        TrailSenseServiceUtils.stopServices(context)
+        AfetKitiServiceUtils.stopServices(context)
 
         // Close the DB before restoring
         AppDatabase.close()

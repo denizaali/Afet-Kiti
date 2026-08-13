@@ -1,6 +1,6 @@
 # Plugins
 
-Plugin support will be added to allow users to extend Trail Sense's abilities beyond what I ship it with. This may include plugins that allow it to access permissions that Trail Sense itself does not have, such as Internet. Plugins will be separate APKs and use a Service to communicate with Trail Sense.
+Plugin support will be added to allow users to extend Afet Kiti's abilities beyond what I ship it with. This may include plugins that allow it to access permissions that Afet Kiti itself does not have, such as Internet. Plugins will be separate APKs and use a Service to communicate with Afet Kiti.
 
 ## Status
 

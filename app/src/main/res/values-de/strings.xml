@@ -50,7 +50,7 @@
 \n
 \nDiesen Wert auf 1 setzen.
 \n
-\nDann die Trail-Sense-Wasserwage gegen eine reale Wasserwage halten.
+\nDann die Afet-Kiti-Wasserwage gegen eine reale Wasserwage halten.
 \n
 \nKorrekturfaktor hier eingeben.</string>
     <string name="pref_ruler_calibration_title">Linealskala</string>
@@ -166,7 +166,7 @@
     <string name="error_occurred_message">Ein Fehler ist aufgetreten. Bitte sende eine E-Mail an den Entwickler, um den Fehler beheben zu lassen.</string>
     <string name="error_occurred">Ein Fehler ist aufgetreten</string>
     <string name="access_background_location">Standortseinstellungen aktualisieren</string>
-    <string name="access_background_location_rationale">Trail Sense nutzt Ortungsdaten im Hintergrund zur Kalibrierung des Luftdrucks auf Meereshöhe im Wettermonitor und um Sonnenuntergangsbenachrichtigungen anzubieten. [Datenschutzbestimmungen](https://kylecorry.com/Trail-Sense/privacy_policy.html)</string>
+    <string name="access_background_location_rationale">Afet Kiti nutzt Ortungsdaten im Hintergrund zur Kalibrierung des Luftdrucks auf Meereshöhe im Wettermonitor und um Sonnenuntergangsbenachrichtigungen anzubieten. [Datenschutzbestimmungen](https://kylecorry.com/Afet-Kiti/privacy_policy.html)</string>
     <string name="pref_adjust_for_temperature_title">Faktor für Temperatur</string>
     <string name="navigation_nearby_category">Nahegelegen</string>
     <string name="forecasts_category">Vorhersagen</string>
@@ -181,7 +181,7 @@
     <string name="compass_reported_accuracy">Festgestellte Genauigkeit: %s</string>
     <string name="override_from_gps">Überschreibung durch GPS einstellen</string>
     <string name="set_inclination_instructions">Tippen oder Halten zum Sperren oder Entsperren</string>
-    <string name="tool_user_guide_summary">Ein Handbuch für die Benutzung von Trail Sense</string>
+    <string name="tool_user_guide_summary">Ein Handbuch für die Benutzung von Afet Kiti</string>
     <string name="advanced">Fortgeschritten</string>
     <string name="tool_bubble_level_summary">Stelle fest, ob eine Oberfläche eben ist</string>
     <string name="pref_adjust_for_temperature_summary">Verwende die Temperatur zur Umrechnung auf Meereshöhe</string>
@@ -367,13 +367,13 @@
     <string name="create_at_distance">Mit Abstand festlegen</string>
     <string name="unit_inches_abbreviation">in</string>
     <string name="unit_centimeters_abbreviation">cm</string>
-    <string name="onboarding_privacy">- Trail Sense respektiert deine Privatsphäre und Ortsdaten bleiben auf deinem Gerät
+    <string name="onboarding_privacy">- Afet Kiti respektiert deine Privatsphäre und Ortsdaten bleiben auf deinem Gerät
 \n
-\n- Trail Sense wird niemals Zugang zum Internet verlangen
+\n- Afet Kiti wird niemals Zugang zum Internet verlangen
 \n
-\n- [Datenschutz-Bestimmungen](https://kylecorry.com/Trail-Sense/privacy_policy.html) (wird im Browser des Geräts geöffnet)
+\n- [Datenschutz-Bestimmungen](https://kylecorry.com/Afet-Kiti/privacy_policy.html) (wird im Browser des Geräts geöffnet)
 \n
-\n- Einige Funktionen von Trail Sense benötigen Zugriff auf deinen Standort
+\n- Einige Funktionen von Afet Kiti benötigen Zugriff auf deinen Standort
 \n
 \n- Freigabe der Ortsdaten ermöglicht die Nutzung folgende Funktionen:
 \n
@@ -385,9 +385,9 @@
 \n
 \n\t- Sonnen und Mondzeiten für deinen Standort
 \n
-\n- Falls du dich entscheidest, den Zugriff auf Ortsdaten nicht zu erlauben, kannst du manuell Koordinaten in den Trail Sense Einstellungen -&gt; GPS eingeben.
+\n- Falls du dich entscheidest, den Zugriff auf Ortsdaten nicht zu erlauben, kannst du manuell Koordinaten in den Afet Kiti Einstellungen -&gt; GPS eingeben.
 \n
-\n- Nach dem Klicken auf \"Weiter\" wirst du darum gebeten, die Standortberechtigung im Vorder- und Hintergrund zu erteilen. Die Ablehnung dieser Rechte verhindert, dass Trail Sense Zugriff auf deinen Standort erhält. In diesem Fall wird empfohlen, Koordinaten manuell einzugeben.</string>
+\n- Nach dem Klicken auf \"Weiter\" wirst du darum gebeten, die Standortberechtigung im Vorder- und Hintergrund zu erteilen. Die Ablehnung dieser Rechte verhindert, dass Afet Kiti Zugriff auf deinen Standort erhält. In diesem Fall wird empfohlen, Koordinaten manuell einzugeben.</string>
     <string name="export">Exportieren</string>
     <string name="import_btn">Importieren</string>
     <string name="unavailable">Nicht verfügbar</string>
@@ -430,7 +430,7 @@
     <string name="pref_backtrack_save_cell_summary">Nehme Mobilfunksignale an den Wegpunkten auf. Das Internet wird nicht genutzt.</string>
     <string name="distance_from_flashlight">Distanz vom Handy zur Taschenlampe</string>
     <string name="beacon_export_error">Beacons konnten nicht exportiert werden</string>
-    <string name="onboarding_user_guide">Lernen Sie mithilfe des Benutzerhandbuchs, wie Sie die Funktionen von Trail Sense nutzen. Es befindet sich auf der Werkzeuge-Seite.</string>
+    <string name="onboarding_user_guide">Lernen Sie mithilfe des Benutzerhandbuchs, wie Sie die Funktionen von Afet Kiti nutzen. Es befindet sich auf der Werkzeuge-Seite.</string>
     <string name="backtrack_disabled_low_power_toast">Rückweg ist im Energiespar-Modus deaktiviert</string>
     <string name="magnetic_field_format_precise">%s uT</string>
     <string name="turn_off">Ausschalten</string>
@@ -532,7 +532,7 @@
         <item quantity="other">%d Tage</item>
     </plurals>
     <string name="pref_backtrack_history_days_title">Rückweg-Verlauf</string>
-    <string name="pref_tiles_enabled_summary">Könnte Akku-Manager-Apps davon abhalten, Trail Sense vollständig zu beenden</string>
+    <string name="pref_tiles_enabled_summary">Könnte Akku-Manager-Apps davon abhalten, Afet Kiti vollständig zu beenden</string>
     <string name="pref_tiles_enabled_title">Schnelleinstellungskacheln</string>
     <string name="location_not_mocked">Nutze echten Standort</string>
     <string name="location_mocked">Nutze simulierten Standort</string>
@@ -541,7 +541,7 @@
     <string name="units">Einheiten</string>
     <string name="pref_privacy_screenshot_protection_title">Screenshots verhindern</string>
     <string name="pref_flashlight_toggle_with_volume_title">Mit Lautstärketasten steuern</string>
-    <string name="pref_flashlight_toggle_with_volume_summary">Während Trail Sense geöffnet ist</string>
+    <string name="pref_flashlight_toggle_with_volume_summary">Während Afet Kiti geöffnet ist</string>
     <string name="unit_yards">Yards</string>
     <string name="yards_format">%s yd</string>
     <string name="find_next_occurrence">Nächstes Vorkommen finden</string>
@@ -620,7 +620,7 @@
     <string name="elevation_history_length">Länge des Höhenverlaufs</string>
     <string name="last_duration">Letzte %s</string>
     <string name="elevation_override_resolution">Auto-Kalibrierung in den Einstellungen aktivieren.</string>
-    <string name="unblock_notification_channel">%s-Benachrichtigungen für Trail Sense entblockieren</string>
+    <string name="unblock_notification_channel">%s-Benachrichtigungen für Afet Kiti entblockieren</string>
     <string name="get_gps_signal">Gehen nach draußen mit freiem Blick auf den Himmel.</string>
     <string name="activity_recognition">Körperliche Aktivität</string>
     <string name="grant_permission">Erteile die %s-Berechtigung</string>
@@ -644,7 +644,7 @@
 \n%4$s</string>
     <string name="gps_unavailable_resolution">Aktivieren Sie die Standortbestimmung oder ändern Sie Ihre Standortquelle auf „Nur Gerät“ oder „Hohe Genauigkeit“</string>
     <string name="background_location_permission">Standort (Immer zulassen)</string>
-    <string name="battery_restricted_resolution">Trail Sense als nicht optimiert festlegen</string>
+    <string name="battery_restricted_resolution">Afet Kiti als nicht optimiert festlegen</string>
     <string name="power_saving_mode_resolution">Stromsparmodus deaktivieren</string>
     <string name="location_override_not_set_resolution">Standort in den Einstellungen überschreiben</string>
     <string name="location_override_resolution">Automatisches Anpassen des Standorts in den Einstellungen aktivieren.</string>
@@ -866,9 +866,9 @@
     <string name="pref_only_navigate_path_points_title">Nur zu aufgenommenen Punkten navigieren</string>
     <string name="error">Fehler</string>
     <string name="warning">Warnung</string>
-    <string name="allow_ignore_battery_restrictions_instructions">Die Akkuoptimierung für Trail Sense auszuschalten kann die Genauigkeit verbessern.
+    <string name="allow_ignore_battery_restrictions_instructions">Die Akkuoptimierung für Afet Kiti auszuschalten kann die Genauigkeit verbessern.
 \n
-\nAuf den meisten Geräten, klicke „%s“, dann gehe zu allen Apps und deaktiviere Akkuoptimierung für Trail Sense.
+\nAuf den meisten Geräten, klicke „%s“, dann gehe zu allen Apps und deaktiviere Akkuoptimierung für Afet Kiti.
 \n
 \nBesuche [Don\'t kill my app](https://dontkillmyapp.com/) für gerätespezifische Anleitungen.</string>
     <string name="exporting_map">Exportiere Karte</string>
@@ -1006,7 +1006,7 @@
     <string name="astronomy_rise">Aufgang</string>
     <string name="compass_source_mag_gyro">Magnetometer + Gyro</string>
     <string name="data_source">Quelle: %s</string>
-    <string name="compass_source_legacy_ts">Veraltet (Trail Sense)</string>
+    <string name="compass_source_legacy_ts">Veraltet (Afet Kiti)</string>
     <string name="reduce_map_resolution_crop_disclaimer">Die Karte zuzuschneiden reduziert die Auflösung. Wenn Sie die Karte bearbeiten müssen, und sie eine hohe Auflösung haben muss, benutzen Sie einen Fotoeditor. Dies wird in naher Zukunft behoben.</string>
     <string name="reset_calibration">Lösche Kalibrierung</string>
     <string name="learn_more">Lerne mehr</string>
@@ -1557,7 +1557,7 @@
         <item quantity="other">Geräteuhr geht %d Sekunden vor</item>
     </plurals>
     <string name="pref_default_beacon_color_title">Standardwegpunktfarbe</string>
-    <string name="pref_copy_trail_maps_title">Karten zu Trail Sense kopieren</string>
+    <string name="pref_copy_trail_maps_title">Karten zu Afet Kiti kopieren</string>
     <string name="current_temperature">Aktuelle Temperatur</string>
     <string name="pref_navigation_show_azimuth_indicator_title">Azimutindikator anzeigen</string>
 </resources>

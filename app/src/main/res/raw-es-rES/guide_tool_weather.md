@@ -12,7 +12,7 @@ El segimiento meteorológico se ejecuta en segundo plano para registrar el histo
 
 Para cambiar la frecuencia de registro, pulsa la hora bajo la etiqueta del monitor meteorológico en la esquina inferior izquierda e introduce un nuevo intervalo.
 
-Para mayor precisión, concede a Trail Sense permiso de Ubicación para determinar tu elevación mediante GPS. Esto ayuda a convertir la presión a presión al nivel del mar, mejorando la precisión de la predicción.
+Para mayor precisión, concede a Afet Kiti permiso de Ubicación para determinar tu elevación mediante GPS. Esto ayuda a convertir la presión a presión al nivel del mar, mejorando la precisión de la predicción.
 
 En Ajustes > Meteorología, puedes personalizar la notificación para que muestre:
 - **Presión**: Muestra la presión actual.
@@ -20,10 +20,10 @@ En Ajustes > Meteorología, puedes personalizar la notificación para que muestr
 
 También puedes habilitar notificaciones meteorológicas diarias en Ajustes > Meteorología > Notificación meteo diaria. Sin el seguimiento meteorológico activo, no recibirás estas notificaciones. La hora de esta notificación es configurable en Ajustes > Meteorología > Hora meteorología diaria.
 
-Puedes desactivar las notificaciones del seguimiento meteorológico en los ajustes de notificaciones de Android para Trail Sense.
+Puedes desactivar las notificaciones del seguimiento meteorológico en los ajustes de notificaciones de Android para Afet Kiti.
 
 ## Alerta de tormenta
-Si el seguimiento meteorológico está activo, Trail Sense puede avisarte de tormentas. Activa esto en Ajustes > Meteorología > Alertas de tormenta. Puedes ajustar la sensibilidad en Ajustes > Meteorología > Sensibilidad alertas de tormenta. Mayor sensibilidad puede provocar alertas falsas; menor sensibilidad puede perder algunas tormentas.
+Si el seguimiento meteorológico está activo, Afet Kiti puede avisarte de tormentas. Activa esto en Ajustes > Meteorología > Alertas de tormenta. Puedes ajustar la sensibilidad en Ajustes > Meteorología > Sensibilidad alertas de tormenta. Mayor sensibilidad puede provocar alertas falsas; menor sensibilidad puede perder algunas tormentas.
 
 Puedes elegir usar el canal de audio de alarma para esta alerta activando Ajustes > Meteorología > Alarma para alerta de tormenta. Esto reproducirá un sonido de alarma incluso si los medios y las notificaciones están silenciados. Puedes elegir usar la alarma solo durante el día activando Ajustes > Meteorología > Silenciar alarma por la noche.
 
@@ -61,7 +61,7 @@ Puedes habilitar la acción rápida Seguimiento Meteorológico en los ajustes pa
 Para usar la acción rápida, pulsa el botón de acción rápida Seguimiento Meteorológico para activarlo o desactivarlo.
 
 ## Precisión
-La predicción meteorológica es una estimación basada en los sensores disponibles y puede no ser precisa. Si Trail Sense dice que va a estar despejado pero ves nubes de tormenta acercándose, confía en tus instintos: a veces las tormentas llegan con cambios graduales de presión. Busca refugio si percibes una tormenta acercándose, independientemente de la predicción de Trail Sense.
+La predicción meteorológica es una estimación basada en los sensores disponibles y puede no ser precisa. Si Afet Kiti dice que va a estar despejado pero ves nubes de tormenta acercándose, confía en tus instintos: a veces las tormentas llegan con cambios graduales de presión. Busca refugio si percibes una tormenta acercándose, independientemente de la predicción de Afet Kiti.
 
 Las normales climáticas (temperaturas históricas) se basan en la media de 30 años de los datos históricos y muestran cómo suele ser el tiempo. Los valores reales pueden diferir por diversas razones, pero deberían permanecer relativamente cerca de los valores históricos. Las grandes diferencias suelen deberse a una tormenta u otro evento meteorológico.
 

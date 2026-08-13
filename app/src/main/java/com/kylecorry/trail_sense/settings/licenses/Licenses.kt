@@ -8,8 +8,8 @@ object Licenses {
 
     val libraries = listOf(
         Library(
-            "Trail Sense",
-            "https://github.com/kylecorry31/Trail-Sense"
+            "Afet Kiti",
+            "https://github.com/kylecorry31/Afet-Kiti"
         ) {
             val contributors = arrayOf(
                 "kylecorry31",
@@ -173,7 +173,7 @@ object Licenses {
                     "2020-2025",
                     "Kyle Corry"
                 )
-            }\n\nThe following people contributed code or translations to Trail Sense under the MIT License: ${
+            }\n\nThe following people contributed code or translations to Afet Kiti under the MIT License: ${
                 contributors.joinToString(
                     ", "
                 )

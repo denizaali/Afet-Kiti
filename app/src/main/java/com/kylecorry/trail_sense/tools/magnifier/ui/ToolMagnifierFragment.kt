@@ -4,14 +4,14 @@ import android.widget.ImageButton
 import android.widget.ImageView
 import androidx.core.view.isVisible
 import com.kylecorry.trail_sense.R
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.usePauseEffect
 import com.kylecorry.trail_sense.shared.extensions.useResumeEffect
 import com.kylecorry.trail_sense.shared.permissions.alertNoCameraPermission
 import com.kylecorry.trail_sense.shared.permissions.requestCamera
 import com.kylecorry.trail_sense.shared.views.CameraView
 
-class ToolMagnifierFragment : TrailSenseReactiveFragment(R.layout.fragment_tool_magnifier) {
+class ToolMagnifierFragment : AfetKitiReactiveFragment(R.layout.fragment_tool_magnifier) {
 
     override fun update() {
         val cameraView = useView<CameraView>(R.id.camera)

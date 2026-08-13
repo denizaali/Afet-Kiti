@@ -1,4 +1,4 @@
-A ferramenta Apito pode ser usada para sinalizar pedido de ajuda. Ao usar o apito, é recomendado aumentar o volume ao máximo ou conectar a um alto-falante externo. Como com qualquer ferramenta no Trail Sense, é sempre melhor carregar um apito real com você.
+A ferramenta Apito pode ser usada para sinalizar pedido de ajuda. Ao usar o apito, é recomendado aumentar o volume ao máximo ou conectar a um alto-falante externo. Como com qualquer ferramenta no Afet Kiti, é sempre melhor carregar um apito real com você.
 
 ## Apito
 Pressione e segure o botão do apito para emitir um som de apito.

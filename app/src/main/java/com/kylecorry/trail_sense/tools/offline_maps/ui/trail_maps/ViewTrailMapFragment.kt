@@ -12,7 +12,7 @@ import com.kylecorry.andromeda.pickers.Pickers
 import com.kylecorry.trail_sense.shared.views.Toolbar
 import com.kylecorry.trail_sense.R
 import com.kylecorry.trail_sense.main.getAppService
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.useTrigger
 import com.kylecorry.trail_sense.shared.map_layers.ui.layers.LayerFactory
 import com.kylecorry.trail_sense.shared.map_layers.ui.layers.setLayers
@@ -27,7 +27,7 @@ import com.kylecorry.trail_sense.tools.offline_maps.ui.commands.EditOfflineMapAt
 import com.kylecorry.trail_sense.tools.offline_maps.ui.commands.RenameMapCommand
 import com.kylecorry.trail_sense.tools.tools.infrastructure.Tools
 
-class ViewTrailMapFragment : TrailSenseReactiveFragment(R.layout.fragment_offline_map_view) {
+class ViewTrailMapFragment : AfetKitiReactiveFragment(R.layout.fragment_offline_map_view) {
 
     override fun update() {
         val context = useAndroidContext()

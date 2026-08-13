@@ -1,4 +1,4 @@
-Trail Sense 的使用者推薦以下應用程式作為手機上的實用工具。這些應用程式不隸屬於 Trail Sense。
+Afet Kiti 的使用者推薦以下應用程式作為手機上的實用工具。這些應用程式不隸屬於 Afet Kiti。
 
 ## Offline Survival Manual
 
@@ -8,12 +8,12 @@ Trail Sense 的使用者推薦以下應用程式作為手機上的實用工具�
 
 ## Organic Maps
 
-離線地圖應用程式。在徒步旅行之前下載你需要的地圖。在 Trail Sense 中，你也可以透過選擇信標選擇畫面上的「地圖」選項來使用此應用程式開啟信標。
+離線地圖應用程式。在徒步旅行之前下載你需要的地圖。在 Afet Kiti 中，你也可以透過選擇信標選擇畫面上的「地圖」選項來使用此應用程式開啟信標。
 
 [下載](market://details?id=app.organicmaps)
 
 ## OsmAnd~
 
-離線地圖應用程式。在徒步旅行之前下載你需要的地圖。在 Trail Sense 中，你也可以透過選擇信標選擇畫面上的「地圖」選項來使用此應用程式開啟信標。該應用程式在 F-Droid 上免費。
+離線地圖應用程式。在徒步旅行之前下載你需要的地圖。在 Afet Kiti 中，你也可以透過選擇信標選擇畫面上的「地圖」選項來使用此應用程式開啟信標。該應用程式在 F-Droid 上免費。
 
 [下載](market://details?id=net.osmand.plus)

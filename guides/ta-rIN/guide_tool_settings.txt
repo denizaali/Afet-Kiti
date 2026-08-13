@@ -22,8 +22,8 @@ The reported accuracy of the compass is shown. If it is low, you can click this 
 ### Source
 - **Magnetometer + Gyro**: This is the இயல்புநிலை மூலம் and should வேலை on பெரும்பாலானவை devices. It uses the காந்தமானி and gyroscope sensors பெறுநர் determine the direction. When the gyroscope is added in, the படித்தல் is typically less noisy. This மூலம் is provided by your phone's manufacturer.
 - **Magnetometer**: This மூலம் only uses the காந்தமானி உணரி பெறுநர் determine the direction. This மூலம் is provided by your phone's manufacturer.
-- **Magnetometer + Gyro (Custom)**: This மூலம் is similar பெறுநர் the காந்தமானி + Gyro source, but the calculations அரே முடிந்தது by Trail Sense. If the காந்தமானி + Gyro மூலம் is not working correctly, try this source.
-- **Legacy (Trail Sense)**: This மூலம் is similar பெறுநர் the காந்தமானி source, but the calculations அரே முடிந்தது by Trail Sense. If the காந்தமானி மூலம் is not working correctly, try this source.
+- **Magnetometer + Gyro (Custom)**: This மூலம் is similar பெறுநர் the காந்தமானி + Gyro source, but the calculations அரே முடிந்தது by Afet Kiti. If the காந்தமானி + Gyro மூலம் is not working correctly, try this source.
+- **Legacy (Afet Kiti)**: This மூலம் is similar பெறுநர் the காந்தமானி source, but the calculations அரே முடிந்தது by Afet Kiti. If the காந்தமானி மூலம் is not working correctly, try this source.
 - **Legacy (Android)**: This மூலம் is provided by ஆண்ட்ராய்டு and is not recommended பெறுநர் use. It is only included க்கு compatibility with older devices, but could potentially வேலை well on some devices.
 
 ### Smoothing
@@ -74,7 +74,7 @@ The மின்னோட்ட்ம், ஓட்டம் உயர்வு 
 
 ### உலக இடம் காட்டும் அமைப்பு settings
 - **Samples**: The எண் of உலக இடம் காட்டும் அமைப்பு samples பெறுநர் use when determining the altitude. A higher எண் will give a more accurate reading, but will take longer பெறுநர் calculate.
-- **NMEA உயர்வு கோடு correction**: The உயர்வு கோடு provided by the உலக இடம் காட்டும் அமைப்பு needs பெறுநர் be corrected பெறுநர் match the actual elevation. If this setting is enabled, it will use the correction factor provided by the GPS. If it is disabled, it will use the correction factor provided by Trail Sense, which சி-வைகாசி be more accurate.
+- **NMEA உயர்வு கோடு correction**: The உயர்வு கோடு provided by the உலக இடம் காட்டும் அமைப்பு needs பெறுநர் be corrected பெறுநர் match the actual elevation. If this setting is enabled, it will use the correction factor provided by the GPS. If it is disabled, it will use the correction factor provided by Afet Kiti, which சி-வைகாசி be more accurate.
 
 ### Barometer / manual settings
 - **Elevation override**: If you அரே using the barometer or manual source, you can கணம் the உயர்வு கோடு manually. This is useful if you know the உயர்வு கோடு of your location. If using the barometer source, this setting is used பெறுநர் calibrate the barometer and will change அச் you move.
@@ -120,7 +120,7 @@ If you change the temperature மூலம் பெறுநர் "Historic", 
 
 ### Calibrating
 
-1. மீட்டமை the thermometer calibration in Trail Sense.
+1. மீட்டமை the thermometer calibration in Afet Kiti.
 2. Put your phone in a cold place க்கு 10 minutes.
 3. குறிப்பு the temperature shown in Trail புலன் அச் the சிறுமம் phone temperature.
 4. குறிப்பு the actual temperature of the cold place using an actual thermometer.
@@ -199,8 +199,8 @@ You can கண்டுபிடி additional செய்தி பற்ற�
 - **Version**: The version of the பயன்பாடு you அரே using.
 - **Privacy policy**: A இணைப்பு பெறுநர் the privacy policy.
 - **Email developer**: A இணைப்பு பெறுநர் send an email பெறுநர் the உருவாக்குநர் க்கு feedback or support.
-- **GitHub**: A இணைப்பு பெறுநர் the GitHub களஞ்சியம் (source code) க்கு Trail Sense.
-- **Licenses**: A பட்டியல் of திற மூலம் licenses used in Trail Sense.
+- **GitHub**: A இணைப்பு பெறுநர் the GitHub களஞ்சியம் (source code) க்கு Afet Kiti.
+- **Licenses**: A பட்டியல் of திற மூலம் licenses used in Afet Kiti.
 
 ## Quick action
 You can enable the அமைப்புகள் quick செயல் in the அமைப்புகள் க்கு the தாவல் where you want it பெறுநர் appear.

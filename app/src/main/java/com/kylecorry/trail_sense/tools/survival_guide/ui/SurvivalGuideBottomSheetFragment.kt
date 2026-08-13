@@ -15,7 +15,7 @@ import com.kylecorry.andromeda.views.badge.Badge
 import com.kylecorry.andromeda.views.list.ResourceListIcon
 import com.kylecorry.trail_sense.shared.views.Toolbar
 import com.kylecorry.trail_sense.R
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveBottomSheetFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveBottomSheetFragment
 import com.kylecorry.trail_sense.shared.extensions.useNavController
 import com.kylecorry.trail_sense.shared.extensions.useSearch
 import com.kylecorry.trail_sense.shared.navigateWithAnimation
@@ -23,7 +23,7 @@ import com.kylecorry.trail_sense.shared.views.SearchView
 import com.kylecorry.trail_sense.tools.survival_guide.infrastructure.SurvivalGuideSearch
 
 class SurvivalGuideBottomSheetFragment :
-    TrailSenseReactiveBottomSheetFragment(R.layout.fragment_survival_guide_bottom_sheet) {
+    AfetKitiReactiveBottomSheetFragment(R.layout.fragment_survival_guide_bottom_sheet) {
 
     override fun update() {
         // Views

@@ -5,7 +5,7 @@ import com.kylecorry.andromeda.core.ui.colormaps.RgbInterpolationColorMap
 import com.kylecorry.sol.math.interpolation.Interpolation
 import com.kylecorry.trail_sense.shared.colors.AppColor
 
-class TrailSenseVibrantElevationColorMap : RgbInterpolationColorMap(
+class AfetKitiVibrantElevationColorMap : RgbInterpolationColorMap(
     arrayOf(
         AppColor.Green.color,
         AppColor.Yellow.color,

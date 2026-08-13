@@ -18,7 +18,7 @@ To measure distances on a map, you need to know the map scale. If it says someth
 Once the scale has been entered, measure the distance on the map, and the map distance will be displayed at the top of the screen.
 
 ## Calibration
-Most devices correctly report the screen size, but you should compare Trail Sense to a physical ruler to make sure it is accurate.
+Most devices correctly report the screen size, but you should compare Afet Kiti to a physical ruler to make sure it is accurate.
 
 If it is not accurate:
 
@@ -26,9 +26,9 @@ If it is not accurate:
 2. Set the value to 1 and tap 'OK'.
 3. Open the Ruler tool and measure 1 inch or 1 centimeter on a physical ruler.
 4. Open Settings > Ruler > Ruler scale.
-5. Enter what Trail Sense measured for 1 inch or 1 centimeter and tap 'OK'.
+5. Enter what Afet Kiti measured for 1 inch or 1 centimeter and tap 'OK'.
 
-For example, if Trail Sense reported 1.5 cm when you measured 1 cm on the ruler, enter 1.5 as the ruler scale.
+For example, if Afet Kiti reported 1.5 cm when you measured 1 cm on the ruler, enter 1.5 as the ruler scale.
 
 ## Quick action
 You can enable the Ruler quick action in the settings for the desired tab.

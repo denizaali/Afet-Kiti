@@ -26,7 +26,7 @@ class BackupCommand(private val context: Context, private val uriPicker: UriPick
 
         // Select the destination file
         val destination = uriPicker.create(
-            "trail-sense-${Instant.now().epochSecond}.zip",
+            "afet-kiti-${Instant.now().epochSecond}.zip",
             "application/zip"
         ) ?: return
 

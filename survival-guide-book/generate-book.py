@@ -171,7 +171,7 @@ with open("temp.md", 'w') as file:
 
 # Generate PDF
 metadata = {
-    "title": "Trail Sense",
+    "title": "Afet Kiti",
     "subtitle": "Wilderness Survival Guide",
     "author": "Kyle Corry",
     "year": "2025",
@@ -238,7 +238,7 @@ content = content.replace('\\pagebreak', '::: pagebreak\n:::')
 with open('temp.md', 'w') as file:
     file.write(content)
 
-metadata['title'] = 'Trail Sense: Wilderness Survival Guide'
+metadata['title'] = 'Afet Kiti: Wilderness Survival Guide'
 metadata['subtitle'] = ''
 
 convert_to_book(['temp.md'], metadata, 'epub', cover_image=f'{root_dir}/{full_resolution_directory}/cover.jpg')

@@ -18,7 +18,7 @@ Para medir distancias en un mapa, necesitas conocer la escala del mapa. Si indic
 Una vez introducida la escala, mide la distancia en el mapa y la distancia del mapa se mostrará en la parte superior de la pantalla.
 
 ## Calibración
-La mayoría de los dispositivos reportan correctamente el tamaño de la pantalla, pero debes comparar Trail Sense con una regla física para asegurarte de que es precisa.
+La mayoría de los dispositivos reportan correctamente el tamaño de la pantalla, pero debes comparar Afet Kiti con una regla física para asegurarte de que es precisa.
 
 Si no es precisa:
 
@@ -26,9 +26,9 @@ Si no es precisa:
 2. Ajusta el valor a 1 y pulsa 'Aceptar'.
 3. Abre la herramienta Regla y mide 1 centímetro o 1 pulgada en una regla física.
 4. Abre 'Ajustes > Regla > Escala de la regla.
-5. Introduce lo que Trail Sense midió para 1 centímetro o 1 pulgada y pulsa 'Aceptar'.
+5. Introduce lo que Afet Kiti midió para 1 centímetro o 1 pulgada y pulsa 'Aceptar'.
 
-Por ejemplo si Trail Sense indicó 1,5 cm cuando mediste 1 cm en la regla física, introduce 1,5 como escala de la regla.
+Por ejemplo si Afet Kiti indicó 1,5 cm cuando mediste 1 cm en la regla física, introduce 1,5 como escala de la regla.
 
 ## Acción rápida
 Puedes habilitar la acción rápida Regla en los ajustes para la pestaña deseada.

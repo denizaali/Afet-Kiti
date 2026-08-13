@@ -2,5 +2,5 @@
 - Mejorar la interfaz de la brújula mientras Navegas
 - Añadir notificación meteorológica diaria (hora configurable en los ajustes de tiempo)
 - Añadir historial de temperatura
-- Añadir lista de servicios de Trail Sense en ejecución en la herramienta Batería
+- Añadir lista de servicios de Afet Kiti en ejecución en la herramienta Batería
 - Correcciones de errores

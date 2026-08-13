@@ -9,13 +9,13 @@ import com.kylecorry.sol.units.EnergyUnits
 import com.kylecorry.sol.units.WeightUnits
 import com.kylecorry.trail_sense.R
 import com.kylecorry.trail_sense.shared.FormatService
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.extensions.useSpeedPreference
 import com.kylecorry.trail_sense.shared.extensions.useWeightPreference
 import com.kylecorry.trail_sense.shared.views.BulletSpeedInputView
 import com.kylecorry.trail_sense.shared.views.WeightInputView
 
-class FragmentEnergyCalculator : TrailSenseReactiveFragment(R.layout.fragment_energy_calculator) {
+class FragmentEnergyCalculator : AfetKitiReactiveFragment(R.layout.fragment_energy_calculator) {
 
     override fun update() {
         val bulletSpeedView = useView<BulletSpeedInputView>(R.id.bullet_speed)

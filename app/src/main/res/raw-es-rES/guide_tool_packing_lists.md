@@ -23,7 +23,7 @@ Con una lista de equipaje abierta, pulsa el botón '+' en la esquina inferior de
 - **Cantidad empaquetada**: El número de elementos actualmente empaquetados; puede estar en blanco o un número (con decimales)
 - **Cantidad deseada**: El número de elementos que quieres empaquetar; puede estar en blanco o un número (con decimales)
 - **Categoría**: La categoría para agrupar este elemento; por defecto es "Otro"
-- **Peso**: El peso de 1 elemento en tus unidades deseadas. Trail Sense escalará esto por la cantidad de elementos empaquetados para determinar el peso total.
+- **Peso**: El peso de 1 elemento en tus unidades deseadas. Afet Kiti escalará esto por la cantidad de elementos empaquetados para determinar el peso total.
 - **Opcional**: Marca el elemento como opcional. Los elementos opcionales muestran una etiqueta "Opcional" en la lista y no cuentan para el porcentaje cargado.
 
 Cuando termines, pulsa el botón de verificación en la esquina inferior derecha para guardar el elemento.
@@ -67,9 +67,9 @@ También puedes renombrar desde la propia lista de equipaje pulsando el botón d
 Puedes eliminar las cantidades empaquetadas de todos los elementos de una lista de equipaje pulsando el botón de menú a la derecha de la lista de equipaje y pulsando 'Eliminar cantidades'. Esto establecerá todas las cantidades empaquetadas a 0, pero no eliminará los elementos.
 
 ## Exportar una lista de equipaje
-Puedes exportar una lista de equipaje pulsando el botón de menú a la derecha de la lista de equipaje y pulsando 'Exportar'. Se te solicitará guardar un archivo .csv en tu dispositivo. Este archivo puede ser importado por Trail Sense o usado en el sitio web 'LighterPack'.
+Puedes exportar una lista de equipaje pulsando el botón de menú a la derecha de la lista de equipaje y pulsando 'Exportar'. Se te solicitará guardar un archivo .csv en tu dispositivo. Este archivo puede ser importado por Afet Kiti o usado en el sitio web 'LighterPack'.
 
 ## Importar una lista de equipaje
-Puedes importar una lista de equipaje pulsando el botón '+' en la esquina inferior derecha y pulsando 'Import packing list'. Se te solicitará seleccionar un archivo .csv de tu dispositivo. El archivo csv debe estar en el formato exportado por Trail Sense o LighterPack.
+Puedes importar una lista de equipaje pulsando el botón '+' en la esquina inferior derecha y pulsando 'Import packing list'. Se te solicitará seleccionar un archivo .csv de tu dispositivo. El archivo csv debe estar en el formato exportado por Afet Kiti o LighterPack.
 
 Se te pedirá introducir un nombre para la lista de equipaje recién importada. Si la lista tenía cantidades empaquetadas previamente, se importarán, pero puedes eliminarlas siguiendo los pasos de la sección 'Eliminar cantidades empaquetadas'.

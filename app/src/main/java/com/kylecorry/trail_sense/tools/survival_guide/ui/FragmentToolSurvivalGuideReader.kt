@@ -26,7 +26,7 @@ import com.kylecorry.trail_sense.shared.views.Toolbar
 import com.kylecorry.luna.concurrency.onMain
 import com.kylecorry.trail_sense.R
 import com.kylecorry.trail_sense.shared.debugging.isDebug
-import com.kylecorry.trail_sense.shared.extensions.TrailSenseReactiveFragment
+import com.kylecorry.trail_sense.shared.extensions.AfetKitiReactiveFragment
 import com.kylecorry.trail_sense.shared.io.DeleteTempFilesCommand
 import com.kylecorry.trail_sense.shared.io.FileSubsystem
 import com.kylecorry.trail_sense.shared.text.TextUtils
@@ -35,7 +35,7 @@ import com.kylecorry.trail_sense.tools.survival_guide.domain.Chapters
 import kotlinx.coroutines.delay
 
 class FragmentToolSurvivalGuideReader :
-    TrailSenseReactiveFragment(R.layout.fragment_survival_guide) {
+    AfetKitiReactiveFragment(R.layout.fragment_survival_guide) {
 
     override fun update() {
         val context = useAndroidContext()

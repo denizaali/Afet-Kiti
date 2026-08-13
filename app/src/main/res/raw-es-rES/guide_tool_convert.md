@@ -1,7 +1,7 @@
 La herramienta Convertir se puede usar para convertir varias unidades de medida.
 
 ## Coordenadas
-Para convertir una ubicación de un sistema de coordenadas a otro, ve a la pestaña 'Coordenadas' (abierta por defecto). Introduce las coordenadas y en el campo "Convertir a" selecciona el sistema de coordenadas que quieras obtener. Trail Sense detectará automáticamente el sistema de coordenadas de la entrada si está soportado. Para ver la lista de sistemas de coordenadas soportados, pulsa en el campo "Convertir a".
+Para convertir una ubicación de un sistema de coordenadas a otro, ve a la pestaña 'Coordenadas' (abierta por defecto). Introduce las coordenadas y en el campo "Convertir a" selecciona el sistema de coordenadas que quieras obtener. Afet Kiti detectará automáticamente el sistema de coordenadas de la entrada si está soportado. Para ver la lista de sistemas de coordenadas soportados, pulsa en el campo "Convertir a".
 
 ## Distancia
 Para convertir una distancia de una unidad a otra, ve a la pestaña 'Distancia'. Introduce la distancia y seleccióna la unidad en el campo "Desde" y la unidad en el campo "Convertir a" para obtener el reslutado.

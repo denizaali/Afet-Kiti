@@ -24,7 +24,7 @@ import com.kylecorry.andromeda.torch.TorchStateChangedTopic
 import com.kylecorry.sol.units.Coordinate
 import com.kylecorry.trail_sense.R
 import com.kylecorry.trail_sense.main.MainActivity
-import com.kylecorry.trail_sense.main.TrailSenseApplicationInitializer
+import com.kylecorry.trail_sense.main.AfetKitiApplicationInitializer
 import com.kylecorry.trail_sense.main.persistence.AppDatabase
 import com.kylecorry.trail_sense.settings.migrations.PreferenceMigrator
 import com.kylecorry.trail_sense.shared.UserPreferences
@@ -138,13 +138,13 @@ object TestUtils {
 
     // STARTUP
     /**
-     * Setup the application to match the actual application (Trail Sense application)
+     * Setup the application to match the actual application (Afet Kiti application)
      */
     fun setupApplication() {
         WorkManagerTestInitHelper.initializeTestWorkManager(context)
         // Drop the DB
         AppDatabase.getInstance(context).clearAllTables()
-        TrailSenseApplicationInitializer.initialize(context)
+        AfetKitiApplicationInitializer.initialize(context)
         setupDefaultPreferences()
     }
 

@@ -89,7 +89,7 @@
 \n
 \n- Defina este valor para 1.
 \n
-\n- Meça o valor da régua no Trail Sense correspondente a uma unidade de uma régua física.
+\n- Meça o valor da régua no Afet Kiti correspondente a uma unidade de uma régua física.
 \n
 \n- Digite aqui o valor medido.</string>
     <string name="pref_num_visible_beacons_title">Pontos de orientação por perto</string>
@@ -171,9 +171,9 @@
     <string name="no_group">Nenhum grupo</string>
     <string name="group">Grupo</string>
     <string name="delete_beacon_group_message">%s e todos os seus pontos de orientação serão excluídos.</string>
-    <string name="tool_user_guide_summary">Um guia de instruções para usar o Trail Sense</string>
+    <string name="tool_user_guide_summary">Um guia de instruções para usar o Afet Kiti</string>
     <string name="tool_user_guide_title">Guia do Usuário</string>
-    <string name="error_occurred_message">O Trail Sense encontrou um erro. Por favor, envie um e-mail ao desenvolvedor para corrigir este problema.</string>
+    <string name="error_occurred_message">O Afet Kiti encontrou um erro. Por favor, envie um e-mail ao desenvolvedor para corrigir este problema.</string>
     <string name="error_occurred">Ocorreu um erro</string>
     <string name="pref_weather_update_frequency_title">Frequência de atualização do clima</string>
     <string name="pref_max_beacon_distance_title">Distância ao ponto de orientação mais próximo</string>
@@ -194,7 +194,7 @@
     <string name="sos">SOS</string>
     <string name="tap_to_turn_off">Toque para desligar</string>
     <string name="flashlight_title">Lanterna</string>
-    <string name="access_background_location_rationale">O Trail Sense utiliza dados de localização em segundo plano. Ele é usado para a calibração da pressão ao nível do mar no monitoramento de clima e para fornecer alertas mais precisos do pôr do sol. [Ver política de privacidade](https://kylecorry.com/Trail-Sense/privacy_policy.html)</string>
+    <string name="access_background_location_rationale">O Afet Kiti utiliza dados de localização em segundo plano. Ele é usado para a calibração da pressão ao nível do mar no monitoramento de clima e para fornecer alertas mais precisos do pôr do sol. [Ver política de privacidade](https://kylecorry.com/Afet-Kiti/privacy_policy.html)</string>
     <string name="access_background_location">Atualizar as configurações de localização</string>
     <string name="copied_to_clipboard_toast">Copiado para área de transferência</string>
     <string name="distance_from">De</string>
@@ -327,8 +327,8 @@
     <string name="gps_user">Usuário</string>
     <string name="import_btn">Importar</string>
     <string name="export">Exportar</string>
-    <string name="onboarding_privacy">- Trail Sense respeita sua privacidade e seus dados de localização nunca deixam seu dispositivo \n \n- Trail Sense nunca exigirá permissão da Internet \n \n- Veja a [Política de Privacidade](https://kylecorry.com/Trail-Sense/privacy_policy.html) (abre no navegador do seu telefone) \n \n- Algumas funcionalidades do Trail Sense exigem acesso à sua localização \n \n- A concessão da permissão de localização permitirá as seguintes funcionalidades: \n \n\t- Navegação até os pontos de orientação \n \n\t- Maior precisão na previsão (não disponível em todos os dispositivos) \n \n\t- Recuar \n \n\t- Horários do sol e lua para sua localização atual (alertas de pôr-do-sol podem precisar da localização em segundo plano) \n \n- Se você optar por não conceder a permissão de localização, você pode digitar manualmente uma localização no menu de Configurações &gt; Calibração do GPS em Trail Sense. \n \n- Depois de clicar em continuar, você será solicitado a conceder a permissão de localização. A negação dessa permissão impedirá o Trail Sense de acessar sua localização, portanto, recomenda-se uma inserção manual de localização.</string>
-    <string name="onboarding_user_guide">Saiba como usar as funcionalidades do Trail Sense com o Guia do Usuário. Disponível na parte inferior da guia Ferramentas. \n \nMais guias estarão disponíveis em breve.</string>
+    <string name="onboarding_privacy">- Afet Kiti respeita sua privacidade e seus dados de localização nunca deixam seu dispositivo \n \n- Afet Kiti nunca exigirá permissão da Internet \n \n- Veja a [Política de Privacidade](https://kylecorry.com/Afet-Kiti/privacy_policy.html) (abre no navegador do seu telefone) \n \n- Algumas funcionalidades do Afet Kiti exigem acesso à sua localização \n \n- A concessão da permissão de localização permitirá as seguintes funcionalidades: \n \n\t- Navegação até os pontos de orientação \n \n\t- Maior precisão na previsão (não disponível em todos os dispositivos) \n \n\t- Recuar \n \n\t- Horários do sol e lua para sua localização atual (alertas de pôr-do-sol podem precisar da localização em segundo plano) \n \n- Se você optar por não conceder a permissão de localização, você pode digitar manualmente uma localização no menu de Configurações &gt; Calibração do GPS em Afet Kiti. \n \n- Depois de clicar em continuar, você será solicitado a conceder a permissão de localização. A negação dessa permissão impedirá o Afet Kiti de acessar sua localização, portanto, recomenda-se uma inserção manual de localização.</string>
+    <string name="onboarding_user_guide">Saiba como usar as funcionalidades do Afet Kiti com o Guia do Usuário. Disponível na parte inferior da guia Ferramentas. \n \nMais guias estarão disponíveis em breve.</string>
     <string name="privacy_and_location">Privacidade e localização</string>
     <string name="cirrus_desc">Nuvens altas e finas que parecem tufos de cabelo branco.</string>
     <string name="cirrocumulus_desc">Nuvens de alto nível que formam um lençol ondulado. O lençol é composto de pequenos pontos que parecem quase bidimensionais.</string>
@@ -447,7 +447,7 @@
     <string name="pref_cell_signal_refresh_cache_summary">Força o carregamento dos últimos níveis do sinal da rede móvel</string>
     <string name="pref_show_last_signal_beacon_summary">Cria um ponto de orientação para a localização do último sinal da rede móvel</string>
     <string name="pref_show_last_signal_beacon_title">Último sinal do ponto de orientação</string>
-    <string name="pref_tiles_enabled_summary">Pode impedir que os aplicativos de economia de bateria parem completamente o Trail Sense</string>
+    <string name="pref_tiles_enabled_summary">Pode impedir que os aplicativos de economia de bateria parem completamente o Afet Kiti</string>
     <string name="battery_warning">Aviso do consumo da bateria</string>
     <string name="pref_backtrack_history_days_title">Histórico da função Recuar</string>
     <string name="delete_tide_prompt">Excluir maré\?</string>
@@ -461,7 +461,7 @@
     <string name="pref_auto_low_power_title">Economia automática da bateria</string>
     <string name="pref_auto_low_power_summary">Quando a bateria estiver fraca</string>
     <string name="pref_flashlight_toggle_with_volume_title">Alternar com botões de volume</string>
-    <string name="pref_flashlight_toggle_with_volume_summary">Enquanto o Trail Sense estiver em uso</string>
+    <string name="pref_flashlight_toggle_with_volume_summary">Enquanto o Afet Kiti estiver em uso</string>
     <string name="pref_tiles_enabled_title">Tiles do sistema</string>
     <string name="location_not_mocked">Usando localização real</string>
     <string name="location_mocked">Usando localização simulada</string>
@@ -620,12 +620,12 @@
 \n### Resolução
 \n%4$s</string>
     <string name="gps_unavailable_resolution">Ative a localização ou mude o tipo de localização para \"Somente dispositivo\" ou \"Alta precisão\"</string>
-    <string name="battery_restricted_resolution">Defina o Trail Sense como \"não otimizado\"</string>
+    <string name="battery_restricted_resolution">Defina o Afet Kiti como \"não otimizado\"</string>
     <string name="power_saving_mode_resolution">Desativar o modo de economia da bateria</string>
     <string name="location_override_not_set_resolution">Insira a localização simulada nas configurações</string>
     <string name="location_override_resolution">Ativar o ajuste automático da localização nas configurações.</string>
     <string name="elevation_override_resolution">Ativar a calibração automática nas configurações.</string>
-    <string name="unblock_notification_channel">Desbloquear %s notificação do Trail Sense</string>
+    <string name="unblock_notification_channel">Desbloquear %s notificação do Afet Kiti</string>
     <string name="get_gps_signal">Vá para um espaço exterior e sem obstruções ao redor.</string>
     <string name="activity_recognition">Reconhecimento de atividades</string>
     <string name="background_location_permission">Localização (permitir sempre)</string>
@@ -831,7 +831,7 @@
     <string name="disclaimer_estimated_tide">As marés previstas podem ser imprecisas. Por favor, use uma tabela oficial de marés para os horários exatos.</string>
     <string name="disclaimer_estimated_tide_title">Maré prevista</string>
     <string name="estimated">Previsto</string>
-    <string name="allow_ignore_battery_restrictions_instructions">A remoção das restrições de bateria do Trail Sense pode melhorar a precisão.\n\nNa maioria dos dispositivos, toque em \"%s\", depois mude para todos os aplicativos e desative a otimização da bateria para o Trail Sense.\n\nVisite [Don\'t kill my app] (https://dontkillmyapp.com/) para obter instruções específicas do dispositivo.</string>
+    <string name="allow_ignore_battery_restrictions_instructions">A remoção das restrições de bateria do Afet Kiti pode melhorar a precisão.\n\nNa maioria dos dispositivos, toque em \"%s\", depois mude para todos os aplicativos e desative a otimização da bateria para o Afet Kiti.\n\nVisite [Don\'t kill my app] (https://dontkillmyapp.com/) para obter instruções específicas do dispositivo.</string>
     <string name="error">Erro</string>
     <string name="warning">Atenção</string>
     <string name="square">Quadrado</string>
@@ -949,7 +949,7 @@
     <string name="weather_alert_storm_description">Prepare-se para ventos fortes e precipitação pesada.</string>
     <string name="loading">Carregando</string>
     <string name="compass_source_mag_gyro">Magnetômetro + Giroscópio</string>
-    <string name="compass_source_legacy_ts">Legado (Trail Sense)</string>
+    <string name="compass_source_legacy_ts">Legado (Afet Kiti)</string>
     <string name="compass_source_legacy_android">Legado (Android)</string>
     <string name="accelerometer">Acelerômetro</string>
     <string name="data_source">Origem: %s</string>

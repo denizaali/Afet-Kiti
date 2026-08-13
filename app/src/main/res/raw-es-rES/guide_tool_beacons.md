@@ -17,7 +17,7 @@ La herramienta de Balizas puede usarse para guardar ubicaciones y navegar hacia 
 - **Notas**: Cualquier nota que quieras registrar sobre la baliza.
 
 ### Crear desde un código QR
-Las balizas pueden compartirse como un código QR pulsando el botón de menú en la fila de la baliza que quieras compartir, y seleccionando 'Compartir...'. Entonces puedes compartir el código QR con Trail Sense para crear una baliza desde él.
+Las balizas pueden compartirse como un código QR pulsando el botón de menú en la fila de la baliza que quieras compartir, y seleccionando 'Compartir...'. Entonces puedes compartir el código QR con Afet Kiti para crear una baliza desde él.
 
 1. Pulsa el botón '+' en la esquina inferior derecha de la pantalla.
 2. Pulsa en 'Código QR'.
@@ -25,7 +25,7 @@ Las balizas pueden compartirse como un código QR pulsando el botón de menú en
 4. Sigue los pasos arriba para rellenar la información de la baliza. Cualquier información del código QR se rellenará previamente.
 
 ### Crear desde un archivo GPX
-Si tienes ubicaciones guardadas en un archivo GPX, puedes importarlas a Trail Sense como balizas.
+Si tienes ubicaciones guardadas en un archivo GPX, puedes importarlas a Afet Kiti como balizas.
 
 1. Pulsa el botón '+' en la esquina inferior derecha de la pantalla.
 2. Pulsa 'Importar GPX'.
