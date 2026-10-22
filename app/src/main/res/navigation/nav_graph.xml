@@ -407,6 +407,10 @@
         android:name="com.kylecorry.trail_sense.tools.whistle.ui.ToolWhistleFragment"
         android:label="ToolWhistleFragment" />
     <fragment
+        android:id="@+id/toolCounterFragment"
+        android:name="com.kylecorry.trail_sense.tools.counter.ui.ToolCounterFragment"
+        android:label="ToolCounterFragment" />
+    <fragment
         android:id="@+id/fragmentToolSolarPanel"
         android:name="com.kylecorry.trail_sense.tools.solarpanel.ui.FragmentToolSolarPanel"
         android:label="FragmentToolSolarPanel" />

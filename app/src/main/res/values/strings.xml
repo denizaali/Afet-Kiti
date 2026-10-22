@@ -412,6 +412,7 @@
     <string name="tool_cliff_height_description">Measure the height of a cliff or drop</string>
     <string name="tool_cliff_height_disclaimer">Only use this tool when it is safe to do so, and be sure to check what is below the cliff to avoid injury. See the user guide for instructions.</string>
     <string name="tool_whistle_title">Whistle</string>
+    <string name="tool_counter_title">Counter</string>
     <string name="action_inventory_clear_confirm">Clear all packed amounts?</string>
     <string name="inventory_empty_text">No items</string>
     <string name="email" translatable="false">trailsense@protonmail.com</string>
