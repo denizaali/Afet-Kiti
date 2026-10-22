@@ -4,7 +4,9 @@ import android.app.PendingIntent
 import android.graphics.drawable.Icon
 import android.os.Parcelable
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import androidx.annotation.DrawableRes
 import androidx.core.content.pm.ShortcutInfoCompat
 import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.graphics.drawable.IconCompat
@@ -25,6 +27,7 @@ import com.kylecorry.trail_sense.shared.UserPreferences
 import com.kylecorry.trail_sense.shared.navigateWithAnimation
 import com.kylecorry.trail_sense.tools.guide.infrastructure.UserGuideUtils
 import com.kylecorry.trail_sense.tools.tools.infrastructure.Tool
+import com.kylecorry.trail_sense.tools.tools.infrastructure.ToolCategory
 import com.kylecorry.trail_sense.tools.tools.infrastructure.ToolSearch
 import com.kylecorry.trail_sense.tools.tools.infrastructure.Tools
 import com.kylecorry.trail_sense.tools.tools.quickactions.ToolsQuickActionBinder
@@ -161,8 +164,9 @@ class ToolsFragment : BoundFragment<FragmentToolsBinding>() {
                 val filteredTools = filterTools(tools)
                 if (filter.isNullOrBlank()) {
                     val sorter = toolSortFactory.getToolSort(prefs.toolSort)
+                    val isCategorical = prefs.toolSort == ToolSortType.Category
                     toolListItems =
-                        listOf(toolHeader) + getToolItemList(sorter.sort(filteredTools))
+                        listOf(toolHeader) + getToolItemList(sorter.sort(filteredTools), isCategorical)
                 } else {
                     toolListItems = listOf(toolHeader) + filteredTools.map { getToolListItem(it) }
                 }
@@ -231,49 +235,54 @@ class ToolsFragment : BoundFragment<FragmentToolsBinding>() {
                 onClick = {
                     findNavController().navigateWithAnimation(tool.navAction)
                 },
-                onLongClick = {
-                    Pickers.menu(
-                        it, listOf(
-                            if (tool.isExperimental) getString(R.string.experimental) else null,
-                            if (tool.description != null) getString(R.string.pref_category_about) else null,
-                            if (pinnedToolManager.isPinned(tool.id)) {
-                                getString(R.string.unpin)
-                            } else {
-                                getString(R.string.pin)
-                            },
-                            if (tool.guideId != null) getString(R.string.tool_user_guide_title) else null,
-                            if (tool.settingsNavAction != null) getString(R.string.settings) else null,
-                            getString(R.string.add_to_homescreen)
-                        )
-                    ) { selectedIdx ->
-                        when (selectedIdx) {
-                            1 -> dialog(tool.name, tool.description, cancelText = null)
-                            2 -> {
-                                if (pinnedToolManager.isPinned(tool.id)) {
-                                    pinnedToolManager.unpin(tool.id)
-                                } else {
-                                    pinnedToolManager.pin(tool.id)
-                                }
-                                updatePinnedTools()
-                            }
-
-                            3 -> {
-                                UserGuideUtils.showGuide(this, tool.guideId!!)
-                            }
-
-                            4 -> {
-                                findNavController().navigateWithAnimation(tool.settingsNavAction!!)
-                            }
-
-                            5 -> {
-                                addToHomescreen(tool)
-                            }
-                        }
-                        true
-                    }
+                onLongClick = { view ->
+                    showToolMenu(view, tool)
                     true
                 }
-            ), 1)
+            ), 1
+        )
+    }
+
+    private fun showToolMenu(view: View, tool: Tool) {
+        Pickers.menu(
+            view, listOf(
+                if (tool.isExperimental) getString(R.string.experimental) else null,
+                if (tool.description != null) getString(R.string.pref_category_about) else null,
+                if (pinnedToolManager.isPinned(tool.id)) {
+                    getString(R.string.unpin)
+                } else {
+                    getString(R.string.pin)
+                },
+                if (tool.guideId != null) getString(R.string.tool_user_guide_title) else null,
+                if (tool.settingsNavAction != null) getString(R.string.settings) else null,
+                getString(R.string.add_to_homescreen)
+            )
+        ) { selectedIdx ->
+            when (selectedIdx) {
+                1 -> dialog(tool.name, tool.description, cancelText = null)
+                2 -> {
+                    if (pinnedToolManager.isPinned(tool.id)) {
+                        pinnedToolManager.unpin(tool.id)
+                    } else {
+                        pinnedToolManager.pin(tool.id)
+                    }
+                    updatePinnedTools()
+                }
+
+                3 -> {
+                    UserGuideUtils.showGuide(this, tool.guideId!!)
+                }
+
+                4 -> {
+                    findNavController().navigateWithAnimation(tool.settingsNavAction!!)
+                }
+
+                5 -> {
+                    addToHomescreen(tool)
+                }
+            }
+            true
+        }
     }
 
     private fun updatePinnedTools() {
@@ -283,25 +292,85 @@ class ToolsFragment : BoundFragment<FragmentToolsBinding>() {
                     pinnedToolManager.isPinned(it.id)
                 }
 
-                pinnedListItems = listOf(pinnedHeader) + getToolItemList(pinnedSorter.sort(pinned))
+                pinnedListItems = listOf(pinnedHeader) + getToolItemList(pinnedSorter.sort(pinned), false)
             }
 
             updateList()
         }
     }
 
-    private fun getToolItemList(tools: List<CategorizedTools>): List<GridView.SpannedItem<ToolListItem>> {
-        return if (tools.size == 1) {
-            tools.first().tools.map { tool ->
-                getToolListItem(tool)
+    private fun getToolItemList(
+        tools: List<CategorizedTools>,
+        isCategorical: Boolean = false
+    ): List<GridView.SpannedItem<ToolListItem>> {
+        return if (isCategorical) {
+            tools.map { categorized ->
+                getToolCategoryCardItem(categorized)
             }
         } else {
-            tools.flatMap {
-                listOf(getToolCategoryListItem(it.categoryName)) +
-                        it.tools.map { tool ->
-                            getToolListItem(tool)
-                        }
+            tools.flatMap { categorized ->
+                categorized.tools.map { tool ->
+                    getToolListItem(tool)
+                }
             }
+        }
+    }
+
+    private fun getToolCategoryCardItem(categorized: CategorizedTools): GridView.SpannedItem<ToolListItem> {
+        val category = categorized.category ?: categorized.tools.firstOrNull()?.category
+        val icon = getCategoryIcon(category)
+        val name = categorized.categoryName ?: getString(R.string.tools)
+        val countText = resources.getQuantityString(
+            R.plurals.num_tools,
+            categorized.tools.size,
+            categorized.tools.size
+        )
+
+        return GridView.SpannedItem(
+            ToolListItem(
+                title = name,
+                style = ToolListItemStyle.CategoryCard,
+                icon = icon,
+                subtitle = countText,
+                onClick = {
+                    openCategory(name, icon, categorized.tools)
+                }
+            ),
+            1
+        )
+    }
+
+    private fun openCategory(
+        categoryName: String,
+        @DrawableRes categoryIcon: Int,
+        tools: List<Tool>
+    ) {
+        val sheet = ToolsCategoryBottomSheet(
+            categoryName = categoryName,
+            categoryIcon = categoryIcon,
+            tools = tools,
+            onToolClick = { tool ->
+                findNavController().navigateWithAnimation(tool.navAction)
+            },
+            onToolLongClick = { view, tool ->
+                showToolMenu(view, tool)
+            }
+        )
+        sheet.show(childFragmentManager, "ToolsCategoryBottomSheet")
+    }
+
+    private fun getCategoryIcon(category: ToolCategory?): Int {
+        return when (category) {
+            ToolCategory.Signaling -> R.drawable.flashlight
+            ToolCategory.Distance -> R.drawable.ruler
+            ToolCategory.Location -> R.drawable.ic_location
+            ToolCategory.Angles -> R.drawable.clinometer
+            ToolCategory.Time -> R.drawable.ic_tool_clock
+            ToolCategory.Power -> R.drawable.ic_tool_battery
+            ToolCategory.Weather -> R.drawable.ic_weather
+            ToolCategory.Communication -> R.drawable.cell_tower
+            ToolCategory.Books -> R.drawable.ic_open_book
+            ToolCategory.Other, null -> R.drawable.ic_category_other
         }
     }
 

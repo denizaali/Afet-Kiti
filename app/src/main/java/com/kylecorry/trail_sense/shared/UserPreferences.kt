@@ -419,12 +419,26 @@ class UserPreferences(ctx: Context) : IDeclinationPreferences {
 
     var toolQuickActions: List<Int>
         get() {
-            return cache.getIntArray(context.getString(R.string.pref_tool_quick_actions))
-                ?: listOf(
-                    Tools.QUICK_ACTION_FLASHLIGHT,
-                    Tools.QUICK_ACTION_WHISTLE,
-                    Tools.QUICK_ACTION_LOW_POWER_MODE,
-                )
+            val defaultActions = listOf(
+                Tools.QUICK_ACTION_FLASHLIGHT,
+                Tools.QUICK_ACTION_WHISTLE,
+                Tools.QUICK_ACTION_LOW_POWER_MODE,
+                Tools.QUICK_ACTION_EMERGENCY_CALL,
+            )
+            val saved = cache.getIntArray(context.getString(R.string.pref_tool_quick_actions))
+                ?: return defaultActions
+
+            val hasAddedEmergencyCall = cache.getBoolean("pref_migrated_emergency_call_quick_action") ?: false
+            if (!hasAddedEmergencyCall) {
+                cache.putBoolean("pref_migrated_emergency_call_quick_action", true)
+                if (!saved.contains(Tools.QUICK_ACTION_EMERGENCY_CALL)) {
+                    val updated = saved + Tools.QUICK_ACTION_EMERGENCY_CALL
+                    cache.putIntArray(context.getString(R.string.pref_tool_quick_actions), updated)
+                    return updated
+                }
+            }
+
+            return saved
         }
         set(value) {
             cache.putIntArray(
@@ -433,26 +447,44 @@ class UserPreferences(ctx: Context) : IDeclinationPreferences {
             )
         }
 
+    val defaultBottomNavigationTools: List<Long> = listOf(
+        Tools.NAVIGATION,
+        Tools.MAP,
+        Tools.WEATHER,
+        Tools.ASTRONOMY
+    )
+
     var bottomNavigationTools: List<Long>
         get() {
-            val maxLength = CustomBottomNavigationView.MAX_ITEM_COUNT - 1
-            return (cache.getIntArray(context.getString(R.string.pref_bottom_navigation_tools))
+            val saved = cache.getIntArray(context.getString(R.string.pref_bottom_navigation_tools))
                 ?.map { it.toLong() }
-                ?: listOf(
-                    Tools.NAVIGATION,
-                    Tools.MAP,
-                    Tools.WEATHER,
-                    Tools.ASTRONOMY
-                ))
-                .padRight(maxLength, 0)
-                .subList(0, maxLength)
+                ?.filter { it > 0L }
+                ?.distinct()
+
+            if (saved.isNullOrEmpty()) {
+                return defaultBottomNavigationTools
+            }
+
+            val result = saved.toMutableList()
+            for (defaultTool in defaultBottomNavigationTools) {
+                if (result.size >= 4) break
+                if (!result.contains(defaultTool)) {
+                    result.add(defaultTool)
+                }
+            }
+            return result.take(4)
         }
         set(value) {
+            val sanitized = value.filter { it > 0L }.distinct().take(4)
             cache.putIntArray(
                 context.getString(R.string.pref_bottom_navigation_tools),
-                value.map { it.toInt() }
+                sanitized.map { it.toInt() }
             )
         }
+
+    fun resetBottomNavigationTools() {
+        bottomNavigationTools = defaultBottomNavigationTools
+    }
 
     var toolPinnedIds: List<Long>
         get() {

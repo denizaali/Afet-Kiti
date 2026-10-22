@@ -30,6 +30,7 @@ import com.kylecorry.trail_sense.tools.comms.talk.LocalTalkToolRegistration
 import com.kylecorry.trail_sense.tools.convert.ConvertToolRegistration
 import com.kylecorry.trail_sense.tools.declination.DeclinationToolRegistration
 import com.kylecorry.trail_sense.tools.diagnostics.DiagnosticsToolRegistration
+import com.kylecorry.trail_sense.tools.emergency_call.EmergencyCallToolRegistration
 import com.kylecorry.trail_sense.tools.experimentation.ExperimentationToolRegistration
 import com.kylecorry.trail_sense.tools.field_guide.FieldGuideToolRegistration
 import com.kylecorry.trail_sense.tools.flashlight.FlashlightToolRegistration
@@ -115,7 +116,8 @@ object Tools {
         PermitsToolRegistration,
         DeclinationToolRegistration,
         MapToolRegistration,
-        MagnifierToolRegistration
+        MagnifierToolRegistration,
+        EmergencyCallToolRegistration
     )
     private val bus = EventBus<Bundle>()
 
@@ -292,6 +294,7 @@ object Tools {
     const val DECLINATION = 46L
     const val MAP = 47L
     const val MAGNIFIER = 48L
+    const val EMERGENCY_CALL = 49L
 
     // Quick Action IDs
     const val QUICK_ACTION_NONE = -1
@@ -318,4 +321,5 @@ object Tools {
     const val QUICK_ACTION_SURVIVAL_GUIDE = 28
     const val QUICK_ACTION_RECALIBRATE_ALTIMETER = 29
     const val QUICK_ACTION_RECORD_SIGHTING = 30
+    const val QUICK_ACTION_EMERGENCY_CALL = 31
 }

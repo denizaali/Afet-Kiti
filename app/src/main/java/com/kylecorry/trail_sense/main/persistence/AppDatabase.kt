@@ -26,6 +26,8 @@ import com.kylecorry.trail_sense.tools.beacons.infrastructure.persistence.Beacon
 import com.kylecorry.trail_sense.tools.beacons.infrastructure.persistence.BeaconGroupEntity
 import com.kylecorry.trail_sense.tools.clouds.infrastructure.persistence.CloudReadingDao
 import com.kylecorry.trail_sense.tools.clouds.infrastructure.persistence.CloudReadingEntity
+import com.kylecorry.trail_sense.tools.emergency_call.infrastructure.persistence.EmergencyContactDao
+import com.kylecorry.trail_sense.tools.emergency_call.infrastructure.persistence.EmergencyContactEntity
 import com.kylecorry.trail_sense.tools.field_guide.infrastructure.FieldGuidePageDao
 import com.kylecorry.trail_sense.tools.field_guide.infrastructure.FieldGuidePageEntity
 import com.kylecorry.trail_sense.tools.field_guide.infrastructure.FieldGuideSightingDao
@@ -68,8 +70,8 @@ import com.kylecorry.trail_sense.tools.weather.infrastructure.persistence.Pressu
  */
 @Suppress("LocalVariableName")
 @Database(
-    entities = [PackItemEntity::class, Note::class, WaypointEntity::class, PressureReadingEntity::class, BeaconEntity::class, BeaconGroupEntity::class, PhotoMapEntity::class, BatteryReadingEntity::class, PackEntity::class, CloudReadingEntity::class, PathEntity::class, TideTableEntity::class, TideTableRowEntity::class, PathGroupEntity::class, LightningStrikeEntity::class, MapGroupEntity::class, TideConstituentEntry::class, FieldGuidePageEntity::class, FieldGuideSightingEntity::class, DigitalElevationModelEntity::class, NavigationBearingEntity::class, CachedTileEntity::class, PluginEntity::class, PluginRegistrationEntity::class, TrailMapEntity::class, StepTrackingPeriodEntity::class, StepCountBucketEntity::class],
-    version = 59,
+    entities = [PackItemEntity::class, Note::class, WaypointEntity::class, PressureReadingEntity::class, BeaconEntity::class, BeaconGroupEntity::class, PhotoMapEntity::class, BatteryReadingEntity::class, PackEntity::class, CloudReadingEntity::class, PathEntity::class, TideTableEntity::class, TideTableRowEntity::class, PathGroupEntity::class, LightningStrikeEntity::class, MapGroupEntity::class, TideConstituentEntry::class, FieldGuidePageEntity::class, FieldGuideSightingEntity::class, DigitalElevationModelEntity::class, NavigationBearingEntity::class, CachedTileEntity::class, PluginEntity::class, PluginRegistrationEntity::class, TrailMapEntity::class, StepTrackingPeriodEntity::class, StepCountBucketEntity::class, EmergencyContactEntity::class],
+    version = 60,
     exportSchema = false
 )
 @TypeConverters(Converters::class)
@@ -98,6 +100,7 @@ abstract class AppDatabase : RoomDatabase() {
     abstract fun pluginRegistrationDao(): PluginRegistrationDao
     abstract fun trailMapDao(): TrailMapDao
     abstract fun stepTrackerDao(): StepTrackerDao
+    abstract fun emergencyContactDao(): EmergencyContactDao
 
     companion object {
 
@@ -577,6 +580,20 @@ abstract class AppDatabase : RoomDatabase() {
                 }
             }
 
+            val MIGRATION_59_60 = object : Migration(59, 60) {
+                override fun migrate(db: SupportSQLiteDatabase) {
+                    db.execSQL(
+                        """
+                        CREATE TABLE IF NOT EXISTS `emergency_contacts` (
+                            `_id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+                            `name` TEXT NOT NULL,
+                            `phone` TEXT NOT NULL
+                        )
+                        """.trimIndent()
+                    )
+                }
+            }
+
             return Room.databaseBuilder(context, AppDatabase::class.java, "trail_sense")
                 .addMigrations(
                     MIGRATION_1_2,
@@ -636,7 +653,8 @@ abstract class AppDatabase : RoomDatabase() {
                     MIGRATION_55_56,
                     MIGRATION_56_57,
                     MIGRATION_57_58,
-                    MIGRATION_58_59
+                    MIGRATION_58_59,
+                    MIGRATION_59_60
                 )
                 // TODO: Temporary for the android tests, will remove once AppDatabase is injected with hilt
                 .allowMainThreadQueries()
