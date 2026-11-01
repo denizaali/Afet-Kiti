@@ -6,7 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
+import com.kylecorry.andromeda.alerts.Alerts
 import com.kylecorry.andromeda.fragments.BoundFragment
+import com.kylecorry.trail_sense.R
 import com.kylecorry.trail_sense.databinding.FragmentToolCounterBinding
 import com.kylecorry.trail_sense.databinding.ItemCounterBinding
 import com.kylecorry.trail_sense.tools.counter.domain.Counter
@@ -32,6 +34,7 @@ class ToolCounterFragment : BoundFragment<FragmentToolCounterBinding>() {
             row.counterValue.text = counter.count.toString()
             row.counterPlusBtn.setOnClickListener { change(counter.id, +1) }
             row.counterMinusBtn.setOnClickListener { change(counter.id, -1) }
+            row.counterDeleteBtn.setOnClickListener { confirmDelete(counter) }
             binding.counterList.addView(row.root)
         }
     }
@@ -63,6 +66,23 @@ class ToolCounterFragment : BoundFragment<FragmentToolCounterBinding>() {
     private fun add(name: String) {
         val newId = (counters.maxOfOrNull { it.id } ?: 0) + 1
         counters = counters + Counter(id = newId, name = name, count = 0)
+        show()
+    }
+
+    private fun confirmDelete(counter: Counter) {
+        Alerts.dialog(
+            requireContext(),
+            getString(R.string.delete),
+            counter.name
+        ) { cancelled ->
+            if (!cancelled) {
+                delete(counter.id)
+            }
+        }
+    }
+
+    private fun delete(id: Long) {
+        counters = counters.filterNot { it.id == id }
         show()
     }
 
