@@ -23,7 +23,7 @@ class CategoricalToolSort(context: Context) : ToolSort {
     override fun sort(tools: List<Tool>): List<CategorizedTools> {
         return tools.sortedBy { it.category.ordinal }.groupBy { it.category }
             .map { (category, tools) ->
-                CategorizedTools(groupNameMap[category], tools.sortedBy { it.name })
+                CategorizedTools(groupNameMap[category], tools.sortedBy { it.name }, category)
             }
     }
 }

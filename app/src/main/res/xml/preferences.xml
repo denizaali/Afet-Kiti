@@ -20,6 +20,11 @@
             app:key="@string/pref_theme_settings"
             app:title="@string/pref_theme_title" />
         <Preference
+            app:icon="@drawable/ic_bottom_nav"
+            app:key="@string/pref_bottom_nav_settings"
+            app:summary="@string/bottom_navigation_bar_summary"
+            app:title="@string/bottom_navigation_bar" />
+        <Preference
             app:icon="@drawable/ic_visible"
             app:key="@string/pref_privacy_settings"
             app:title="@string/privacy" />

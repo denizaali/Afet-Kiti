@@ -29,6 +29,7 @@ class CategoryToolListItemRenderer : ToolListItemRenderer {
         binding.title.textSize = 14f
         binding.title.text = item.title?.capitalizeWords()
         binding.title.isVisible = item.title != null
+        binding.subtitle.isVisible = false
 
         // Click action
         binding.root.setOnClickListener {

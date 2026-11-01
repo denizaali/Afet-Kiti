@@ -136,6 +136,13 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_settings_to_bottom_navigation_settings"
+            app:destination="@id/bottomNavigationSettingsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
 
         <action
             android:id="@+id/action_action_settings_to_licenseFragment"
@@ -843,7 +850,19 @@
     <fragment
         android:id="@+id/toolsSettingsFragment"
         android:name="com.kylecorry.trail_sense.tools.tools.ui.ToolsSettingsFragment"
-        android:label="ToolsSettingsFragment" />
+        android:label="ToolsSettingsFragment">
+        <action
+            android:id="@+id/action_tools_settings_to_bottom_navigation_settings"
+            app:destination="@id/bottomNavigationSettingsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/bottomNavigationSettingsFragment"
+        android:name="com.kylecorry.trail_sense.settings.ui.BottomNavigationSettingsFragment"
+        android:label="@string/bottom_navigation_bar" />
     <fragment
         android:id="@+id/fragmentToolErrorHandler"
         android:name="com.kylecorry.trail_sense.main.errors.ErrorHandlerFragment"
@@ -856,5 +875,23 @@
             android:defaultValue=""
             app:argType="string" />
     </fragment>
+    <fragment
+        android:id="@+id/emergencyCallFragment"
+        android:name="com.kylecorry.trail_sense.tools.emergency_call.ui.EmergencyCallFragment"
+        android:label="@string/tool_emergency_call_title"
+        tools:layout="@layout/fragment_emergency_call">
+        <action
+            android:id="@+id/action_emergencyCallFragment_to_emergencySettingsFragment"
+            app:destination="@id/emergencySettingsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/emergencySettingsFragment"
+        android:name="com.kylecorry.trail_sense.tools.emergency_call.ui.EmergencySettingsFragment"
+        android:label="@string/emergency_settings_title"
+        tools:layout="@layout/fragment_emergency_settings" />
 
 </navigation>

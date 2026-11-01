@@ -15,6 +15,13 @@
 
         <Preference
             app:iconSpaceReserved="false"
+            app:key="@string/pref_bottom_nav_settings"
+            app:singleLineTitle="false"
+            app:summary="@string/bottom_navigation_bar_summary"
+            app:title="@string/bottom_navigation_bar" />
+
+        <Preference
+            app:iconSpaceReserved="false"
             app:key="@string/pref_tool_widgets_header_key"
             app:singleLineTitle="false"
             app:summary="@string/widget_bottom_sheet_instructions"

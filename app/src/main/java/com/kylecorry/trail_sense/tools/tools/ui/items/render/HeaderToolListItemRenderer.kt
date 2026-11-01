@@ -38,6 +38,7 @@ class HeaderToolListItemRenderer : ToolListItemRenderer {
         binding.title.textSize = 24f
         binding.title.text = item.title?.capitalizeWords()
         binding.title.isVisible = item.title != null
+        binding.subtitle.isVisible = false
 
         // Remove root click listeners
         binding.root.setOnClickListener(null)
