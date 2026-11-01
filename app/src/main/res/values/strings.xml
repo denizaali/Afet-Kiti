@@ -2084,7 +2084,10 @@
     <string name="emergency_custom_number_dialog_title">Enter Emergency Number</string>
     <string name="tool_counter_title">Counter</string>
     <string name="counter_empty_title">No counters yet</string>
-    <string name="counter_empty_hint">Start counting the supplies in your disaster kit:</string>
+    <string name="counter_empty_hint">Add the supplies in your disaster kit and keep track of how many you have.</string>
+    <string name="counter_suggestions_title">Suggestions for your disaster kit</string>
+    <string name="counter_new_title">New counter</string>
+    <string name="counter_name_hint">e.g. Flashlight</string>
     <string name="counter_suggestion_water">Water (liters)</string>
     <string name="counter_suggestion_canned_food">Canned food</string>
     <string name="counter_suggestion_flashlight">Flashlight</string>

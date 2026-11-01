@@ -1,12 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    style="@style/Widget.Material3.Chip.Assist"
-    android:layout_width="wrap_content"
+    android:layout_width="0dp"
     android:layout_height="wrap_content"
-    app:chipIcon="@drawable/ic_add"
-    app:chipIconSize="@dimen/chip_icon_size"
-    app:chipIconTint="?attr/colorPrimary"
-    app:iconStartPadding="4dp"
-    tools:text="Su (litre)" />
+    android:layout_columnWeight="1"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardBackgroundColor="?attr/colorSurfaceContainerHighest"
+    app:cardCornerRadius="@dimen/rounded_corner_size"
+    app:cardElevation="1dp"
+    app:strokeWidth="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="64dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="8dp">
+
+        <ImageView
+            android:id="@+id/suggestion_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@null"
+            app:tint="?attr/colorPrimary"
+            tools:src="@drawable/ic_category_water" />
+
+        <TextView
+            android:id="@+id/suggestion_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="?attr/colorOnSurface"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="Su (litre)" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:contentDescription="@string/add"
+            android:src="@drawable/ic_add"
+            app:tint="?attr/colorPrimary" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

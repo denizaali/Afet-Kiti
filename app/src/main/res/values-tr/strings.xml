@@ -1528,7 +1528,10 @@
     <string name="emergency_custom_number_dialog_title">Acil Numara Girin</string>
     <string name="tool_counter_title">Sayaç</string>
     <string name="counter_empty_title">Henüz sayaç yok</string>
-    <string name="counter_empty_hint">Afet çantandaki malzemeleri saymaya başla:</string>
+    <string name="counter_empty_hint">Afet çantandaki malzemeleri ekle, kaç tane olduğunu takip et.</string>
+    <string name="counter_suggestions_title">Afet çantası önerileri</string>
+    <string name="counter_new_title">Yeni sayaç</string>
+    <string name="counter_name_hint">Örn. El feneri</string>
     <string name="counter_suggestion_water">Su (litre)</string>
     <string name="counter_suggestion_canned_food">Konserve</string>
     <string name="counter_suggestion_flashlight">El feneri</string>
