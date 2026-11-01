@@ -1,37 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:gravity="center_vertical"
-    android:orientation="horizontal"
-    android:paddingHorizontal="16dp"
-    android:paddingVertical="8dp">
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="@dimen/rounded_corner_size"
+    app:cardElevation="1dp"
+    app:strokeWidth="1dp">
 
-    <TextView
-        android:id="@+id/counter_name"
-        android:layout_width="0dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:textSize="18sp" />
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp">
 
-    <Button
-        android:id="@+id/counter_minus_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="−" />
+        <TextView
+            android:id="@+id/counter_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+            tools:text="Su şişesi" />
 
-    <TextView
-        android:id="@+id/counter_value"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:gravity="center"
-        android:minWidth="32dp"
-        android:textSize="24sp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/counter_delete_btn"
+            style="?attr/materialIconButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@string/delete"
+            app:icon="@drawable/ic_delete"
+            app:iconTint="?attr/colorError" />
 
-    <Button
-        android:id="@+id/counter_plus_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="+" />
-</LinearLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/counter_minus_btn"
+            style="?attr/materialIconButtonFilledTonalStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/subtract"
+            app:icon="@drawable/ic_minus" />
+
+        <TextView
+            android:id="@+id/counter_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minWidth="56dp"
+            android:textAppearance="@style/TextAppearance.Material3.HeadlineMedium"
+            tools:text="12" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/counter_plus_btn"
+            style="?attr/materialIconButtonFilledStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/add"
+            app:icon="@drawable/ic_add" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
