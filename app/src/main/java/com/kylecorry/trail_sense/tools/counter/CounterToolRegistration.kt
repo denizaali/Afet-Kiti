@@ -12,7 +12,7 @@ object CounterToolRegistration : ToolRegistration {
         return Tool(
             Tools.COUNTER,                                  // kimlik numarası (Tools.kt'de tanımlı)
             context.getString(R.string.tool_counter_title), // ekranda görünen isim
-            R.drawable.ic_tool_whistle,                     // ikon (geçici, düdüğünkini ödünç aldık)
+            R.drawable.ic_tool_counter,                     // ikon (çetele)
             R.id.toolCounterFragment,                       // tıklayınca açılacak ekran
             ToolCategory.Other                              // Tools listesinde hangi başlık altında
         )
