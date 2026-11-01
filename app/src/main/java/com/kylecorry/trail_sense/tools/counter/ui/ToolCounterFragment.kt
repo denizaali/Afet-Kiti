@@ -6,23 +6,23 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
+import androidx.core.view.isVisible
 import com.kylecorry.andromeda.alerts.Alerts
 import com.kylecorry.andromeda.fragments.BoundFragment
 import com.kylecorry.trail_sense.R
 import com.kylecorry.trail_sense.databinding.FragmentToolCounterBinding
 import com.kylecorry.trail_sense.databinding.ItemCounterBinding
+import com.kylecorry.trail_sense.databinding.ItemCounterSuggestionBinding
 import com.kylecorry.trail_sense.tools.counter.domain.Counter
 
 class ToolCounterFragment : BoundFragment<FragmentToolCounterBinding>() {
 
-    private var counters = listOf(
-        Counter(id = 1, name = "Su şişesi", count = 0),
-        Counter(id = 2, name = "Battaniye", count = 0)
-    )
+    private var counters = emptyList<Counter>()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.counterAddBtn.setOnClickListener { askName() }
+        showSuggestions()
         show()
     }
 
@@ -36,6 +36,18 @@ class ToolCounterFragment : BoundFragment<FragmentToolCounterBinding>() {
             row.counterMinusBtn.setOnClickListener { change(counter.id, -1) }
             row.counterDeleteBtn.setOnClickListener { confirmDelete(counter) }
             binding.counterList.addView(row.root)
+        }
+        binding.counterEmptyView.isVisible = counters.isEmpty()
+    }
+
+    private fun showSuggestions() {
+        for (nameId in CounterSuggestions.nameIds) {
+            val chip = ItemCounterSuggestionBinding.inflate(
+                layoutInflater, binding.counterSuggestions, false
+            ).root
+            chip.text = getString(nameId)
+            chip.setOnClickListener { add(chip.text.toString()) }
+            binding.counterSuggestions.addView(chip)
         }
     }
 
